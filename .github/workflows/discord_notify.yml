@@ -3,17 +3,22 @@ name: Discord Notifications
 on:
   workflow_run:
     types: [completed]
+  workflow_dispatch: {}
 
 jobs:
   notify:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.name != 'Discord Notifications' }}
     steps:
       - name: Send Discord notification
         if: ${{ secrets.DISCORD_WEBHOOK_URL_CI_CD != '' }}
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_CI_CD }}
+        continue-on-error: true
         run: |
           set -euo pipefail
+          # ensure jq is available for safe JSON construction
+          sudo apt-get update -y && sudo apt-get install -y jq || true
           run_conclusion="${{ github.event.workflow_run.conclusion }}"
           run_name="${{ github.event.workflow_run.name }}"
           run_url="${{ github.event.workflow_run.html_url }}"
@@ -25,6 +30,46 @@ jobs:
           # Short content plus embed
           content="${repo} • Workflow '${run_name}' completed with status: ${run_conclusion}"
 
-          payload=$(jq -n --arg c "$content" --arg title "$run_name" --arg status "$run_conclusion" --arg repo "$repo" --arg actor "$actor" --arg url "$run_url" '{content:$c, embeds:[{title:$title, fields:[{name:"Status", value:$status, inline:true},{name:"Repo", value:$repo, inline:true},{name:"Triggered By", value:$actor, inline:true}], url:$url}] }')
+          if command -v jq >/dev/null 2>&1; then
+            payload=$(jq -n --arg c "$content" --arg title "$run_name" --arg status "$run_conclusion" --arg repo "$repo" --arg actor "$actor" --arg url "$run_url" '{content:$c, embeds:[{title:$title, fields:[{name:"Status", value:$status, inline:true},{name:"Repo", value:$repo, inline:true},{name:"Triggered By", value:$actor, inline:true}], url:$url}] }')
+            curl -sS -H "Content-Type: application/json" -d "$payload" "$DISCORD_WEBHOOK_URL" || echo "Discord webhook request failed"
+          else
+            # Export the computed values so Python can read them from the environment
+            export GITHUB_EVENT_WORKFLOW_RUN_CONCLUSION="$run_conclusion"
+            export GITHUB_EVENT_WORKFLOW_RUN_HTML_URL="$run_url"
+            export GITHUB_EVENT_WORKFLOW_RUN_NAME="$run_name"
+            export GITHUB_EVENT_WORKFLOW_RUN_ACTOR="$actor"
+            # fallback to python using only stdlib (no requests dependency)
+            python - <<'PY'
+import os, json, sys
+from urllib import request
 
-          curl -sS -H "Content-Type: application/json" -d "$payload" "$DISCORD_WEBHOOK_URL"
+payload = {
+  "content": os.environ.get('GITHUB_REPOSITORY', '') + ' • Workflow "' + os.environ.get('GITHUB_WORKFLOW', os.environ.get('GITHUB_EVENT_WORKFLOW_RUN_NAME', '')) + '" completed',
+  "embeds": [{
+    "title": os.environ.get('GITHUB_WORKFLOW', os.environ.get('GITHUB_EVENT_WORKFLOW_RUN_NAME', '')),
+    "fields": [
+      {"name": "Status", "value": os.environ.get('GITHUB_EVENT_WORKFLOW_RUN_CONCLUSION','') , "inline": True},
+      {"name": "Repo", "value": os.environ.get('GITHUB_REPOSITORY',''), "inline": True},
+      {"name": "Triggered By", "value": os.environ.get('GITHUB_EVENT_WORKFLOW_RUN_ACTOR', os.environ.get('GITHUB_ACTOR','')), "inline": True}
+    ],
+    "url": os.environ.get('GITHUB_EVENT_WORKFLOW_RUN_HTML_URL','')
+  }]
+}
+
+url = os.environ.get('DISCORD_WEBHOOK_URL')
+if not url:
+    print('DISCORD_WEBHOOK_URL not set')
+    sys.exit(0)
+
+data = json.dumps(payload).encode('utf-8')
+req = request.Request(url, data=data, headers={"Content-Type": "application/json"})
+try:
+    with request.urlopen(req, timeout=10) as resp:
+        resp.read()
+except Exception as e:
+    print('Discord webhook request failed', e)
+    # don't fail the job for notify errors
+    sys.exit(0)
+PY
+          fi
