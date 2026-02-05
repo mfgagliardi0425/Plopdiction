@@ -223,6 +223,25 @@ Once the secrets are added, GitHub Actions will run the CI on pushes/PRs and a s
 
 To manually run the fixture update on Actions UI, go to the repository `Actions` tab, choose **Update Fixtures**, and click **Run workflow**.
 
+**Nightly Retrain**
+
+A scheduled retrain job runs daily (04:00 UTC) and performs the following:
+
+- Runs `src/ml/train_model.py` using `ml_data/games_optimized.csv` and writes the selected model to `ml_data/best_model_with_spreads.joblib`.
+- Uploads the trained model as a workflow artifact (downloadable from the Actions run).
+- Optionally posts a notification to Discord when `DISCORD_WEBHOOK_URL` is configured in Secrets.
+
+Secrets required for retrain (add under `Settings -> Secrets -> Actions`):
+
+- `SPORTRADAR_API_KEY` — if your training pipeline fetches any live data during the job.
+- `DISCORD_WEBHOOK_URL` — optional; a Discord webhook to post a short completion message.
+
+Downloading artifacts:
+
+1. Go to the Actions run for the **Nightly Retrain** workflow.
+2. Open the run and download the `best_model_with_spreads` artifact from the **Artifacts** section.
+
+
 **Recent Implementation Changes (2026-02-05)**
 - **Tests converted to deterministic suites:** Converted diagnostic scripts into pytest tests that use a local fixture by default to avoid network flakiness. See `tests/test_pbp_detail.py` and `tests/test_playbyplay.py` for the new tests.
 - **Recorded fixture added:** A recorded play-by-play JSON fixture was added at `tests/fixtures/sample_pbp.json` (captured from SportRadar) so tests run offline and deterministically.
