@@ -1,0 +1,43 @@
+name: Update Fixtures
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # daily at 03:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  update-fixtures:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Fetch PBP fixture
+        env:
+          SPORTRADAR_API_KEY: ${{ secrets.SPORTRADAR_API_KEY }}
+        run: |
+          python scripts/fetch_pbp_fixture.py
+
+      - name: Commit and push fixture changes
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add tests/fixtures/sample_pbp.json || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update recorded PBP fixture"
+            git push
+          else
+            echo "No fixture changes to commit"
+          fi

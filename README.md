@@ -211,6 +211,18 @@ Going forward, the model improves in three main ways: (1) data quality (more gam
 - [ ] Add team/line movement alerts
 - [ ] Improve matchup features with opponent strength
 
+**GitHub Actions & Secrets**
+
+To enable CI and scheduled fixture updates, add the following repository Secrets in GitHub (`Settings -> Secrets -> Actions`):
+
+- `SPORTRADAR_API_KEY` — API key used for fetching PBP and other SportRadar endpoints. Required by `scripts/fetch_pbp_fixture.py` and optional live tests.
+- `RUN_LIVE_TESTS` — Set to `1` if you want CI to run live API tests (not recommended for PRs). Leave unset or `0` for deterministic runs.
+- `DISCORD_WEBHOOK_URL` — (Optional) webhook used by notification jobs if you add Discord notifications to workflows.
+
+Once the secrets are added, GitHub Actions will run the CI on pushes/PRs and a scheduled job will update `tests/fixtures/sample_pbp.json` daily.
+
+To manually run the fixture update on Actions UI, go to the repository `Actions` tab, choose **Update Fixtures**, and click **Run workflow**.
+
 **Recent Implementation Changes (2026-02-05)**
 - **Tests converted to deterministic suites:** Converted diagnostic scripts into pytest tests that use a local fixture by default to avoid network flakiness. See `tests/test_pbp_detail.py` and `tests/test_playbyplay.py` for the new tests.
 - **Recorded fixture added:** A recorded play-by-play JSON fixture was added at `tests/fixtures/sample_pbp.json` (captured from SportRadar) so tests run offline and deterministically.
