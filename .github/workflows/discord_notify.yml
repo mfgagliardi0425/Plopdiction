@@ -34,13 +34,13 @@ jobs:
             payload=$(jq -n --arg c "$content" --arg title "$run_name" --arg status "$run_conclusion" --arg repo "$repo" --arg actor "$actor" --arg url "$run_url" '{content:$c, embeds:[{title:$title, fields:[{name:"Status", value:$status, inline:true},{name:"Repo", value:$repo, inline:true},{name:"Triggered By", value:$actor, inline:true}], url:$url}] }')
             curl -sS -H "Content-Type: application/json" -d "$payload" "$DISCORD_WEBHOOK_URL" || echo "Discord webhook request failed"
           else
-            # Export the computed values so Python can read them from the environment
+            # Export the computed values so a script can read them from the environment
             export GITHUB_EVENT_WORKFLOW_RUN_CONCLUSION="$run_conclusion"
             export GITHUB_EVENT_WORKFLOW_RUN_HTML_URL="$run_url"
             export GITHUB_EVENT_WORKFLOW_RUN_NAME="$run_name"
             export GITHUB_EVENT_WORKFLOW_RUN_ACTOR="$actor"
-            # fallback to python using only stdlib (no requests dependency)
-            python - <<'PY'
+            # fallback: write a small python script and run it (uses stdlib only)
+            cat > /tmp/discord_notify.py <<'PY'
 import os, json, sys
 from urllib import request
 
@@ -72,4 +72,5 @@ except Exception as e:
     # don't fail the job for notify errors
     sys.exit(0)
 PY
+            python /tmp/discord_notify.py || true
           fi
