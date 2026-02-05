@@ -44,6 +44,8 @@ jobs:
           set -euo pipefail
           python -m pip install --upgrade pip
           python -m pip install -v -r requirements.txt
+          # Ensure BeautifulSoup is available (some environments may need explicit install)
+          python -m pip install -v --upgrade beautifulsoup4
           echo "--- pip list ---"
           python -m pip list
           echo "--- scikit-learn info ---"
