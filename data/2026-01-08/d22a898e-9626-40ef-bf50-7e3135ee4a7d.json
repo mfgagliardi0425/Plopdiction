@@ -1,0 +1,43 @@
+{
+  "id": "d22a898e-9626-40ef-bf50-7e3135ee4a7d",
+  "status": "postponed",
+  "coverage": "full",
+  "scheduled": "2026-01-09T01:00:00+00:00",
+  "lead_changes": 0,
+  "times_tied": 0,
+  "track_on_court": true,
+  "entry_mode": "WEBSOCKET",
+  "sr_id": "sr:match:62924417",
+  "time_zones": {
+    "venue": "US/Central",
+    "home": "US/Central",
+    "away": "US/Eastern"
+  },
+  "season": {
+    "id": "a7c6c8ee-c5ba-4a1a-abf5-723e1539f81b",
+    "year": 2025,
+    "type": "REG",
+    "name": "Regular Season"
+  },
+  "home": {
+    "name": "Bulls",
+    "alias": "CHI",
+    "market": "Chicago",
+    "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 0,
+    "sr_id": "sr:team:3409",
+    "remaining_timeouts": 0,
+    "reference": "1610612741"
+  },
+  "away": {
+    "name": "Heat",
+    "alias": "MIA",
+    "market": "Miami",
+    "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 0,
+    "sr_id": "sr:team:3435",
+    "remaining_timeouts": 0,
+    "reference": "1610612748"
+  },
+  "periods": []
+}

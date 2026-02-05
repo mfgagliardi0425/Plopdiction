@@ -1,0 +1,3722 @@
+{
+  "2026-01-06_Cavaliers_@_Pacers": {
+    "date": "2026-01-06",
+    "away_team": "Cavaliers",
+    "home_team": "Pacers",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-06_Wizards_@_Magic": {
+    "date": "2026-01-06",
+    "away_team": "Wizards",
+    "home_team": "Magic",
+    "closing_spread_away": 7.5,
+    "closing_spread_away_str": "+7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-06_Grizzlies_@_Spurs": {
+    "date": "2026-01-06",
+    "away_team": "Grizzlies",
+    "home_team": "Spurs",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-06_Timberwolves_@_Heat": {
+    "date": "2026-01-06",
+    "away_team": "Timberwolves",
+    "home_team": "Heat",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-06_Lakers_@_Pelicans": {
+    "date": "2026-01-06",
+    "away_team": "Lakers",
+    "home_team": "Pelicans",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-06_Mavericks_@_Kings": {
+    "date": "2026-01-06",
+    "away_team": "Mavericks",
+    "home_team": "Kings",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-01_Pistons_@_Hawks": {
+    "date": "2025-12-01",
+    "away_team": "Pistons",
+    "home_team": "Hawks",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-01_Cavaliers_@_Pacers": {
+    "date": "2025-12-01",
+    "away_team": "Cavaliers",
+    "home_team": "Pacers",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-01_Wizards_@_Bucks": {
+    "date": "2025-12-01",
+    "away_team": "Wizards",
+    "home_team": "Bucks",
+    "closing_spread_away": 10.5,
+    "closing_spread_away_str": "+10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-01_Nets_@_Hornets": {
+    "date": "2025-12-01",
+    "away_team": "Nets",
+    "home_team": "Hornets",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-01_Heat_@_Clippers": {
+    "date": "2025-12-01",
+    "away_team": "Heat",
+    "home_team": "Clippers",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-01_Magic_@_Bulls": {
+    "date": "2025-12-01",
+    "away_team": "Magic",
+    "home_team": "Bulls",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-01_Mavericks_@_Nuggets": {
+    "date": "2025-12-01",
+    "away_team": "Mavericks",
+    "home_team": "Nuggets",
+    "closing_spread_away": 11.5,
+    "closing_spread_away_str": "+11.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-01_Jazz_@_Rockets": {
+    "date": "2025-12-01",
+    "away_team": "Jazz",
+    "home_team": "Rockets",
+    "closing_spread_away": 11.5,
+    "closing_spread_away_str": "+11.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-01_Suns_@_Lakers": {
+    "date": "2025-12-01",
+    "away_team": "Suns",
+    "home_team": "Lakers",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-02_ers_@_Wizards": {
+    "date": "2025-12-02",
+    "away_team": "ers",
+    "home_team": "Wizards",
+    "closing_spread_away": -13.5,
+    "closing_spread_away_str": "-13.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-02_Raptors_@_Trail Blazers": {
+    "date": "2025-12-02",
+    "away_team": "Raptors",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-02_Celtics_@_Knicks": {
+    "date": "2025-12-02",
+    "away_team": "Celtics",
+    "home_team": "Knicks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-02_Timberwolves_@_Pelicans": {
+    "date": "2025-12-02",
+    "away_team": "Timberwolves",
+    "home_team": "Pelicans",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-02_Spurs_@_Grizzlies": {
+    "date": "2025-12-02",
+    "away_team": "Spurs",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-02_Thunder_@_Warriors": {
+    "date": "2025-12-02",
+    "away_team": "Thunder",
+    "home_team": "Warriors",
+    "closing_spread_away": -11.5,
+    "closing_spread_away_str": "-11.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-03_Trail Blazers_@_Cavaliers": {
+    "date": "2025-12-03",
+    "away_team": "Trail Blazers",
+    "home_team": "Cavaliers",
+    "closing_spread_away": 10.5,
+    "closing_spread_away_str": "+10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-03_Nuggets_@_Pacers": {
+    "date": "2025-12-03",
+    "away_team": "Nuggets",
+    "home_team": "Pacers",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-03_Spurs_@_Magic": {
+    "date": "2025-12-03",
+    "away_team": "Spurs",
+    "home_team": "Magic",
+    "closing_spread_away": 8.5,
+    "closing_spread_away_str": "+8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-03_Clippers_@_Hawks": {
+    "date": "2025-12-03",
+    "away_team": "Clippers",
+    "home_team": "Hawks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-03_Knicks_@_Hornets": {
+    "date": "2025-12-03",
+    "away_team": "Knicks",
+    "home_team": "Hornets",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-03_Nets_@_Bulls": {
+    "date": "2025-12-03",
+    "away_team": "Nets",
+    "home_team": "Bulls",
+    "closing_spread_away": 7.5,
+    "closing_spread_away_str": "+7.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-03_Rockets_@_Kings": {
+    "date": "2025-12-03",
+    "away_team": "Rockets",
+    "home_team": "Kings",
+    "closing_spread_away": -15.5,
+    "closing_spread_away_str": "-15.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-03_Bucks_@_Pistons": {
+    "date": "2025-12-03",
+    "away_team": "Bucks",
+    "home_team": "Pistons",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-03_Mavericks_@_Heat": {
+    "date": "2025-12-03",
+    "away_team": "Mavericks",
+    "home_team": "Heat",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-04_ers_@_Warriors": {
+    "date": "2025-12-04",
+    "away_team": "ers",
+    "home_team": "Warriors",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-04_Celtics_@_Wizards": {
+    "date": "2025-12-04",
+    "away_team": "Celtics",
+    "home_team": "Wizards",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-04_Jazz_@_Nets": {
+    "date": "2025-12-04",
+    "away_team": "Jazz",
+    "home_team": "Nets",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-04_Lakers_@_Raptors": {
+    "date": "2025-12-04",
+    "away_team": "Lakers",
+    "home_team": "Raptors",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-04_Timberwolves_@_Pelicans": {
+    "date": "2025-12-04",
+    "away_team": "Timberwolves",
+    "home_team": "Pelicans",
+    "closing_spread_away": -11.5,
+    "closing_spread_away_str": "-11.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_Celtics_@_Lakers": {
+    "date": "2025-12-05",
+    "away_team": "Celtics",
+    "home_team": "Lakers",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_Magic_@_Heat": {
+    "date": "2025-12-05",
+    "away_team": "Magic",
+    "home_team": "Heat",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_Nuggets_@_Hawks": {
+    "date": "2025-12-05",
+    "away_team": "Nuggets",
+    "home_team": "Hawks",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_Cavaliers_@_Spurs": {
+    "date": "2025-12-05",
+    "away_team": "Cavaliers",
+    "home_team": "Spurs",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_Pistons_@_Trail Blazers": {
+    "date": "2025-12-05",
+    "away_team": "Pistons",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_Knicks_@_Jazz": {
+    "date": "2025-12-05",
+    "away_team": "Knicks",
+    "home_team": "Jazz",
+    "closing_spread_away": -16.5,
+    "closing_spread_away_str": "-16.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_Hornets_@_Raptors": {
+    "date": "2025-12-05",
+    "away_team": "Hornets",
+    "home_team": "Raptors",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_Pacers_@_Bulls": {
+    "date": "2025-12-05",
+    "away_team": "Pacers",
+    "home_team": "Bulls",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_Rockets_@_Suns": {
+    "date": "2025-12-05",
+    "away_team": "Rockets",
+    "home_team": "Suns",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_Grizzlies_@_Clippers": {
+    "date": "2025-12-05",
+    "away_team": "Grizzlies",
+    "home_team": "Clippers",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_ers_@_Bucks": {
+    "date": "2025-12-05",
+    "away_team": "ers",
+    "home_team": "Bucks",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_Thunder_@_Mavericks": {
+    "date": "2025-12-05",
+    "away_team": "Thunder",
+    "home_team": "Mavericks",
+    "closing_spread_away": -15.5,
+    "closing_spread_away_str": "-15.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-06_Nets_@_Pelicans": {
+    "date": "2025-12-06",
+    "away_team": "Nets",
+    "home_team": "Pelicans",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-06_Hawks_@_Wizards": {
+    "date": "2025-12-06",
+    "away_team": "Hawks",
+    "home_team": "Wizards",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-06_Warriors_@_Cavaliers": {
+    "date": "2025-12-06",
+    "away_team": "Warriors",
+    "home_team": "Cavaliers",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-06_Pistons_@_Bucks": {
+    "date": "2025-12-06",
+    "away_team": "Pistons",
+    "home_team": "Bucks",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-06_Kings_@_Heat": {
+    "date": "2025-12-06",
+    "away_team": "Kings",
+    "home_team": "Heat",
+    "closing_spread_away": 8.5,
+    "closing_spread_away_str": "+8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-06_Timberwolves_@_Clippers": {
+    "date": "2025-12-06",
+    "away_team": "Timberwolves",
+    "home_team": "Clippers",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-06_Mavericks_@_Rockets": {
+    "date": "2025-12-06",
+    "away_team": "Mavericks",
+    "home_team": "Rockets",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-07_Knicks_@_Magic": {
+    "date": "2025-12-07",
+    "away_team": "Knicks",
+    "home_team": "Magic",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-07_Celtics_@_Raptors": {
+    "date": "2025-12-07",
+    "away_team": "Celtics",
+    "home_team": "Raptors",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-07_Nuggets_@_Hornets": {
+    "date": "2025-12-07",
+    "away_team": "Nuggets",
+    "home_team": "Hornets",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-07_Grizzlies_@_Trail Blazers": {
+    "date": "2025-12-07",
+    "away_team": "Grizzlies",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-07_Warriors_@_Bulls": {
+    "date": "2025-12-07",
+    "away_team": "Warriors",
+    "home_team": "Bulls",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-07_Thunder_@_Jazz": {
+    "date": "2025-12-07",
+    "away_team": "Thunder",
+    "home_team": "Jazz",
+    "closing_spread_away": -11.5,
+    "closing_spread_away_str": "-11.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-08_Pacers_@_Kings": {
+    "date": "2025-12-08",
+    "away_team": "Pacers",
+    "home_team": "Kings",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-08_Suns_@_Timberwolves": {
+    "date": "2025-12-08",
+    "away_team": "Suns",
+    "home_team": "Timberwolves",
+    "closing_spread_away": 8.5,
+    "closing_spread_away_str": "+8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-08_Spurs_@_Pelicans": {
+    "date": "2025-12-08",
+    "away_team": "Spurs",
+    "home_team": "Pelicans",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-09_Magic_@_Heat": {
+    "date": "2025-12-09",
+    "away_team": "Magic",
+    "home_team": "Heat",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-09_Knicks_@_Raptors": {
+    "date": "2025-12-09",
+    "away_team": "Knicks",
+    "home_team": "Raptors",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-10_Thunder_@_Suns": {
+    "date": "2025-12-10",
+    "away_team": "Thunder",
+    "home_team": "Suns",
+    "closing_spread_away": -15.5,
+    "closing_spread_away_str": "-15.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-10_Spurs_@_Lakers": {
+    "date": "2025-12-10",
+    "away_team": "Spurs",
+    "home_team": "Lakers",
+    "closing_spread_away": 7.5,
+    "closing_spread_away_str": "+7.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-11_Rockets_@_Clippers": {
+    "date": "2025-12-11",
+    "away_team": "Rockets",
+    "home_team": "Clippers",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-11_Bucks_@_Celtics": {
+    "date": "2025-12-11",
+    "away_team": "Bucks",
+    "home_team": "Celtics",
+    "closing_spread_away": 9.5,
+    "closing_spread_away_str": "+9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-11_Pelicans_@_Trail Blazers": {
+    "date": "2025-12-11",
+    "away_team": "Pelicans",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-11_Nuggets_@_Kings": {
+    "date": "2025-12-11",
+    "away_team": "Nuggets",
+    "home_team": "Kings",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-12_Bulls_@_Hornets": {
+    "date": "2025-12-12",
+    "away_team": "Bulls",
+    "home_team": "Hornets",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-12_Pistons_@_Hawks": {
+    "date": "2025-12-12",
+    "away_team": "Pistons",
+    "home_team": "Hawks",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-12_ers_@_Pacers": {
+    "date": "2025-12-12",
+    "away_team": "ers",
+    "home_team": "Pacers",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-12_Cavaliers_@_Wizards": {
+    "date": "2025-12-12",
+    "away_team": "Cavaliers",
+    "home_team": "Wizards",
+    "closing_spread_away": -16.5,
+    "closing_spread_away_str": "-16.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-12_Jazz_@_Grizzlies": {
+    "date": "2025-12-12",
+    "away_team": "Jazz",
+    "home_team": "Grizzlies",
+    "closing_spread_away": 7.5,
+    "closing_spread_away_str": "+7.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-12_Mavericks_@_Nets": {
+    "date": "2025-12-12",
+    "away_team": "Mavericks",
+    "home_team": "Nets",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-12_Timberwolves_@_Warriors": {
+    "date": "2025-12-12",
+    "away_team": "Timberwolves",
+    "home_team": "Warriors",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-13_Knicks_@_Magic": {
+    "date": "2025-12-13",
+    "away_team": "Knicks",
+    "home_team": "Magic",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-13_Spurs_@_Thunder": {
+    "date": "2025-12-13",
+    "away_team": "Spurs",
+    "home_team": "Thunder",
+    "closing_spread_away": 10.5,
+    "closing_spread_away_str": "+10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-14_Wizards_@_Pacers": {
+    "date": "2025-12-14",
+    "away_team": "Wizards",
+    "home_team": "Pacers",
+    "closing_spread_away": 10.5,
+    "closing_spread_away_str": "+10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-14_Hornets_@_Cavaliers": {
+    "date": "2025-12-14",
+    "away_team": "Hornets",
+    "home_team": "Cavaliers",
+    "closing_spread_away": 11.5,
+    "closing_spread_away_str": "+11.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-14_Nets_@_Bucks": {
+    "date": "2025-12-14",
+    "away_team": "Nets",
+    "home_team": "Bucks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-14_Timberwolves_@_Kings": {
+    "date": "2025-12-14",
+    "away_team": "Timberwolves",
+    "home_team": "Kings",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-14_Pelicans_@_Bulls": {
+    "date": "2025-12-14",
+    "away_team": "Pelicans",
+    "home_team": "Bulls",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-14_Lakers_@_Suns": {
+    "date": "2025-12-14",
+    "away_team": "Lakers",
+    "home_team": "Suns",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-14_Trail Blazers_@_Warriors": {
+    "date": "2025-12-14",
+    "away_team": "Trail Blazers",
+    "home_team": "Warriors",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-15_Pistons_@_Celtics": {
+    "date": "2025-12-15",
+    "away_team": "Pistons",
+    "home_team": "Celtics",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-15_Raptors_@_Heat": {
+    "date": "2025-12-15",
+    "away_team": "Raptors",
+    "home_team": "Heat",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-15_Jazz_@_Mavericks": {
+    "date": "2025-12-15",
+    "away_team": "Jazz",
+    "home_team": "Mavericks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-15_Nuggets_@_Rockets": {
+    "date": "2025-12-15",
+    "away_team": "Nuggets",
+    "home_team": "Rockets",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-15_Grizzlies_@_Clippers": {
+    "date": "2025-12-15",
+    "away_team": "Grizzlies",
+    "home_team": "Clippers",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-16_Knicks_@_Spurs": {
+    "date": "2025-12-16",
+    "away_team": "Knicks",
+    "home_team": "Spurs",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-17_Bulls_@_Cavaliers": {
+    "date": "2025-12-17",
+    "away_team": "Bulls",
+    "home_team": "Cavaliers",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-17_Grizzlies_@_Timberwolves": {
+    "date": "2025-12-17",
+    "away_team": "Grizzlies",
+    "home_team": "Timberwolves",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Hornets_@_Hawks": {
+    "date": "2025-12-18",
+    "away_team": "Hornets",
+    "home_team": "Hawks",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Knicks_@_Pacers": {
+    "date": "2025-12-18",
+    "away_team": "Knicks",
+    "home_team": "Pacers",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Heat_@_Nets": {
+    "date": "2025-12-18",
+    "away_team": "Heat",
+    "home_team": "Nets",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Thunder_@_Clippers": {
+    "date": "2025-12-18",
+    "away_team": "Thunder",
+    "home_team": "Clippers",
+    "closing_spread_away": -16.5,
+    "closing_spread_away_str": "-16.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Spurs_@_Wizards": {
+    "date": "2025-12-18",
+    "away_team": "Spurs",
+    "home_team": "Wizards",
+    "closing_spread_away": -15.5,
+    "closing_spread_away_str": "-15.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Raptors_@_Bucks": {
+    "date": "2025-12-18",
+    "away_team": "Raptors",
+    "home_team": "Bucks",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Pelicans_@_Rockets": {
+    "date": "2025-12-18",
+    "away_team": "Pelicans",
+    "home_team": "Rockets",
+    "closing_spread_away": 9.5,
+    "closing_spread_away_str": "+9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Mavericks_@_Pistons": {
+    "date": "2025-12-18",
+    "away_team": "Mavericks",
+    "home_team": "Pistons",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Nuggets_@_Magic": {
+    "date": "2025-12-18",
+    "away_team": "Nuggets",
+    "home_team": "Magic",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Suns_@_Warriors": {
+    "date": "2025-12-18",
+    "away_team": "Suns",
+    "home_team": "Warriors",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Lakers_@_Jazz": {
+    "date": "2025-12-18",
+    "away_team": "Lakers",
+    "home_team": "Jazz",
+    "closing_spread_away": 9.5,
+    "closing_spread_away_str": "+9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-18_Trail Blazers_@_Kings": {
+    "date": "2025-12-18",
+    "away_team": "Trail Blazers",
+    "home_team": "Kings",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-19_Celtics_@_Heat": {
+    "date": "2025-12-19",
+    "away_team": "Celtics",
+    "home_team": "Heat",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-19_ers_@_Knicks": {
+    "date": "2025-12-19",
+    "away_team": "ers",
+    "home_team": "Knicks",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-19_Spurs_@_Hawks": {
+    "date": "2025-12-19",
+    "away_team": "Spurs",
+    "home_team": "Hawks",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-19_Bulls_@_Cavaliers": {
+    "date": "2025-12-19",
+    "away_team": "Bulls",
+    "home_team": "Cavaliers",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-19_Timberwolves_@_Thunder": {
+    "date": "2025-12-19",
+    "away_team": "Timberwolves",
+    "home_team": "Thunder",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-20_Rockets_@_Nuggets": {
+    "date": "2025-12-20",
+    "away_team": "Rockets",
+    "home_team": "Nuggets",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-20_ers_@_Mavericks": {
+    "date": "2025-12-20",
+    "away_team": "ers",
+    "home_team": "Mavericks",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-20_Celtics_@_Raptors": {
+    "date": "2025-12-20",
+    "away_team": "Celtics",
+    "home_team": "Raptors",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-20_Pelicans_@_Pacers": {
+    "date": "2025-12-20",
+    "away_team": "Pelicans",
+    "home_team": "Pacers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-20_Pistons_@_Hornets": {
+    "date": "2025-12-20",
+    "away_team": "Pistons",
+    "home_team": "Hornets",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-20_Wizards_@_Grizzlies": {
+    "date": "2025-12-20",
+    "away_team": "Wizards",
+    "home_team": "Grizzlies",
+    "closing_spread_away": 12.5,
+    "closing_spread_away_str": "+12.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-20_Warriors_@_Suns": {
+    "date": "2025-12-20",
+    "away_team": "Warriors",
+    "home_team": "Suns",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-20_Magic_@_Jazz": {
+    "date": "2025-12-20",
+    "away_team": "Magic",
+    "home_team": "Jazz",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-20_Trail Blazers_@_Kings": {
+    "date": "2025-12-20",
+    "away_team": "Trail Blazers",
+    "home_team": "Kings",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-20_Clippers_@_Lakers": {
+    "date": "2025-12-20",
+    "away_team": "Clippers",
+    "home_team": "Lakers",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-21_Bulls_@_Hawks": {
+    "date": "2025-12-21",
+    "away_team": "Bulls",
+    "home_team": "Hawks",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-21_Nets_@_Raptors": {
+    "date": "2025-12-21",
+    "away_team": "Nets",
+    "home_team": "Raptors",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-21_Knicks_@_Heat": {
+    "date": "2025-12-21",
+    "away_team": "Knicks",
+    "home_team": "Heat",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-21_Spurs_@_Wizards": {
+    "date": "2025-12-21",
+    "away_team": "Spurs",
+    "home_team": "Wizards",
+    "closing_spread_away": -15.5,
+    "closing_spread_away_str": "-15.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-21_Timberwolves_@_Bucks": {
+    "date": "2025-12-21",
+    "away_team": "Timberwolves",
+    "home_team": "Bucks",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-21_Kings_@_Rockets": {
+    "date": "2025-12-21",
+    "away_team": "Kings",
+    "home_team": "Rockets",
+    "closing_spread_away": 12.5,
+    "closing_spread_away_str": "+12.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-22_Cavaliers_@_Hornets": {
+    "date": "2025-12-22",
+    "away_team": "Cavaliers",
+    "home_team": "Hornets",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-22_Celtics_@_Pacers": {
+    "date": "2025-12-22",
+    "away_team": "Celtics",
+    "home_team": "Pacers",
+    "closing_spread_away": -11.5,
+    "closing_spread_away_str": "-11.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-22_Pelicans_@_Mavericks": {
+    "date": "2025-12-22",
+    "away_team": "Pelicans",
+    "home_team": "Mavericks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-22_Nuggets_@_Jazz": {
+    "date": "2025-12-22",
+    "away_team": "Nuggets",
+    "home_team": "Jazz",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-22_Thunder_@_Grizzlies": {
+    "date": "2025-12-22",
+    "away_team": "Thunder",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -15.5,
+    "closing_spread_away_str": "-15.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-22_Warriors_@_Magic": {
+    "date": "2025-12-22",
+    "away_team": "Warriors",
+    "home_team": "Magic",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-22_Pistons_@_Trail Blazers": {
+    "date": "2025-12-22",
+    "away_team": "Pistons",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Hornets_@_Wizards": {
+    "date": "2025-12-23",
+    "away_team": "Hornets",
+    "home_team": "Wizards",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Bulls_@_Hawks": {
+    "date": "2025-12-23",
+    "away_team": "Bulls",
+    "home_team": "Hawks",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Cavaliers_@_Pelicans": {
+    "date": "2025-12-23",
+    "away_team": "Cavaliers",
+    "home_team": "Pelicans",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Bucks_@_Pacers": {
+    "date": "2025-12-23",
+    "away_team": "Bucks",
+    "home_team": "Pacers",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Raptors_@_Heat": {
+    "date": "2025-12-23",
+    "away_team": "Raptors",
+    "home_team": "Heat",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Mavericks_@_Nuggets": {
+    "date": "2025-12-23",
+    "away_team": "Mavericks",
+    "home_team": "Nuggets",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Timberwolves_@_Knicks": {
+    "date": "2025-12-23",
+    "away_team": "Timberwolves",
+    "home_team": "Knicks",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Spurs_@_Thunder": {
+    "date": "2025-12-23",
+    "away_team": "Spurs",
+    "home_team": "Thunder",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Suns_@_Lakers": {
+    "date": "2025-12-23",
+    "away_team": "Suns",
+    "home_team": "Lakers",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Grizzlies_@_Jazz": {
+    "date": "2025-12-23",
+    "away_team": "Grizzlies",
+    "home_team": "Jazz",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Magic_@_Trail Blazers": {
+    "date": "2025-12-23",
+    "away_team": "Magic",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Pistons_@_Kings": {
+    "date": "2025-12-23",
+    "away_team": "Pistons",
+    "home_team": "Kings",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Clippers_@_Rockets": {
+    "date": "2025-12-23",
+    "away_team": "Clippers",
+    "home_team": "Rockets",
+    "closing_spread_away": 7.5,
+    "closing_spread_away_str": "+7.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-25_Knicks_@_Cavaliers": {
+    "date": "2025-12-25",
+    "away_team": "Knicks",
+    "home_team": "Cavaliers",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-25_Spurs_@_Thunder": {
+    "date": "2025-12-25",
+    "away_team": "Spurs",
+    "home_team": "Thunder",
+    "closing_spread_away": 10.5,
+    "closing_spread_away_str": "+10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-25_Warriors_@_Mavericks": {
+    "date": "2025-12-25",
+    "away_team": "Warriors",
+    "home_team": "Mavericks",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-25_Rockets_@_Lakers": {
+    "date": "2025-12-25",
+    "away_team": "Rockets",
+    "home_team": "Lakers",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-25_Nuggets_@_Timberwolves": {
+    "date": "2025-12-25",
+    "away_team": "Nuggets",
+    "home_team": "Timberwolves",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-26_Heat_@_Hawks": {
+    "date": "2025-12-26",
+    "away_team": "Heat",
+    "home_team": "Hawks",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-26_Hornets_@_Magic": {
+    "date": "2025-12-26",
+    "away_team": "Hornets",
+    "home_team": "Magic",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-26_Wizards_@_Raptors": {
+    "date": "2025-12-26",
+    "away_team": "Wizards",
+    "home_team": "Raptors",
+    "closing_spread_away": 8.5,
+    "closing_spread_away_str": "+8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-26_Celtics_@_Pacers": {
+    "date": "2025-12-26",
+    "away_team": "Celtics",
+    "home_team": "Pacers",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-26_Grizzlies_@_Bucks": {
+    "date": "2025-12-26",
+    "away_team": "Grizzlies",
+    "home_team": "Bucks",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-26_Suns_@_Pelicans": {
+    "date": "2025-12-26",
+    "away_team": "Suns",
+    "home_team": "Pelicans",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-26_Jazz_@_Pistons": {
+    "date": "2025-12-26",
+    "away_team": "Jazz",
+    "home_team": "Pistons",
+    "closing_spread_away": 9.5,
+    "closing_spread_away_str": "+9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-26_Clippers_@_Trail Blazers": {
+    "date": "2025-12-26",
+    "away_team": "Clippers",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-27_Kings_@_Mavericks": {
+    "date": "2025-12-27",
+    "away_team": "Kings",
+    "home_team": "Mavericks",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-27_Magic_@_Nuggets": {
+    "date": "2025-12-27",
+    "away_team": "Magic",
+    "home_team": "Nuggets",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-27_Suns_@_Pelicans": {
+    "date": "2025-12-27",
+    "away_team": "Suns",
+    "home_team": "Pelicans",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-27_Knicks_@_Hawks": {
+    "date": "2025-12-27",
+    "away_team": "Knicks",
+    "home_team": "Hawks",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-27_Heat_@_Pacers": {
+    "date": "2025-12-27",
+    "away_team": "Heat",
+    "home_team": "Pacers",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-27_Bucks_@_Bulls": {
+    "date": "2025-12-27",
+    "away_team": "Bucks",
+    "home_team": "Bulls",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-27_Rockets_@_Cavaliers": {
+    "date": "2025-12-27",
+    "away_team": "Rockets",
+    "home_team": "Cavaliers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-27_Nets_@_Timberwolves": {
+    "date": "2025-12-27",
+    "away_team": "Nets",
+    "home_team": "Timberwolves",
+    "closing_spread_away": 12.5,
+    "closing_spread_away_str": "+12.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-27_Jazz_@_Spurs": {
+    "date": "2025-12-27",
+    "away_team": "Jazz",
+    "home_team": "Spurs",
+    "closing_spread_away": 14.5,
+    "closing_spread_away_str": "+14.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-28_Raptors_@_Warriors": {
+    "date": "2025-12-28",
+    "away_team": "Raptors",
+    "home_team": "Warriors",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-28_Wizards_@_Grizzlies": {
+    "date": "2025-12-28",
+    "away_team": "Wizards",
+    "home_team": "Grizzlies",
+    "closing_spread_away": 8.5,
+    "closing_spread_away_str": "+8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-28_Trail Blazers_@_Celtics": {
+    "date": "2025-12-28",
+    "away_team": "Trail Blazers",
+    "home_team": "Celtics",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-28_Clippers_@_Pistons": {
+    "date": "2025-12-28",
+    "away_team": "Clippers",
+    "home_team": "Pistons",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-28_Lakers_@_Kings": {
+    "date": "2025-12-28",
+    "away_team": "Lakers",
+    "home_team": "Kings",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-29_Bucks_@_Hornets": {
+    "date": "2025-12-29",
+    "away_team": "Bucks",
+    "home_team": "Hornets",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-29_Suns_@_Wizards": {
+    "date": "2025-12-29",
+    "away_team": "Suns",
+    "home_team": "Wizards",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-29_Warriors_@_Nets": {
+    "date": "2025-12-29",
+    "away_team": "Warriors",
+    "home_team": "Nets",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-29_Heat_@_Nuggets": {
+    "date": "2025-12-29",
+    "away_team": "Heat",
+    "home_team": "Nuggets",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-29_Raptors_@_Magic": {
+    "date": "2025-12-29",
+    "away_team": "Raptors",
+    "home_team": "Magic",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-29_Timberwolves_@_Bulls": {
+    "date": "2025-12-29",
+    "away_team": "Timberwolves",
+    "home_team": "Bulls",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-29_Rockets_@_Pacers": {
+    "date": "2025-12-29",
+    "away_team": "Rockets",
+    "home_team": "Pacers",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-29_Knicks_@_Pelicans": {
+    "date": "2025-12-29",
+    "away_team": "Knicks",
+    "home_team": "Pelicans",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-29_Thunder_@_Hawks": {
+    "date": "2025-12-29",
+    "away_team": "Thunder",
+    "home_team": "Hawks",
+    "closing_spread_away": -17.5,
+    "closing_spread_away_str": "-17.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-29_Cavaliers_@_Spurs": {
+    "date": "2025-12-29",
+    "away_team": "Cavaliers",
+    "home_team": "Spurs",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-29_Trail Blazers_@_Mavericks": {
+    "date": "2025-12-29",
+    "away_team": "Trail Blazers",
+    "home_team": "Mavericks",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-30_ers_@_Grizzlies": {
+    "date": "2025-12-30",
+    "away_team": "ers",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-30_Celtics_@_Jazz": {
+    "date": "2025-12-30",
+    "away_team": "Celtics",
+    "home_team": "Jazz",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-30_Pistons_@_Lakers": {
+    "date": "2025-12-30",
+    "away_team": "Pistons",
+    "home_team": "Lakers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-30_Clippers_@_Kings": {
+    "date": "2025-12-30",
+    "away_team": "Clippers",
+    "home_team": "Kings",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-31_Warriors_@_Hornets": {
+    "date": "2025-12-31",
+    "away_team": "Warriors",
+    "home_team": "Hornets",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-31_Hawks_@_Timberwolves": {
+    "date": "2025-12-31",
+    "away_team": "Hawks",
+    "home_team": "Timberwolves",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-31_Magic_@_Pacers": {
+    "date": "2025-12-31",
+    "away_team": "Magic",
+    "home_team": "Pacers",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-31_Cavaliers_@_Suns": {
+    "date": "2025-12-31",
+    "away_team": "Cavaliers",
+    "home_team": "Suns",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-31_Bulls_@_Pelicans": {
+    "date": "2025-12-31",
+    "away_team": "Bulls",
+    "home_team": "Pelicans",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-31_Spurs_@_Knicks": {
+    "date": "2025-12-31",
+    "away_team": "Spurs",
+    "home_team": "Knicks",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-31_Nuggets_@_Raptors": {
+    "date": "2025-12-31",
+    "away_team": "Nuggets",
+    "home_team": "Raptors",
+    "closing_spread_away": 7.5,
+    "closing_spread_away_str": "+7.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-31_Wizards_@_Bucks": {
+    "date": "2025-12-31",
+    "away_team": "Wizards",
+    "home_team": "Bucks",
+    "closing_spread_away": 10.5,
+    "closing_spread_away_str": "+10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-31_Thunder_@_Trail Blazers": {
+    "date": "2025-12-31",
+    "away_team": "Thunder",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -15.5,
+    "closing_spread_away_str": "-15.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-01_Rockets_@_Nets": {
+    "date": "2026-01-01",
+    "away_team": "Rockets",
+    "home_team": "Nets",
+    "closing_spread_away": -13.5,
+    "closing_spread_away_str": "-13.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-01_Heat_@_Pistons": {
+    "date": "2026-01-01",
+    "away_team": "Heat",
+    "home_team": "Pistons",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-01_ers_@_Mavericks": {
+    "date": "2026-01-01",
+    "away_team": "ers",
+    "home_team": "Mavericks",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-01_Celtics_@_Kings": {
+    "date": "2026-01-01",
+    "away_team": "Celtics",
+    "home_team": "Kings",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-01_Clippers_@_Jazz": {
+    "date": "2026-01-01",
+    "away_team": "Clippers",
+    "home_team": "Jazz",
+    "closing_spread_away": -13.5,
+    "closing_spread_away_str": "-13.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-02_Spurs_@_Pacers": {
+    "date": "2026-01-02",
+    "away_team": "Spurs",
+    "home_team": "Pacers",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-02_Wizards_@_Nets": {
+    "date": "2026-01-02",
+    "away_team": "Wizards",
+    "home_team": "Nets",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-02_Cavaliers_@_Nuggets": {
+    "date": "2026-01-02",
+    "away_team": "Cavaliers",
+    "home_team": "Nuggets",
+    "closing_spread_away": -13.5,
+    "closing_spread_away_str": "-13.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-02_Hawks_@_Knicks": {
+    "date": "2026-01-02",
+    "away_team": "Hawks",
+    "home_team": "Knicks",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-02_Bulls_@_Magic": {
+    "date": "2026-01-02",
+    "away_team": "Bulls",
+    "home_team": "Magic",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-02_Bucks_@_Hornets": {
+    "date": "2026-01-02",
+    "away_team": "Bucks",
+    "home_team": "Hornets",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-02_Trail Blazers_@_Pelicans": {
+    "date": "2026-01-02",
+    "away_team": "Trail Blazers",
+    "home_team": "Pelicans",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-02_Suns_@_Kings": {
+    "date": "2026-01-02",
+    "away_team": "Suns",
+    "home_team": "Kings",
+    "closing_spread_away": -13.5,
+    "closing_spread_away_str": "-13.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-02_Thunder_@_Warriors": {
+    "date": "2026-01-02",
+    "away_team": "Thunder",
+    "home_team": "Warriors",
+    "closing_spread_away": -13.5,
+    "closing_spread_away_str": "-13.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-02_Lakers_@_Grizzlies": {
+    "date": "2026-01-02",
+    "away_team": "Lakers",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-03_Timberwolves_@_Heat": {
+    "date": "2026-01-03",
+    "away_team": "Timberwolves",
+    "home_team": "Heat",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-03_ers_@_Knicks": {
+    "date": "2026-01-03",
+    "away_team": "ers",
+    "home_team": "Knicks",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-03_Raptors_@_Hawks": {
+    "date": "2026-01-03",
+    "away_team": "Raptors",
+    "home_team": "Hawks",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-03_Hornets_@_Bulls": {
+    "date": "2026-01-03",
+    "away_team": "Hornets",
+    "home_team": "Bulls",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-03_Trail Blazers_@_Spurs": {
+    "date": "2026-01-03",
+    "away_team": "Trail Blazers",
+    "home_team": "Spurs",
+    "closing_spread_away": 8.5,
+    "closing_spread_away_str": "+8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-03_Mavericks_@_Rockets": {
+    "date": "2026-01-03",
+    "away_team": "Mavericks",
+    "home_team": "Rockets",
+    "closing_spread_away": 7.5,
+    "closing_spread_away_str": "+7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-03_Warriors_@_Jazz": {
+    "date": "2026-01-03",
+    "away_team": "Warriors",
+    "home_team": "Jazz",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-03_Celtics_@_Clippers": {
+    "date": "2026-01-03",
+    "away_team": "Celtics",
+    "home_team": "Clippers",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-04_Pistons_@_Cavaliers": {
+    "date": "2026-01-04",
+    "away_team": "Pistons",
+    "home_team": "Cavaliers",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-04_Magic_@_Pacers": {
+    "date": "2026-01-04",
+    "away_team": "Magic",
+    "home_team": "Pacers",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-04_Nets_@_Nuggets": {
+    "date": "2026-01-04",
+    "away_team": "Nets",
+    "home_team": "Nuggets",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-04_Heat_@_Pelicans": {
+    "date": "2026-01-04",
+    "away_team": "Heat",
+    "home_team": "Pelicans",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-04_Timberwolves_@_Wizards": {
+    "date": "2026-01-04",
+    "away_team": "Timberwolves",
+    "home_team": "Wizards",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-04_Suns_@_Thunder": {
+    "date": "2026-01-04",
+    "away_team": "Suns",
+    "home_team": "Thunder",
+    "closing_spread_away": 10.5,
+    "closing_spread_away_str": "+10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-04_Bucks_@_Kings": {
+    "date": "2026-01-04",
+    "away_team": "Bucks",
+    "home_team": "Kings",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-04_Lakers_@_Grizzlies": {
+    "date": "2026-01-04",
+    "away_team": "Lakers",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-05_Pistons_@_Knicks": {
+    "date": "2026-01-05",
+    "away_team": "Pistons",
+    "home_team": "Knicks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-05_Celtics_@_Bulls": {
+    "date": "2026-01-05",
+    "away_team": "Celtics",
+    "home_team": "Bulls",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-05_Raptors_@_Hawks": {
+    "date": "2026-01-05",
+    "away_team": "Raptors",
+    "home_team": "Hawks",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-05_Rockets_@_Suns": {
+    "date": "2026-01-05",
+    "away_team": "Rockets",
+    "home_team": "Suns",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-05_Hornets_@_Thunder": {
+    "date": "2026-01-05",
+    "away_team": "Hornets",
+    "home_team": "Thunder",
+    "closing_spread_away": 15.5,
+    "closing_spread_away_str": "+15.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-05_Clippers_@_Warriors": {
+    "date": "2026-01-05",
+    "away_team": "Clippers",
+    "home_team": "Warriors",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-05_Trail Blazers_@_Jazz": {
+    "date": "2026-01-05",
+    "away_team": "Trail Blazers",
+    "home_team": "Jazz",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_Raptors_@_Hornets": {
+    "date": "2026-01-07",
+    "away_team": "Raptors",
+    "home_team": "Hornets",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_Pistons_@_Bulls": {
+    "date": "2026-01-07",
+    "away_team": "Pistons",
+    "home_team": "Bulls",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_ers_@_Wizards": {
+    "date": "2026-01-07",
+    "away_team": "ers",
+    "home_team": "Wizards",
+    "closing_spread_away": -16.5,
+    "closing_spread_away_str": "-16.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_Nuggets_@_Celtics": {
+    "date": "2026-01-07",
+    "away_team": "Nuggets",
+    "home_team": "Celtics",
+    "closing_spread_away": 10.5,
+    "closing_spread_away_str": "+10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_Hawks_@_Pelicans": {
+    "date": "2026-01-07",
+    "away_team": "Hawks",
+    "home_team": "Pelicans",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_Magic_@_Nets": {
+    "date": "2026-01-07",
+    "away_team": "Magic",
+    "home_team": "Nets",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_Knicks_@_Clippers": {
+    "date": "2026-01-07",
+    "away_team": "Knicks",
+    "home_team": "Clippers",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_Suns_@_Grizzlies": {
+    "date": "2026-01-07",
+    "away_team": "Suns",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_Thunder_@_Jazz": {
+    "date": "2026-01-07",
+    "away_team": "Thunder",
+    "home_team": "Jazz",
+    "closing_spread_away": -19.5,
+    "closing_spread_away_str": "-19.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_Spurs_@_Lakers": {
+    "date": "2026-01-07",
+    "away_team": "Spurs",
+    "home_team": "Lakers",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_Warriors_@_Bucks": {
+    "date": "2026-01-07",
+    "away_team": "Warriors",
+    "home_team": "Bucks",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_Trail Blazers_@_Rockets": {
+    "date": "2026-01-07",
+    "away_team": "Trail Blazers",
+    "home_team": "Rockets",
+    "closing_spread_away": 7.5,
+    "closing_spread_away_str": "+7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-08_Pacers_@_Hornets": {
+    "date": "2026-01-08",
+    "away_team": "Pacers",
+    "home_team": "Hornets",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-08_Timberwolves_@_Cavaliers": {
+    "date": "2026-01-08",
+    "away_team": "Timberwolves",
+    "home_team": "Cavaliers",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-08_Jazz_@_Mavericks": {
+    "date": "2026-01-08",
+    "away_team": "Jazz",
+    "home_team": "Mavericks",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-09_Celtics_@_Raptors": {
+    "date": "2026-01-09",
+    "away_team": "Celtics",
+    "home_team": "Raptors",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-09_ers_@_Magic": {
+    "date": "2026-01-09",
+    "away_team": "ers",
+    "home_team": "Magic",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-09_Pelicans_@_Wizards": {
+    "date": "2026-01-09",
+    "away_team": "Pelicans",
+    "home_team": "Wizards",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-09_Clippers_@_Nets": {
+    "date": "2026-01-09",
+    "away_team": "Clippers",
+    "home_team": "Nets",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-09_Thunder_@_Grizzlies": {
+    "date": "2026-01-09",
+    "away_team": "Thunder",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-09_Hawks_@_Nuggets": {
+    "date": "2026-01-09",
+    "away_team": "Hawks",
+    "home_team": "Nuggets",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-09_Suns_@_Knicks": {
+    "date": "2026-01-09",
+    "away_team": "Suns",
+    "home_team": "Knicks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-09_Warriors_@_Kings": {
+    "date": "2026-01-09",
+    "away_team": "Warriors",
+    "home_team": "Kings",
+    "closing_spread_away": -15.5,
+    "closing_spread_away_str": "-15.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-09_Trail Blazers_@_Rockets": {
+    "date": "2026-01-09",
+    "away_team": "Trail Blazers",
+    "home_team": "Rockets",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-09_Bucks_@_Lakers": {
+    "date": "2026-01-09",
+    "away_team": "Bucks",
+    "home_team": "Lakers",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-10_Cavaliers_@_Timberwolves": {
+    "date": "2026-01-10",
+    "away_team": "Cavaliers",
+    "home_team": "Timberwolves",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-10_Pacers_@_Heat": {
+    "date": "2026-01-10",
+    "away_team": "Pacers",
+    "home_team": "Heat",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-10_Clippers_@_Pistons": {
+    "date": "2026-01-10",
+    "away_team": "Clippers",
+    "home_team": "Pistons",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-10_Spurs_@_Celtics": {
+    "date": "2026-01-10",
+    "away_team": "Spurs",
+    "home_team": "Celtics",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-10_Bulls_@_Mavericks": {
+    "date": "2026-01-10",
+    "away_team": "Bulls",
+    "home_team": "Mavericks",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-10_Hornets_@_Jazz": {
+    "date": "2026-01-10",
+    "away_team": "Hornets",
+    "home_team": "Jazz",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-11_Magic_@_Pelicans": {
+    "date": "2026-01-11",
+    "away_team": "Magic",
+    "home_team": "Pelicans",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-11_Grizzlies_@_Nets": {
+    "date": "2026-01-11",
+    "away_team": "Grizzlies",
+    "home_team": "Nets",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-11_Knicks_@_Trail Blazers": {
+    "date": "2026-01-11",
+    "away_team": "Knicks",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-11_Timberwolves_@_Spurs": {
+    "date": "2026-01-11",
+    "away_team": "Timberwolves",
+    "home_team": "Spurs",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-11_Thunder_@_Heat": {
+    "date": "2026-01-11",
+    "away_team": "Thunder",
+    "home_team": "Heat",
+    "closing_spread_away": -14.5,
+    "closing_spread_away_str": "-14.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-11_Nuggets_@_Bucks": {
+    "date": "2026-01-11",
+    "away_team": "Nuggets",
+    "home_team": "Bucks",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-11_Suns_@_Wizards": {
+    "date": "2026-01-11",
+    "away_team": "Suns",
+    "home_team": "Wizards",
+    "closing_spread_away": -15.5,
+    "closing_spread_away_str": "-15.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-11_Hawks_@_Warriors": {
+    "date": "2026-01-11",
+    "away_team": "Hawks",
+    "home_team": "Warriors",
+    "closing_spread_away": 7.5,
+    "closing_spread_away_str": "+7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-11_Kings_@_Rockets": {
+    "date": "2026-01-11",
+    "away_team": "Kings",
+    "home_team": "Rockets",
+    "closing_spread_away": 14.5,
+    "closing_spread_away_str": "+14.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-12_Jazz_@_Cavaliers": {
+    "date": "2026-01-12",
+    "away_team": "Jazz",
+    "home_team": "Cavaliers",
+    "closing_spread_away": 13.5,
+    "closing_spread_away_str": "+13.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-12_Pacers_@_Celtics": {
+    "date": "2026-01-12",
+    "away_team": "Pacers",
+    "home_team": "Celtics",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-12_ers_@_Raptors": {
+    "date": "2026-01-12",
+    "away_team": "ers",
+    "home_team": "Raptors",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-12_Mavericks_@_Nets": {
+    "date": "2026-01-12",
+    "away_team": "Mavericks",
+    "home_team": "Nets",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-12_Kings_@_Lakers": {
+    "date": "2026-01-12",
+    "away_team": "Kings",
+    "home_team": "Lakers",
+    "closing_spread_away": 9.5,
+    "closing_spread_away_str": "+9.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-12_Clippers_@_Hornets": {
+    "date": "2026-01-12",
+    "away_team": "Clippers",
+    "home_team": "Hornets",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-13_Heat_@_Suns": {
+    "date": "2026-01-13",
+    "away_team": "Heat",
+    "home_team": "Suns",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-13_Rockets_@_Bulls": {
+    "date": "2026-01-13",
+    "away_team": "Rockets",
+    "home_team": "Bulls",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-13_Timberwolves_@_Bucks": {
+    "date": "2026-01-13",
+    "away_team": "Timberwolves",
+    "home_team": "Bucks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-13_Nuggets_@_Pelicans": {
+    "date": "2026-01-13",
+    "away_team": "Nuggets",
+    "home_team": "Pelicans",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-13_Thunder_@_Spurs": {
+    "date": "2026-01-13",
+    "away_team": "Thunder",
+    "home_team": "Spurs",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-13_Lakers_@_Hawks": {
+    "date": "2026-01-13",
+    "away_team": "Lakers",
+    "home_team": "Hawks",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-13_Warriors_@_Trail Blazers": {
+    "date": "2026-01-13",
+    "away_team": "Warriors",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-14_Raptors_@_Pacers": {
+    "date": "2026-01-14",
+    "away_team": "Raptors",
+    "home_team": "Pacers",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-14_Bulls_@_Jazz": {
+    "date": "2026-01-14",
+    "away_team": "Bulls",
+    "home_team": "Jazz",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-14_Pelicans_@_Nets": {
+    "date": "2026-01-14",
+    "away_team": "Pelicans",
+    "home_team": "Nets",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-14_Nuggets_@_Mavericks": {
+    "date": "2026-01-14",
+    "away_team": "Nuggets",
+    "home_team": "Mavericks",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-14_Kings_@_Knicks": {
+    "date": "2026-01-14",
+    "away_team": "Kings",
+    "home_team": "Knicks",
+    "closing_spread_away": 10.5,
+    "closing_spread_away_str": "+10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-14_Clippers_@_Wizards": {
+    "date": "2026-01-14",
+    "away_team": "Clippers",
+    "home_team": "Wizards",
+    "closing_spread_away": -11.5,
+    "closing_spread_away_str": "-11.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-15_Magic_@_Grizzlies": {
+    "date": "2026-01-15",
+    "away_team": "Magic",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-15_Pistons_@_Suns": {
+    "date": "2026-01-15",
+    "away_team": "Pistons",
+    "home_team": "Suns",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-15_Celtics_@_Heat": {
+    "date": "2026-01-15",
+    "away_team": "Celtics",
+    "home_team": "Heat",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-15_Thunder_@_Rockets": {
+    "date": "2026-01-15",
+    "away_team": "Thunder",
+    "home_team": "Rockets",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-15_Spurs_@_Bucks": {
+    "date": "2026-01-15",
+    "away_team": "Spurs",
+    "home_team": "Bucks",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-15_Mavericks_@_Jazz": {
+    "date": "2026-01-15",
+    "away_team": "Mavericks",
+    "home_team": "Jazz",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-15_Warriors_@_Knicks": {
+    "date": "2026-01-15",
+    "away_team": "Warriors",
+    "home_team": "Knicks",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-15_Trail Blazers_@_Hawks": {
+    "date": "2026-01-15",
+    "away_team": "Trail Blazers",
+    "home_team": "Hawks",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-15_Hornets_@_Lakers": {
+    "date": "2026-01-15",
+    "away_team": "Hornets",
+    "home_team": "Lakers",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-16_Pacers_@_Pelicans": {
+    "date": "2026-01-16",
+    "away_team": "Pacers",
+    "home_team": "Pelicans",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-16_Nets_@_Bulls": {
+    "date": "2026-01-16",
+    "away_team": "Nets",
+    "home_team": "Bulls",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-16_Clippers_@_Raptors": {
+    "date": "2026-01-16",
+    "away_team": "Clippers",
+    "home_team": "Raptors",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-16_Rockets_@_Timberwolves": {
+    "date": "2026-01-16",
+    "away_team": "Rockets",
+    "home_team": "Timberwolves",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-16_Kings_@_Wizards": {
+    "date": "2026-01-16",
+    "away_team": "Kings",
+    "home_team": "Wizards",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-17_Mavericks_@_Jazz": {
+    "date": "2026-01-17",
+    "away_team": "Mavericks",
+    "home_team": "Jazz",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-17_Celtics_@_Hawks": {
+    "date": "2026-01-17",
+    "away_team": "Celtics",
+    "home_team": "Hawks",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-17_Pistons_@_Pacers": {
+    "date": "2026-01-17",
+    "away_team": "Pistons",
+    "home_team": "Pacers",
+    "closing_spread_away": -15.5,
+    "closing_spread_away_str": "-15.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-17_Suns_@_Knicks": {
+    "date": "2026-01-17",
+    "away_team": "Suns",
+    "home_team": "Knicks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-17_Heat_@_Thunder": {
+    "date": "2026-01-17",
+    "away_team": "Heat",
+    "home_team": "Thunder",
+    "closing_spread_away": 11.5,
+    "closing_spread_away_str": "+11.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-17_Spurs_@_Timberwolves": {
+    "date": "2026-01-17",
+    "away_team": "Spurs",
+    "home_team": "Timberwolves",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-17_Warriors_@_Hornets": {
+    "date": "2026-01-17",
+    "away_team": "Warriors",
+    "home_team": "Hornets",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-17_Nuggets_@_Wizards": {
+    "date": "2026-01-17",
+    "away_team": "Nuggets",
+    "home_team": "Wizards",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-17_Trail Blazers_@_Lakers": {
+    "date": "2026-01-17",
+    "away_team": "Trail Blazers",
+    "home_team": "Lakers",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-18_Grizzlies_@_Magic": {
+    "date": "2026-01-18",
+    "away_team": "Grizzlies",
+    "home_team": "Magic",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-18_Bulls_@_Nets": {
+    "date": "2026-01-18",
+    "away_team": "Bulls",
+    "home_team": "Nets",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-18_Rockets_@_Pelicans": {
+    "date": "2026-01-18",
+    "away_team": "Rockets",
+    "home_team": "Pelicans",
+    "closing_spread_away": -13.5,
+    "closing_spread_away_str": "-13.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-18_Hornets_@_Nuggets": {
+    "date": "2026-01-18",
+    "away_team": "Hornets",
+    "home_team": "Nuggets",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-18_Trail Blazers_@_Kings": {
+    "date": "2026-01-18",
+    "away_team": "Trail Blazers",
+    "home_team": "Kings",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-18_Lakers_@_Raptors": {
+    "date": "2026-01-18",
+    "away_team": "Lakers",
+    "home_team": "Raptors",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-19_Bucks_@_Hawks": {
+    "date": "2026-01-19",
+    "away_team": "Bucks",
+    "home_team": "Hawks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-19_Thunder_@_Cavaliers": {
+    "date": "2026-01-19",
+    "away_team": "Thunder",
+    "home_team": "Cavaliers",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-19_Clippers_@_Wizards": {
+    "date": "2026-01-19",
+    "away_team": "Clippers",
+    "home_team": "Wizards",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-19_Mavericks_@_Knicks": {
+    "date": "2026-01-19",
+    "away_team": "Mavericks",
+    "home_team": "Knicks",
+    "closing_spread_away": 12.5,
+    "closing_spread_away_str": "+12.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-19_Spurs_@_Jazz": {
+    "date": "2026-01-19",
+    "away_team": "Spurs",
+    "home_team": "Jazz",
+    "closing_spread_away": -16.5,
+    "closing_spread_away_str": "-16.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-19_ers_@_Pacers": {
+    "date": "2026-01-19",
+    "away_team": "ers",
+    "home_team": "Pacers",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-19_Suns_@_Nets": {
+    "date": "2026-01-19",
+    "away_team": "Suns",
+    "home_team": "Nets",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-19_Pistons_@_Celtics": {
+    "date": "2026-01-19",
+    "away_team": "Pistons",
+    "home_team": "Celtics",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-19_Warriors_@_Heat": {
+    "date": "2026-01-19",
+    "away_team": "Warriors",
+    "home_team": "Heat",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-20_Bulls_@_Clippers": {
+    "date": "2026-01-20",
+    "away_team": "Bulls",
+    "home_team": "Clippers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-20_Rockets_@_Spurs": {
+    "date": "2026-01-20",
+    "away_team": "Rockets",
+    "home_team": "Spurs",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-20_Jazz_@_Timberwolves": {
+    "date": "2026-01-20",
+    "away_team": "Jazz",
+    "home_team": "Timberwolves",
+    "closing_spread_away": 12.5,
+    "closing_spread_away_str": "+12.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-20_Lakers_@_Nuggets": {
+    "date": "2026-01-20",
+    "away_team": "Lakers",
+    "home_team": "Nuggets",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-20_Raptors_@_Warriors": {
+    "date": "2026-01-20",
+    "away_team": "Raptors",
+    "home_team": "Warriors",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-20_Heat_@_Kings": {
+    "date": "2026-01-20",
+    "away_team": "Heat",
+    "home_team": "Kings",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-21_Cavaliers_@_Hornets": {
+    "date": "2026-01-21",
+    "away_team": "Cavaliers",
+    "home_team": "Hornets",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-21_Celtics_@_Pacers": {
+    "date": "2026-01-21",
+    "away_team": "Celtics",
+    "home_team": "Pacers",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-21_Knicks_@_Nets": {
+    "date": "2026-01-21",
+    "away_team": "Knicks",
+    "home_team": "Nets",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-21_Hawks_@_Grizzlies": {
+    "date": "2026-01-21",
+    "away_team": "Hawks",
+    "home_team": "Grizzlies",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-21_Pistons_@_Pelicans": {
+    "date": "2026-01-21",
+    "away_team": "Pistons",
+    "home_team": "Pelicans",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-21_Thunder_@_Bucks": {
+    "date": "2026-01-21",
+    "away_team": "Thunder",
+    "home_team": "Bucks",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-21_Raptors_@_Kings": {
+    "date": "2026-01-21",
+    "away_team": "Raptors",
+    "home_team": "Kings",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-22_Hornets_@_Magic": {
+    "date": "2026-01-22",
+    "away_team": "Hornets",
+    "home_team": "Magic",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-22_ers_@_Rockets": {
+    "date": "2026-01-22",
+    "away_team": "ers",
+    "home_team": "Rockets",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-22_Nuggets_@_Wizards": {
+    "date": "2026-01-22",
+    "away_team": "Nuggets",
+    "home_team": "Wizards",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-22_Mavericks_@_Warriors": {
+    "date": "2026-01-22",
+    "away_team": "Mavericks",
+    "home_team": "Warriors",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-22_Bulls_@_Timberwolves": {
+    "date": "2026-01-22",
+    "away_team": "Bulls",
+    "home_team": "Timberwolves",
+    "closing_spread_away": 9.5,
+    "closing_spread_away_str": "+9.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-22_Spurs_@_Jazz": {
+    "date": "2026-01-22",
+    "away_team": "Spurs",
+    "home_team": "Jazz",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-22_Clippers_@_Lakers": {
+    "date": "2026-01-22",
+    "away_team": "Clippers",
+    "home_team": "Lakers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-22_Trail Blazers_@_Heat": {
+    "date": "2026-01-22",
+    "away_team": "Trail Blazers",
+    "home_team": "Heat",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-23_Rockets_@_Pistons": {
+    "date": "2026-01-23",
+    "away_team": "Rockets",
+    "home_team": "Pistons",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-23_Hawks_@_Suns": {
+    "date": "2026-01-23",
+    "away_team": "Hawks",
+    "home_team": "Suns",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-23_Celtics_@_Nets": {
+    "date": "2026-01-23",
+    "away_team": "Celtics",
+    "home_team": "Nets",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-23_Cavaliers_@_Kings": {
+    "date": "2026-01-23",
+    "away_team": "Cavaliers",
+    "home_team": "Kings",
+    "closing_spread_away": -13.5,
+    "closing_spread_away_str": "-13.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-23_Pelicans_@_Grizzlies": {
+    "date": "2026-01-23",
+    "away_team": "Pelicans",
+    "home_team": "Grizzlies",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-23_Pacers_@_Thunder": {
+    "date": "2026-01-23",
+    "away_team": "Pacers",
+    "home_team": "Thunder",
+    "closing_spread_away": 15.5,
+    "closing_spread_away_str": "+15.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-23_Nuggets_@_Bucks": {
+    "date": "2026-01-23",
+    "away_team": "Nuggets",
+    "home_team": "Bucks",
+    "closing_spread_away": 8.5,
+    "closing_spread_away_str": "+8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-23_Raptors_@_Trail Blazers": {
+    "date": "2026-01-23",
+    "away_team": "Raptors",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-24_Hornets_@_Wizards": {
+    "date": "2026-01-24",
+    "away_team": "Hornets",
+    "home_team": "Wizards",
+    "closing_spread_away": -11.5,
+    "closing_spread_away_str": "-11.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-24_Cavaliers_@_Magic": {
+    "date": "2026-01-24",
+    "away_team": "Cavaliers",
+    "home_team": "Magic",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-24_Bulls_@_Celtics": {
+    "date": "2026-01-24",
+    "away_team": "Bulls",
+    "home_team": "Celtics",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-24_Lakers_@_Mavericks": {
+    "date": "2026-01-24",
+    "away_team": "Lakers",
+    "home_team": "Mavericks",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-24_Heat_@_Jazz": {
+    "date": "2026-01-24",
+    "away_team": "Heat",
+    "home_team": "Jazz",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-25_Pistons_@_Kings": {
+    "date": "2026-01-25",
+    "away_team": "Pistons",
+    "home_team": "Kings",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-25_Warriors_@_Timberwolves": {
+    "date": "2026-01-25",
+    "away_team": "Warriors",
+    "home_team": "Timberwolves",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-25_Raptors_@_Thunder": {
+    "date": "2026-01-25",
+    "away_team": "Raptors",
+    "home_team": "Thunder",
+    "closing_spread_away": 11.5,
+    "closing_spread_away_str": "+11.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-25_Pelicans_@_Spurs": {
+    "date": "2026-01-25",
+    "away_team": "Pelicans",
+    "home_team": "Spurs",
+    "closing_spread_away": 11.5,
+    "closing_spread_away_str": "+11.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-25_Heat_@_Suns": {
+    "date": "2026-01-25",
+    "away_team": "Heat",
+    "home_team": "Suns",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-25_Clippers_@_Nets": {
+    "date": "2026-01-25",
+    "away_team": "Clippers",
+    "home_team": "Nets",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-26_Hawks_@_Pacers": {
+    "date": "2026-01-26",
+    "away_team": "Hawks",
+    "home_team": "Pacers",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-26_Cavaliers_@_Magic": {
+    "date": "2026-01-26",
+    "away_team": "Cavaliers",
+    "home_team": "Magic",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-26_Celtics_@_Trail Blazers": {
+    "date": "2026-01-26",
+    "away_team": "Celtics",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-26_Lakers_@_Bulls": {
+    "date": "2026-01-26",
+    "away_team": "Lakers",
+    "home_team": "Bulls",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-26_Rockets_@_Grizzlies": {
+    "date": "2026-01-26",
+    "away_team": "Rockets",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -11.5,
+    "closing_spread_away_str": "-11.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-26_Timberwolves_@_Warriors": {
+    "date": "2026-01-26",
+    "away_team": "Timberwolves",
+    "home_team": "Warriors",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-27_Wizards_@_Trail Blazers": {
+    "date": "2026-01-27",
+    "away_team": "Wizards",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": 7.5,
+    "closing_spread_away_str": "+7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-27_Knicks_@_Kings": {
+    "date": "2026-01-27",
+    "away_team": "Knicks",
+    "home_team": "Kings",
+    "closing_spread_away": -14.5,
+    "closing_spread_away_str": "-14.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-27_ers_@_Bucks": {
+    "date": "2026-01-27",
+    "away_team": "ers",
+    "home_team": "Bucks",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-27_Thunder_@_Pelicans": {
+    "date": "2026-01-27",
+    "away_team": "Thunder",
+    "home_team": "Pelicans",
+    "closing_spread_away": -14.5,
+    "closing_spread_away_str": "-14.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-27_Pistons_@_Nuggets": {
+    "date": "2026-01-27",
+    "away_team": "Pistons",
+    "home_team": "Nuggets",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-27_Suns_@_Nets": {
+    "date": "2026-01-27",
+    "away_team": "Suns",
+    "home_team": "Nets",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-27_Clippers_@_Jazz": {
+    "date": "2026-01-27",
+    "away_team": "Clippers",
+    "home_team": "Jazz",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-28_Cavaliers_@_Lakers": {
+    "date": "2026-01-28",
+    "away_team": "Cavaliers",
+    "home_team": "Lakers",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-28_Pacers_@_Bulls": {
+    "date": "2026-01-28",
+    "away_team": "Pacers",
+    "home_team": "Bulls",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-28_Hawks_@_Celtics": {
+    "date": "2026-01-28",
+    "away_team": "Hawks",
+    "home_team": "Celtics",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-28_Magic_@_Heat": {
+    "date": "2026-01-28",
+    "away_team": "Magic",
+    "home_team": "Heat",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-28_Knicks_@_Raptors": {
+    "date": "2026-01-28",
+    "away_team": "Knicks",
+    "home_team": "Raptors",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-28_Hornets_@_Grizzlies": {
+    "date": "2026-01-28",
+    "away_team": "Hornets",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-28_Timberwolves_@_Mavericks": {
+    "date": "2026-01-28",
+    "away_team": "Timberwolves",
+    "home_team": "Mavericks",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-28_Warriors_@_Jazz": {
+    "date": "2026-01-28",
+    "away_team": "Warriors",
+    "home_team": "Jazz",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-28_Spurs_@_Rockets": {
+    "date": "2026-01-28",
+    "away_team": "Spurs",
+    "home_team": "Rockets",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-29_ers_@_Kings": {
+    "date": "2026-01-29",
+    "away_team": "ers",
+    "home_team": "Kings",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-29_Wizards_@_Bucks": {
+    "date": "2026-01-29",
+    "away_team": "Wizards",
+    "home_team": "Bucks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-29_Rockets_@_Hawks": {
+    "date": "2026-01-29",
+    "away_team": "Rockets",
+    "home_team": "Hawks",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-29_Heat_@_Bulls": {
+    "date": "2026-01-29",
+    "away_team": "Heat",
+    "home_team": "Bulls",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-29_Hornets_@_Mavericks": {
+    "date": "2026-01-29",
+    "away_team": "Hornets",
+    "home_team": "Mavericks",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-29_Nuggets_@_Nets": {
+    "date": "2026-01-29",
+    "away_team": "Nuggets",
+    "home_team": "Nets",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-29_Suns_@_Pistons": {
+    "date": "2026-01-29",
+    "away_team": "Suns",
+    "home_team": "Pistons",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-29_Timberwolves_@_Thunder": {
+    "date": "2026-01-29",
+    "away_team": "Timberwolves",
+    "home_team": "Thunder",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-30_Lakers_@_Wizards": {
+    "date": "2026-01-30",
+    "away_team": "Lakers",
+    "home_team": "Wizards",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-30_Magic_@_Raptors": {
+    "date": "2026-01-30",
+    "away_team": "Magic",
+    "home_team": "Raptors",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-30_Celtics_@_Kings": {
+    "date": "2026-01-30",
+    "away_team": "Celtics",
+    "home_team": "Kings",
+    "closing_spread_away": -11.5,
+    "closing_spread_away_str": "-11.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-30_Knicks_@_Trail Blazers": {
+    "date": "2026-01-30",
+    "away_team": "Knicks",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-30_Pelicans_@_Grizzlies": {
+    "date": "2026-01-30",
+    "away_team": "Pelicans",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-30_Suns_@_Cavaliers": {
+    "date": "2026-01-30",
+    "away_team": "Suns",
+    "home_team": "Cavaliers",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-30_Nuggets_@_Clippers": {
+    "date": "2026-01-30",
+    "away_team": "Nuggets",
+    "home_team": "Clippers",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-30_Nets_@_Jazz": {
+    "date": "2026-01-30",
+    "away_team": "Nets",
+    "home_team": "Jazz",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-30_Pistons_@_Warriors": {
+    "date": "2026-01-30",
+    "away_team": "Pistons",
+    "home_team": "Warriors",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-31_Hornets_@_Spurs": {
+    "date": "2026-01-31",
+    "away_team": "Hornets",
+    "home_team": "Spurs",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-31_Pacers_@_Hawks": {
+    "date": "2026-01-31",
+    "away_team": "Pacers",
+    "home_team": "Hawks",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-31_ers_@_Pelicans": {
+    "date": "2026-01-31",
+    "away_team": "ers",
+    "home_team": "Pelicans",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-31_Bulls_@_Heat": {
+    "date": "2026-01-31",
+    "away_team": "Bulls",
+    "home_team": "Heat",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-31_Timberwolves_@_Grizzlies": {
+    "date": "2026-01-31",
+    "away_team": "Timberwolves",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -11.5,
+    "closing_spread_away_str": "-11.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-31_Rockets_@_Mavericks": {
+    "date": "2026-01-31",
+    "away_team": "Rockets",
+    "home_team": "Mavericks",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-02_76ers_@_Wizards": {
+    "date": "2025-12-02",
+    "away_team": "76ers",
+    "home_team": "Wizards",
+    "closing_spread_away": -13.5,
+    "closing_spread_away_str": "-13.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-04_76ers_@_Warriors": {
+    "date": "2025-12-04",
+    "away_team": "76ers",
+    "home_team": "Warriors",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-05_76ers_@_Bucks": {
+    "date": "2025-12-05",
+    "away_team": "76ers",
+    "home_team": "Bucks",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-07_Lakers_@_76ers": {
+    "date": "2025-12-07",
+    "away_team": "Lakers",
+    "home_team": "76ers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-12_76ers_@_Pacers": {
+    "date": "2025-12-12",
+    "away_team": "76ers",
+    "home_team": "Pacers",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-14_Hawks_@_76ers": {
+    "date": "2025-12-14",
+    "away_team": "Hawks",
+    "home_team": "76ers",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-19_76ers_@_Knicks": {
+    "date": "2025-12-19",
+    "away_team": "76ers",
+    "home_team": "Knicks",
+    "closing_spread_away": 6.5,
+    "closing_spread_away_str": "+6.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-20_76ers_@_Mavericks": {
+    "date": "2025-12-20",
+    "away_team": "76ers",
+    "home_team": "Mavericks",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-23_Nets_@_76ers": {
+    "date": "2025-12-23",
+    "away_team": "Nets",
+    "home_team": "76ers",
+    "closing_spread_away": 9.5,
+    "closing_spread_away_str": "+9.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-26_Bulls_@_76ers": {
+    "date": "2025-12-26",
+    "away_team": "Bulls",
+    "home_team": "76ers",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-28_Thunder_@_76ers": {
+    "date": "2025-12-28",
+    "away_team": "Thunder",
+    "home_team": "76ers",
+    "closing_spread_away": -14.5,
+    "closing_spread_away_str": "-14.5",
+    "spread_basis": "away_team"
+  },
+  "2025-12-30_76ers_@_Grizzlies": {
+    "date": "2025-12-30",
+    "away_team": "76ers",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-01_76ers_@_Mavericks": {
+    "date": "2026-01-01",
+    "away_team": "76ers",
+    "home_team": "Mavericks",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-03_76ers_@_Knicks": {
+    "date": "2026-01-03",
+    "away_team": "76ers",
+    "home_team": "Knicks",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-05_Nuggets_@_76ers": {
+    "date": "2026-01-05",
+    "away_team": "Nuggets",
+    "home_team": "76ers",
+    "closing_spread_away": 14.5,
+    "closing_spread_away_str": "+14.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-07_76ers_@_Wizards": {
+    "date": "2026-01-07",
+    "away_team": "76ers",
+    "home_team": "Wizards",
+    "closing_spread_away": -16.5,
+    "closing_spread_away_str": "-16.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-09_76ers_@_Magic": {
+    "date": "2026-01-09",
+    "away_team": "76ers",
+    "home_team": "Magic",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-11_Raptors_@_76ers": {
+    "date": "2026-01-11",
+    "away_team": "Raptors",
+    "home_team": "76ers",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-12_76ers_@_Raptors": {
+    "date": "2026-01-12",
+    "away_team": "76ers",
+    "home_team": "Raptors",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-14_Cavaliers_@_76ers": {
+    "date": "2026-01-14",
+    "away_team": "Cavaliers",
+    "home_team": "76ers",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-16_Cavaliers_@_76ers": {
+    "date": "2026-01-16",
+    "away_team": "Cavaliers",
+    "home_team": "76ers",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-19_76ers_@_Pacers": {
+    "date": "2026-01-19",
+    "away_team": "76ers",
+    "home_team": "Pacers",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-20_Suns_@_76ers": {
+    "date": "2026-01-20",
+    "away_team": "Suns",
+    "home_team": "76ers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-22_76ers_@_Rockets": {
+    "date": "2026-01-22",
+    "away_team": "76ers",
+    "home_team": "Rockets",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-24_Knicks_@_76ers": {
+    "date": "2026-01-24",
+    "away_team": "Knicks",
+    "home_team": "76ers",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-26_Hornets_@_76ers": {
+    "date": "2026-01-26",
+    "away_team": "Hornets",
+    "home_team": "76ers",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-27_76ers_@_Bucks": {
+    "date": "2026-01-27",
+    "away_team": "76ers",
+    "home_team": "Bucks",
+    "closing_spread_away": -10.5,
+    "closing_spread_away_str": "-10.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-29_76ers_@_Kings": {
+    "date": "2026-01-29",
+    "away_team": "76ers",
+    "home_team": "Kings",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2026-01-31_76ers_@_Pelicans": {
+    "date": "2026-01-31",
+    "away_team": "76ers",
+    "home_team": "Pelicans",
+    "closing_spread_away": -6.5,
+    "closing_spread_away_str": "-6.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-03_Pistons_@_Nuggets": {
+    "date": "2026-02-03",
+    "away_team": "Pistons",
+    "home_team": "Nuggets",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-03_Jazz_@_Pacers": {
+    "date": "2026-02-03",
+    "away_team": "Jazz",
+    "home_team": "Pacers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-03_Knicks_@_Wizards": {
+    "date": "2026-02-03",
+    "away_team": "Knicks",
+    "home_team": "Wizards",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-03_Lakers_@_Nets": {
+    "date": "2026-02-03",
+    "away_team": "Lakers",
+    "home_team": "Nets",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-03_Hawks_@_Heat": {
+    "date": "2026-02-03",
+    "away_team": "Hawks",
+    "home_team": "Heat",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-03_Celtics_@_Mavericks": {
+    "date": "2026-02-03",
+    "away_team": "Celtics",
+    "home_team": "Mavericks",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-03_Bucks_@_Bulls": {
+    "date": "2026-02-03",
+    "away_team": "Bucks",
+    "home_team": "Bulls",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-03_Thunder_@_Magic": {
+    "date": "2026-02-03",
+    "away_team": "Thunder",
+    "home_team": "Magic",
+    "closing_spread_away": -11.5,
+    "closing_spread_away_str": "-11.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-03_76ers_@_Warriors": {
+    "date": "2026-02-03",
+    "away_team": "76ers",
+    "home_team": "Warriors",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-03_Suns_@_Trail Blazers": {
+    "date": "2026-02-03",
+    "away_team": "Suns",
+    "home_team": "Trail Blazers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-04_Knicks_@_Nuggets": {
+    "date": "2026-02-04",
+    "away_team": "Knicks",
+    "home_team": "Nuggets",
+    "closing_spread_away": -4.5,
+    "closing_spread_away_str": "-4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-04_Timberwolves_@_Raptors": {
+    "date": "2026-02-04",
+    "away_team": "Timberwolves",
+    "home_team": "Raptors",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-04_Celtics_@_Rockets": {
+    "date": "2026-02-04",
+    "away_team": "Celtics",
+    "home_team": "Rockets",
+    "closing_spread_away": 8.5,
+    "closing_spread_away_str": "+8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-04_Bucks_@_Pelicans": {
+    "date": "2026-02-04",
+    "away_team": "Bucks",
+    "home_team": "Pelicans",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-04_Spurs_@_Thunder": {
+    "date": "2026-02-04",
+    "away_team": "Spurs",
+    "home_team": "Thunder",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-04_Grizzlies_@_Kings": {
+    "date": "2026-02-04",
+    "away_team": "Grizzlies",
+    "home_team": "Kings",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-04_Cavaliers_@_Clippers": {
+    "date": "2026-02-04",
+    "away_team": "Cavaliers",
+    "home_team": "Clippers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  }
+}

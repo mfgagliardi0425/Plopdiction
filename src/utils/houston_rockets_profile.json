@@ -1,0 +1,883 @@
+{
+  "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+  "name": "Rockets",
+  "market": "Houston",
+  "alias": "HOU",
+  "founded": 1967,
+  "sr_id": "sr:team:3412",
+  "owner": "Tilman Fertitta",
+  "general_manager": "Rafael Stone",
+  "president": "Gretchen Sheirr",
+  "mascot": "Clutch the Bear",
+  "sponsor": "Memorial Hermann Health System",
+  "championships_won": 2,
+  "championship_seasons": "1994, 1995",
+  "conference_titles": 4,
+  "division_titles": 9,
+  "retired_numbers": "6, 11, 22, 23, 24, 34, 44, 45",
+  "playoff_appearances": 35,
+  "gleague_affiliate": "Rio Grande Valley Vipers",
+  "reference": "1610612745",
+  "venue": {
+    "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+    "name": "Toyota Center",
+    "capacity": 18500,
+    "address": "1510 Polk Street",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77002",
+    "country": "USA",
+    "sr_id": "sr:venue:6134",
+    "location": {
+      "lat": "29.750751",
+      "lng": "-95.362049"
+    }
+  },
+  "league": {
+    "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+    "name": "NBA",
+    "alias": "NBA"
+  },
+  "conference": {
+    "id": "7fe7e212-de01-4f8f-a31d-b9f0a95731e3",
+    "name": "WESTERN CONFERENCE",
+    "alias": "WESTERN"
+  },
+  "division": {
+    "id": "1d29f94c-9587-494b-a232-feb20a40eb4c",
+    "name": "Southwest",
+    "alias": "SOUTHWEST"
+  },
+  "coaches": [
+    {
+      "id": "904a9513-1998-42a8-b9c9-774240cf56d1",
+      "full_name": "Ime Udoka",
+      "first_name": "Ime",
+      "last_name": "Udoka",
+      "position": "Head Coach",
+      "experience": "3",
+      "reference": "203152"
+    }
+  ],
+  "team_colors": [
+    {
+      "type": "primary",
+      "hex_color": "#ce1141",
+      "rgb_color": {
+        "red": 206,
+        "green": 17,
+        "blue": 65
+      }
+    },
+    {
+      "type": "secondary",
+      "hex_color": "#000000",
+      "rgb_color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0
+      }
+    }
+  ],
+  "players": [
+    {
+      "id": "1938fb4b-347a-43fd-ba41-1abdb9540699",
+      "status": "ACT",
+      "full_name": "Josh Okogie",
+      "first_name": "Josh",
+      "last_name": "Okogie",
+      "abbr_name": "J.Okogie",
+      "height": 76,
+      "weight": 213,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "20",
+      "experience": "7",
+      "college": "Georgia Tech",
+      "high_school": "Shiloh (GA)",
+      "birth_place": "Lagos,, NGA",
+      "birthdate": "1998-09-01",
+      "updated": "2025-10-21T14:59:34+00:00",
+      "sr_id": "sr:player:1161064",
+      "rookie_year": 2018,
+      "salary": 2296274,
+      "reference": "1629006",
+      "draft": {
+        "team_id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2018,
+        "round": "1",
+        "pick": "20"
+      },
+      "references": [
+        {
+          "source_id": "1629006",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "4a7e5bb8-0ee7-4b28-bdd6-5804b79c2f88",
+          "scope": "NBDL",
+          "id_type": "league_profile"
+        },
+        {
+          "source_id": "ab603dbc-810e-4a67-9ae8-5f5398fd28fc",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        },
+        {
+          "source_id": "4df0bd60-bc06-4e13-bacd-444030e24a07",
+          "scope": "NCAAM",
+          "id_type": "league_profile"
+        }
+      ]
+    },
+    {
+      "id": "1c7e3ee9-c6cd-4e1d-9efe-81fb1b2d4b69",
+      "status": "ACT",
+      "full_name": "Jae'Sean Tate",
+      "first_name": "Jae'Sean",
+      "last_name": "Tate",
+      "abbr_name": "J.Tate",
+      "height": 76,
+      "weight": 230,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "8",
+      "experience": "5",
+      "college": "Ohio State",
+      "high_school": "Pickerington Central (OH)",
+      "birth_place": "Toledo, OH, USA",
+      "birthdate": "1995-10-28",
+      "updated": "2025-07-16T20:43:47+00:00",
+      "sr_id": "sr:player:1166316",
+      "rookie_year": 2020,
+      "salary": 2296274,
+      "reference": "1630256",
+      "draft": {
+        "year": 2018
+      },
+      "references": [
+        {
+          "source_id": "1630256",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "3a310f78-668f-4d48-a9e7-035cc73a1d02",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        },
+        {
+          "source_id": "d7c4a379-5f64-4495-86ce-da49e983c4fa",
+          "scope": "NCAAM",
+          "id_type": "league_profile"
+        },
+        {
+          "source_id": "cdc53b6d-88e2-4eb5-80ce-939ac960697e",
+          "scope": "NBDL",
+          "id_type": "league_profile"
+        }
+      ]
+    },
+    {
+      "id": "293be24b-3a94-40b2-a7a4-a1dd788302e9",
+      "status": "ACT",
+      "full_name": "Jabari Smith Jr.",
+      "first_name": "Jabari",
+      "last_name": "Smith",
+      "abbr_name": "J.Smith",
+      "height": 83,
+      "weight": 220,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "10",
+      "experience": "3",
+      "college": "Auburn",
+      "high_school": "Sandy Creek (GA)",
+      "birth_place": "Fayetteville, GA, USA",
+      "birthdate": "2003-05-13",
+      "updated": "2025-10-15T15:04:14+00:00",
+      "name_suffix": "Jr.",
+      "sr_id": "sr:player:2228422",
+      "rookie_year": 2022,
+      "salary": 12350392,
+      "reference": "1631095",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2022,
+        "round": "1",
+        "pick": "3"
+      },
+      "references": [
+        {
+          "source_id": "1631095",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "1dc249cf-1723-4404-b11b-8bbf867f34f1",
+          "scope": "NCAAM",
+          "id_type": "league_profile"
+        },
+        {
+          "source_id": "701e1b21-74f0-4040-9789-04f907a8af42",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        }
+      ]
+    },
+    {
+      "id": "426357dc-340b-4d89-8e3b-7d6b4022b460",
+      "status": "ACT",
+      "full_name": "Dorian Finney-Smith",
+      "first_name": "Dorian",
+      "last_name": "Finney-Smith",
+      "abbr_name": "D.Finney-Smith",
+      "height": 79,
+      "weight": 220,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "2",
+      "experience": "9",
+      "college": "Florida",
+      "high_school": "I.C. Norcom (VA)",
+      "birth_place": "Portsmouth, VA, USA",
+      "birthdate": "1993-05-04",
+      "updated": "2025-07-16T20:24:11+00:00",
+      "sr_id": "sr:player:1050927",
+      "rookie_year": 2016,
+      "salary": 12700000,
+      "reference": "1627827",
+      "draft": {
+        "year": 2016
+      },
+      "references": [
+        {
+          "source_id": "1627827",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "5b20dcea-511a-4f12-8e3d-1210f30f9cc3",
+          "scope": "NCAAM",
+          "id_type": "league_profile"
+        },
+        {
+          "source_id": "2bc56c78-6b1f-4d91-82ca-63a7a2f5a06a",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        }
+      ]
+    },
+    {
+      "id": "45f17314-918c-49bd-a482-adc171859025",
+      "status": "ACT",
+      "full_name": "Fred VanVleet",
+      "first_name": "Fred",
+      "last_name": "VanVleet",
+      "abbr_name": "F.VanVleet",
+      "height": 72,
+      "weight": 197,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "5",
+      "experience": "9",
+      "college": "Wichita State",
+      "high_school": "Auburn (IL)",
+      "birth_place": "Rockford, IL, USA",
+      "birthdate": "1994-02-25",
+      "updated": "2025-07-16T20:44:11+00:00",
+      "sr_id": "sr:player:1070982",
+      "rookie_year": 2016,
+      "salary": 25000000,
+      "reference": "1627832",
+      "draft": {
+        "year": 2016
+      },
+      "references": [
+        {
+          "source_id": "1627832",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "018c2e2f-7ab1-475f-98a7-22e8f257c1ed",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        },
+        {
+          "source_id": "0dc241ca-e691-4d52-94d5-639d9ff42bd2",
+          "scope": "NCAAM",
+          "id_type": "league_profile"
+        }
+      ],
+      "injuries": [
+        {
+          "id": "4647837d-a4f2-4b44-aed8-583c0075000f",
+          "comment": "The Rockets said on Monday (Sept. 22) that VanVleet suffered a torn ACL and may be out for the entire 2025-26 campaign, per Shams Charania of ESPN.",
+          "desc": "ACL",
+          "status": "Out For Season",
+          "start_date": "2025-09-22",
+          "update_date": "2025-09-22"
+        }
+      ]
+    },
+    {
+      "id": "47ff78e7-5607-48d6-9c1a-bddb075dbe70",
+      "status": "ACT",
+      "full_name": "Alperen Sengun",
+      "first_name": "Alperen",
+      "last_name": "Sengun",
+      "abbr_name": "A.Sengun",
+      "height": 83,
+      "weight": 243,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "28",
+      "experience": "4",
+      "birth_place": "Giresun,, TUR",
+      "birthdate": "2002-07-25",
+      "updated": "2025-07-16T20:42:52+00:00",
+      "sr_id": "sr:player:1886632",
+      "rookie_year": 2021,
+      "salary": 33944954,
+      "reference": "1630578",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2021,
+        "round": "1",
+        "pick": "16"
+      },
+      "references": [
+        {
+          "source_id": "1630578",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "53e4660d-98d0-496c-8d54-568324807cb4",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        }
+      ]
+    },
+    {
+      "id": "53f2fa48-e61b-49fb-843d-8a3e872257eb",
+      "status": "ACT",
+      "full_name": "Kevin Durant",
+      "first_name": "Kevin",
+      "last_name": "Durant",
+      "abbr_name": "K.Durant",
+      "height": 83,
+      "weight": 240,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "7",
+      "experience": "18",
+      "college": "Texas",
+      "high_school": "National Christian Academy (MD)",
+      "birth_place": "Washington, DC, USA",
+      "birthdate": "1988-09-29",
+      "updated": "2025-10-10T13:43:04+00:00",
+      "sr_id": "sr:player:607556",
+      "rookie_year": 2007,
+      "salary": 54708609,
+      "reference": "201142",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2007,
+        "round": "1",
+        "pick": "2"
+      },
+      "references": [
+        {
+          "source_id": "201142",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "584304ee-fb46-11e1-82cb-f4ce4684ea4c",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        }
+      ],
+      "injuries": [
+        {
+          "id": "ef8da723-ae2c-458a-aec8-99ad9933395c",
+          "comment": "The Rockets listed Durant as OUT for Monday's (Feb. 2) game against Indiana.",
+          "desc": "Ankle",
+          "status": "Out",
+          "start_date": "2026-02-01",
+          "update_date": "2026-02-01"
+        }
+      ]
+    },
+    {
+      "id": "6e468041-8174-4161-8c1d-8ac620e0cbb0",
+      "status": "TWO-WAY",
+      "full_name": "JD Davison",
+      "first_name": "JD",
+      "last_name": "Davison",
+      "abbr_name": "J.Davison",
+      "height": 73,
+      "weight": 195,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "4",
+      "experience": "3",
+      "college": "Alabama",
+      "high_school": "Calhoun (AL)",
+      "birth_place": "Letohatchee, AL, USA",
+      "birthdate": "2002-10-03",
+      "updated": "2025-09-26T22:55:52+00:00",
+      "sr_id": "sr:player:2218516",
+      "rookie_year": 2022,
+      "salary": 1141366,
+      "reference": "1631120",
+      "draft": {
+        "team_id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2022,
+        "round": "2",
+        "pick": "53"
+      },
+      "references": [
+        {
+          "source_id": "1631120",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "93dbe055-6a24-46c9-b885-94a2f7d229c4",
+          "scope": "NBDL",
+          "id_type": "league_profile"
+        },
+        {
+          "source_id": "daab92e8-fe75-40f5-a76a-aa39e239f867",
+          "scope": "NCAAM",
+          "id_type": "league_profile"
+        },
+        {
+          "source_id": "6854f651-e835-4e14-a6cf-f97bb482c3f5",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        }
+      ]
+    },
+    {
+      "id": "877eb456-2827-475f-b858-2bc00480e24f",
+      "status": "ACT",
+      "full_name": "Aaron Holiday",
+      "first_name": "Aaron",
+      "last_name": "Holiday",
+      "abbr_name": "A.Holiday",
+      "height": 72,
+      "weight": 185,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "0",
+      "experience": "7",
+      "college": "UCLA",
+      "high_school": "Campbell Hall (CA)",
+      "birth_place": "Ruston, LA, USA",
+      "birthdate": "1996-09-30",
+      "updated": "2025-07-16T20:42:32+00:00",
+      "sr_id": "sr:player:1159900",
+      "rookie_year": 2018,
+      "salary": 2296274,
+      "reference": "1628988",
+      "draft": {
+        "team_id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2018,
+        "round": "1",
+        "pick": "23"
+      },
+      "references": [
+        {
+          "source_id": "1628988",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "fce62d36-256c-4bb5-8952-edef8c9a925e",
+          "scope": "NCAAM",
+          "id_type": "league_profile"
+        },
+        {
+          "source_id": "6a0db8c1-a0b0-4292-ab92-0bd00dc6e160",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        }
+      ]
+    },
+    {
+      "id": "892e2e4d-b10c-47b1-8c40-25ac3c9f7166",
+      "status": "TWO-WAY",
+      "full_name": "Tristen Newton",
+      "first_name": "Tristen",
+      "last_name": "Newton",
+      "abbr_name": "T.Newton",
+      "height": 77,
+      "weight": 190,
+      "position": "G",
+      "primary_position": "SG",
+      "jersey_number": "00",
+      "experience": "1",
+      "college": "UConn",
+      "high_school": "Burges (TX)",
+      "birth_place": "El Paso, TX, USA",
+      "birthdate": "2001-04-26",
+      "updated": "2026-01-21T04:03:40+00:00",
+      "sr_id": "sr:player:1830268",
+      "rookie_year": 2024,
+      "reference": "1641803",
+      "draft": {
+        "team_id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2024,
+        "round": "2",
+        "pick": "49"
+      },
+      "references": [
+        {
+          "source_id": "1641803",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "5c65b3ca-ec6c-4d76-82cc-a2c3307c3c62",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        },
+        {
+          "source_id": "d8105232-a0e7-4f54-8ccd-de9fc2cb0670",
+          "scope": "NCAAM",
+          "id_type": "league_profile"
+        },
+        {
+          "source_id": "e93c89fb-6893-4027-b372-bf8f870d4bd5",
+          "scope": "NBDL",
+          "id_type": "league_profile"
+        }
+      ]
+    },
+    {
+      "id": "8c68e544-39ac-4016-8741-a498a979a95a",
+      "status": "TWO-WAY",
+      "full_name": "Isaiah Crawford",
+      "first_name": "Isaiah",
+      "last_name": "Crawford",
+      "abbr_name": "I.Crawford",
+      "height": 78,
+      "weight": 220,
+      "position": "F",
+      "primary_position": "SF",
+      "jersey_number": "27",
+      "experience": "1",
+      "college": "Louisiana Tech",
+      "high_school": "North Crowley (TX)",
+      "birth_place": "Fort Worth, TX, USA",
+      "birthdate": "2001-11-01",
+      "updated": "2025-09-26T22:56:09+00:00",
+      "sr_id": "sr:player:1888538",
+      "rookie_year": 2024,
+      "reference": "1642384",
+      "draft": {
+        "year": 2024
+      },
+      "references": [
+        {
+          "source_id": "1642384",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "e751f5e8-b6fd-4bf3-8a1e-f066cc21761d",
+          "scope": "NBDL",
+          "id_type": "league_profile"
+        },
+        {
+          "source_id": "46f6474f-c482-4249-9d05-83e610b9ca62",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        },
+        {
+          "source_id": "a109299d-352b-418c-a37b-d60058948c6e",
+          "scope": "NCAAM",
+          "id_type": "league_profile"
+        }
+      ]
+    },
+    {
+      "id": "a208e22a-6b63-45f9-b7c6-bf913a68f3df",
+      "status": "ACT",
+      "full_name": "Steven Adams",
+      "first_name": "Steven",
+      "last_name": "Adams",
+      "abbr_name": "S.Adams",
+      "height": 83,
+      "weight": 265,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "12",
+      "experience": "12",
+      "college": "Pittsburgh",
+      "high_school": "Notre Dame Prep (MA)",
+      "birth_place": "Rotorua,, NZL",
+      "birthdate": "1993-07-20",
+      "updated": "2025-10-10T13:43:16+00:00",
+      "sr_id": "sr:player:607888",
+      "rookie_year": 2013,
+      "salary": 14130434,
+      "reference": "203500",
+      "draft": {
+        "team_id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2013,
+        "round": "1",
+        "pick": "12"
+      },
+      "references": [
+        {
+          "source_id": "203500",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "f842f5a0-147a-11e2-a891-f4ce4684ea4c",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        }
+      ],
+      "injuries": [
+        {
+          "id": "c8d85501-8a2d-48b0-82ee-3cf3f459c3f4",
+          "comment": "The Rockets said on Wednesday (Jan. 28) that Adams underwent season-ending ankle surgery.",
+          "desc": "Ankle",
+          "status": "Out For Season",
+          "start_date": "2026-01-18",
+          "update_date": "2026-01-28"
+        }
+      ]
+    },
+    {
+      "id": "af1ba5e5-3f34-4ada-aa9f-f818baf7706f",
+      "status": "ACT",
+      "full_name": "Reed Sheppard",
+      "first_name": "Reed",
+      "last_name": "Sheppard",
+      "abbr_name": "R.Sheppard",
+      "height": 74,
+      "weight": 185,
+      "position": "G",
+      "primary_position": "PG",
+      "jersey_number": "15",
+      "experience": "1",
+      "college": "Kentucky",
+      "high_school": "North Laurel (KY)",
+      "birth_place": "London, KY, USA",
+      "birthdate": "2004-06-24",
+      "updated": "2025-07-16T20:43:13+00:00",
+      "sr_id": "sr:player:2690936",
+      "rookie_year": 2024,
+      "salary": 10603560,
+      "reference": "1642263",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2024,
+        "round": "1",
+        "pick": "3"
+      },
+      "references": [
+        {
+          "source_id": "1642263",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "adebcc57-f1a9-411e-8aba-810ba6c28415",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        },
+        {
+          "source_id": "9a163586-a6e5-4909-86a8-d115443a04d7",
+          "scope": "NBDL",
+          "id_type": "league_profile"
+        },
+        {
+          "source_id": "7c734f74-c801-4628-9582-eab3e33a8a89",
+          "scope": "NCAAM",
+          "id_type": "league_profile"
+        }
+      ]
+    },
+    {
+      "id": "b8b323c1-5691-43a4-9c48-707531803d6a",
+      "status": "ACT",
+      "full_name": "Amen Thompson",
+      "first_name": "Amen",
+      "last_name": "Thompson",
+      "abbr_name": "A.Thompson",
+      "height": 79,
+      "weight": 200,
+      "position": "G-F",
+      "primary_position": "SF",
+      "jersey_number": "1",
+      "experience": "2",
+      "high_school": "Pine Crest (FL)",
+      "birth_place": "Oakland, CA, USA",
+      "birthdate": "2003-01-30",
+      "updated": "2025-07-16T20:43:59+00:00",
+      "sr_id": "sr:player:2631629",
+      "rookie_year": 2023,
+      "salary": 9690600,
+      "reference": "1641708",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2023,
+        "round": "1",
+        "pick": "4"
+      },
+      "references": [
+        {
+          "source_id": "1641708",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "b16ffb6a-254a-4f25-8d8f-4851b9be69eb",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        },
+        {
+          "source_id": "7ea64620-8401-4a30-b7a9-9557b16e5898",
+          "scope": "NBDL",
+          "id_type": "league_profile"
+        }
+      ]
+    },
+    {
+      "id": "b9155864-4192-4ad7-8652-57a0844c87b3",
+      "status": "ACT",
+      "full_name": "Jeff Green",
+      "first_name": "Jeff",
+      "last_name": "Green",
+      "abbr_name": "J.Green",
+      "height": 80,
+      "weight": 235,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "32",
+      "experience": "18",
+      "college": "Georgetown",
+      "high_school": "Northwestern (MD)",
+      "birth_place": "Cheverly, MD, USA",
+      "birthdate": "1986-08-28",
+      "updated": "2025-10-15T15:04:26+00:00",
+      "sr_id": "sr:player:607318",
+      "rookie_year": 2007,
+      "salary": 2296274,
+      "reference": "201145",
+      "draft": {
+        "team_id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2007,
+        "round": "1",
+        "pick": "5"
+      },
+      "references": [
+        {
+          "source_id": "201145",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "58430497-fb46-11e1-82cb-f4ce4684ea4c",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        }
+      ]
+    },
+    {
+      "id": "c37dafbb-a269-41f6-813f-bdb4da388203",
+      "status": "ACT",
+      "full_name": "Clint Capela",
+      "first_name": "Clint",
+      "last_name": "Capela",
+      "abbr_name": "C.Capela",
+      "height": 82,
+      "weight": 256,
+      "position": "C",
+      "primary_position": "C",
+      "jersey_number": "30",
+      "experience": "11",
+      "birth_place": "Geneva,, CHE",
+      "birthdate": "1994-05-18",
+      "updated": "2025-08-20T13:35:34+00:00",
+      "sr_id": "sr:player:607898",
+      "rookie_year": 2014,
+      "salary": 6700000,
+      "reference": "203991",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2014,
+        "round": "1",
+        "pick": "25"
+      },
+      "references": [
+        {
+          "source_id": "203991",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "5fc7f6bc-0dc5-4129-afb1-a556168f9163",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        }
+      ]
+    },
+    {
+      "id": "e7373530-b566-4f36-b0de-0510b6d94e0e",
+      "status": "ACT",
+      "full_name": "Tari Eason",
+      "first_name": "Tari",
+      "last_name": "Eason",
+      "abbr_name": "T.Eason",
+      "height": 80,
+      "weight": 215,
+      "position": "F",
+      "primary_position": "PF",
+      "jersey_number": "17",
+      "experience": "3",
+      "college": "LSU",
+      "high_school": "Federal Way (WA)",
+      "birth_place": "Portsmouth, VA, USA",
+      "birthdate": "2001-05-10",
+      "updated": "2025-07-16T20:23:57+00:00",
+      "sr_id": "sr:player:2081607",
+      "rookie_year": 2022,
+      "salary": 5675766,
+      "reference": "1631106",
+      "draft": {
+        "team_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+        "year": 2022,
+        "round": "1",
+        "pick": "17"
+      },
+      "references": [
+        {
+          "source_id": "1631106",
+          "scope": "NBA",
+          "id_type": "external"
+        },
+        {
+          "source_id": "65ff5de1-735d-485d-b975-9717d543010b",
+          "scope": "basketball",
+          "id_type": "sport_profile"
+        },
+        {
+          "source_id": "9badd835-d8e7-4118-817b-ab0f27a8e84f",
+          "scope": "NCAAM",
+          "id_type": "league_profile"
+        }
+      ]
+    }
+  ]
+}

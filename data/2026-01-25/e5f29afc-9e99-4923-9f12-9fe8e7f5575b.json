@@ -1,0 +1,41 @@
+{
+  "id": "e5f29afc-9e99-4923-9f12-9fe8e7f5575b",
+  "status": "postponed",
+  "coverage": "full",
+  "scheduled": "2026-01-26T00:00:00+00:00",
+  "track_on_court": true,
+  "entry_mode": "WEBSOCKET",
+  "sr_id": "sr:match:62925367",
+  "time_zones": {
+    "venue": "US/Central",
+    "home": "US/Central",
+    "away": "US/Central"
+  },
+  "season": {
+    "id": "a7c6c8ee-c5ba-4a1a-abf5-723e1539f81b",
+    "year": 2025,
+    "type": "REG",
+    "name": "Regular Season"
+  },
+  "home": {
+    "name": "Bucks",
+    "alias": "MIL",
+    "market": "Milwaukee",
+    "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 0,
+    "sr_id": "sr:team:3410",
+    "remaining_timeouts": 6,
+    "reference": "1610612749"
+  },
+  "away": {
+    "name": "Mavericks",
+    "alias": "DAL",
+    "market": "Dallas",
+    "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+    "points": 0,
+    "sr_id": "sr:team:3411",
+    "remaining_timeouts": 6,
+    "reference": "1610612742"
+  },
+  "periods": []
+}

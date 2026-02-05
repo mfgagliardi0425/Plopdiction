@@ -1,0 +1,159 @@
+{
+  "date": "2026-02-02",
+  "tracked_at": "2026-02-03T16:59:29.534171",
+  "total_games": 4,
+  "games_with_odds": 0,
+  "edge_opportunities": 0,
+  "games": [
+    {
+      "game_id": "2a74ebd0-72b8-41c3-8079-53f538a7b0f4",
+      "date": "2026-02-02",
+      "scheduled": "2026-02-02T20:00:00+00:00",
+      "away_team": "New Orleans Pelicans",
+      "away_id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+      "home_team": "Charlotte Hornets",
+      "home_id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+      "prediction": {
+        "home_margin": 8.419500000000017,
+        "favorite": "Charlotte Hornets",
+        "spread": 8.419500000000017,
+        "parameters": {
+          "half_life": 10.0,
+          "home_advantage": 2.5,
+          "momentum_weight": 0.15,
+          "regression_factor": 0.1
+        }
+      },
+      "market": null,
+      "actual": {
+        "home_points": 102,
+        "away_points": 95,
+        "home_margin": 7,
+        "winner": "Charlotte Hornets"
+      },
+      "evaluation": {
+        "correct_winner": true,
+        "margin_error": 1.419500000000017,
+        "our_pick_covered": false,
+        "within_3_pts": true,
+        "within_5_pts": true,
+        "within_7_pts": true
+      }
+    },
+    {
+      "game_id": "7fe15de1-9c87-4423-b61c-3117de58c2cf",
+      "date": "2026-02-02",
+      "scheduled": "2026-02-03T03:00:00+00:00",
+      "away_team": "Philadelphia 76ers",
+      "away_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+      "home_team": "LA Clippers",
+      "home_id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+      "prediction": {
+        "home_margin": 3.9673043478260985,
+        "favorite": "LA Clippers",
+        "spread": 3.9673043478260985,
+        "parameters": {
+          "half_life": 10.0,
+          "home_advantage": 2.5,
+          "momentum_weight": 0.15,
+          "regression_factor": 0.1
+        }
+      },
+      "market": null,
+      "actual": {
+        "home_points": 113,
+        "away_points": 128,
+        "home_margin": -15,
+        "winner": "Philadelphia 76ers"
+      },
+      "evaluation": {
+        "correct_winner": false,
+        "margin_error": 18.967304347826097,
+        "our_pick_covered": false,
+        "within_3_pts": false,
+        "within_5_pts": false,
+        "within_7_pts": false
+      }
+    },
+    {
+      "game_id": "c498a98f-dc7b-4f01-a8f1-7fa88d2c410d",
+      "date": "2026-02-02",
+      "scheduled": "2026-02-03T00:30:00+00:00",
+      "away_team": "Minnesota Timberwolves",
+      "away_id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+      "home_team": "Memphis Grizzlies",
+      "home_id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+      "prediction": {
+        "home_margin": -2.1094615384615443,
+        "favorite": "Minnesota Timberwolves",
+        "spread": 2.1094615384615443,
+        "parameters": {
+          "half_life": 10.0,
+          "home_advantage": 2.5,
+          "momentum_weight": 0.15,
+          "regression_factor": 0.1
+        }
+      },
+      "market": null,
+      "actual": {
+        "home_points": 137,
+        "away_points": 128,
+        "home_margin": 9,
+        "winner": "Memphis Grizzlies"
+      },
+      "evaluation": {
+        "correct_winner": false,
+        "margin_error": 11.109461538461545,
+        "our_pick_covered": false,
+        "within_3_pts": false,
+        "within_5_pts": false,
+        "within_7_pts": false
+      }
+    },
+    {
+      "game_id": "f2ba51be-37de-489e-8b72-bc64cc26dad0",
+      "date": "2026-02-02",
+      "scheduled": "2026-02-03T00:00:00+00:00",
+      "away_team": "Houston Rockets",
+      "away_id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+      "home_team": "Indiana Pacers",
+      "home_id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+      "prediction": {
+        "home_margin": -2.1293846153846063,
+        "favorite": "Houston Rockets",
+        "spread": 2.1293846153846063,
+        "parameters": {
+          "half_life": 10.0,
+          "home_advantage": 2.5,
+          "momentum_weight": 0.15,
+          "regression_factor": 0.1
+        }
+      },
+      "market": null,
+      "actual": {
+        "home_points": 114,
+        "away_points": 118,
+        "home_margin": -4,
+        "winner": "Houston Rockets"
+      },
+      "evaluation": {
+        "correct_winner": true,
+        "margin_error": 1.8706153846153937,
+        "our_pick_covered": true,
+        "within_3_pts": true,
+        "within_5_pts": true,
+        "within_7_pts": true
+      }
+    }
+  ],
+  "summary": {
+    "total_games": 4,
+    "correct_winners": 2,
+    "our_picks_covered": 1,
+    "within_3_pts": 2,
+    "within_5_pts": 2,
+    "within_7_pts": 2,
+    "avg_margin_error": 8.341720317725763
+  },
+  "updated_at": "2026-02-03T17:01:19.836341"
+}
