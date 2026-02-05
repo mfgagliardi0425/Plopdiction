@@ -225,7 +225,7 @@ To manually run the fixture update on Actions UI, go to the repository `Actions`
 
 **Nightly Retrain**
 
-A scheduled retrain job runs daily (04:00 UTC) and performs the following:
+A scheduled retrain job runs daily (18:30 UTC / 1:30 PM EST) and performs the following:
 
 - Runs `src/ml/train_model.py` using `ml_data/games_optimized.csv` and writes the selected model to `ml_data/best_model_with_spreads.joblib`.
 - Uploads the trained model as a workflow artifact (downloadable from the Actions run).
