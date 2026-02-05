@@ -41,15 +41,22 @@ jobs:
 
       - name: Install dependencies
         run: |
+          set -euo pipefail
           python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
+          python -m pip install -v -r requirements.txt
+          echo "--- pip list ---"
+          python -m pip list
+          echo "--- scikit-learn info ---"
+          python -c "import importlib, sys; m = importlib.import_module('sklearn'); print('sklearn', m.__version__, sys.version)" || true
 
       - name: Run tests
         env:
           RUN_LIVE_TESTS: ${{ secrets.RUN_LIVE_TESTS }}
           SPORTRADAR_API_KEY: ${{ secrets.SPORTRADAR_API_KEY }}
         run: |
-          python -m pytest -q --junitxml=results.xml
+          set -euo pipefail
+          echo "--- pytest running ---"
+          python -m pytest -q --junitxml=results.xml || (echo "pytest exit $?"; cat results.xml || true; exit 1)
 
       - name: Upload pytest results
         uses: actions/upload-artifact@v4
