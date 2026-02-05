@@ -16,6 +16,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Debug environment
+        run: |
+          echo "--- python ---"
+          python --version || true
+          echo "--- pip ---"
+          pip --version || true
+          echo "--- ls workspace ---"
+          ls -la || true
+          echo "--- requirements.txt ---"
+          cat requirements.txt || true
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
