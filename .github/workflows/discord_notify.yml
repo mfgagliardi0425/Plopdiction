@@ -1,0 +1,30 @@
+name: Discord Notifications
+
+on:
+  workflow_run:
+    types: [completed]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Discord notification
+        if: ${{ secrets.DISCORD_WEBHOOK_URL_CI_CD != '' }}
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_CI_CD }}
+        run: |
+          set -euo pipefail
+          run_conclusion="${{ github.event.workflow_run.conclusion }}"
+          run_name="${{ github.event.workflow_run.name }}"
+          run_url="${{ github.event.workflow_run.html_url }}"
+          repo="${{ github.repository }}"
+          actor="${{ github.event.workflow_run.triggering_actor }}"
+          branch="${{ github.event.workflow_run.head_branch }}"
+          commit_sha="${{ github.event.workflow_run.head_sha }}"
+
+          # Short content plus embed
+          content="${repo} • Workflow '${run_name}' completed with status: ${run_conclusion}"
+
+          payload=$(jq -n --arg c "$content" --arg title "$run_name" --arg status "$run_conclusion" --arg repo "$repo" --arg actor "$actor" --arg url "$run_url" '{content:$c, embeds:[{title:$title, fields:[{name:"Status", value:$status, inline:true},{name:"Repo", value:$repo, inline:true},{name:"Triggered By", value:$actor, inline:true}], url:$url}] }')
+
+          curl -sS -H "Content-Type: application/json" -d "$payload" "$DISCORD_WEBHOOK_URL"
