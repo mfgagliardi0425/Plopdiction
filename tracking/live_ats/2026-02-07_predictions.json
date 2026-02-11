@@ -1,0 +1,105 @@
+{
+  "date": "2026-02-07",
+  "games": [
+    {
+      "game": "Charlotte Hornets @ Atlanta Hawks",
+      "away_team": "Charlotte Hornets",
+      "home_team": "Atlanta Hawks",
+      "market_spread": -1.5,
+      "pred_away_margin": 4.98908718169589,
+      "pred_away_adj": 4.98908718169589,
+      "pred_away_spread": -4.98908718169589,
+      "pred_away_spread_adj": -4.98908718169589
+    },
+    {
+      "game": "Golden State Warriors @ Los Angeles Lakers",
+      "away_team": "Golden State Warriors",
+      "home_team": "Los Angeles Lakers",
+      "market_spread": 1.5,
+      "pred_away_margin": 6.897884025291166,
+      "pred_away_adj": 6.897884025291166,
+      "pred_away_spread": -6.897884025291166,
+      "pred_away_spread_adj": -6.897884025291166
+    },
+    {
+      "game": "Philadelphia 76ers @ Phoenix Suns",
+      "away_team": "Philadelphia 76ers",
+      "home_team": "Phoenix Suns",
+      "market_spread": 2.5,
+      "pred_away_margin": 0.9183368272546353,
+      "pred_away_adj": 0.9183368272546353,
+      "pred_away_spread": -0.9183368272546353,
+      "pred_away_spread_adj": -0.9183368272546353
+    },
+    {
+      "game": "Cleveland Cavaliers @ Sacramento Kings",
+      "away_team": "Cleveland Cavaliers",
+      "home_team": "Sacramento Kings",
+      "market_spread": -12.5,
+      "pred_away_margin": 10.33707961438057,
+      "pred_away_adj": 10.33707961438057,
+      "pred_away_spread": -10.33707961438057,
+      "pred_away_spread_adj": -10.33707961438057
+    },
+    {
+      "game": "Houston Rockets @ Oklahoma City Thunder",
+      "away_team": "Houston Rockets",
+      "home_team": "Oklahoma City Thunder",
+      "market_spread": 3.5,
+      "pred_away_margin": 4.293043197272054,
+      "pred_away_adj": 4.293043197272054,
+      "pred_away_spread": -4.293043197272054,
+      "pred_away_spread_adj": -4.293043197272054
+    },
+    {
+      "game": "Washington Wizards @ Brooklyn Nets",
+      "away_team": "Washington Wizards",
+      "home_team": "Brooklyn Nets",
+      "market_spread": 8.5,
+      "pred_away_margin": 3.445658475071096,
+      "pred_away_adj": 3.445658475071096,
+      "pred_away_spread": -3.445658475071096,
+      "pred_away_spread_adj": -3.445658475071096
+    },
+    {
+      "game": "Dallas Mavericks @ San Antonio Spurs",
+      "away_team": "Dallas Mavericks",
+      "home_team": "San Antonio Spurs",
+      "market_spread": 11.5,
+      "pred_away_margin": 5.173482822121009,
+      "pred_away_adj": 5.173482822121009,
+      "pred_away_spread": -5.173482822121009,
+      "pred_away_spread_adj": -5.173482822121009
+    },
+    {
+      "game": "Memphis Grizzlies @ Portland Trail Blazers",
+      "away_team": "Memphis Grizzlies",
+      "home_team": "Portland Trail Blazers",
+      "market_spread": 9.5,
+      "pred_away_margin": 1.0062999080822281,
+      "pred_away_adj": 1.0062999080822281,
+      "pred_away_spread": -1.0062999080822281,
+      "pred_away_spread_adj": -1.0062999080822281
+    },
+    {
+      "game": "Utah Jazz @ Orlando Magic",
+      "away_team": "Utah Jazz",
+      "home_team": "Orlando Magic",
+      "market_spread": 7.5,
+      "pred_away_margin": 4.545084932254788,
+      "pred_away_adj": 4.545084932254788,
+      "pred_away_spread": -4.545084932254788,
+      "pred_away_spread_adj": -4.545084932254788
+    },
+    {
+      "game": "Denver Nuggets @ Chicago Bulls",
+      "away_team": "Denver Nuggets",
+      "home_team": "Chicago Bulls",
+      "market_spread": -9.5,
+      "pred_away_margin": 9.403034780858107,
+      "pred_away_adj": 9.403034780858107,
+      "pred_away_spread": -9.403034780858107,
+      "pred_away_spread_adj": -9.403034780858107
+    }
+  ]
+}

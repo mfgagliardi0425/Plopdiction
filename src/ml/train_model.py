@@ -164,6 +164,7 @@ def main() -> None:
         "home_games_played",
         "away_games_played",
         "market_spread",
+        "line_move",
     ]
 
     cutoff_date = date.fromisoformat(args.cutoff)

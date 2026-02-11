@@ -14,10 +14,16 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from data_fetching.espn_api import get_espn_games_for_date
-from data_fetching.odds_api import get_nba_odds, parse_odds_for_game
+from data_fetching.odds_api import (
+    cache_odds_snapshot,
+    get_nba_odds,
+    get_opening_spreads_for_date,
+    parse_odds_for_game,
+)
 from ml.build_dataset_optimized import build_features_for_game, build_team_narrative_history
 from models.injury_adjustment import apply_injury_adjustment, build_injury_adjustments
 from models.matchup_model import build_team_history, DATA_DIR
+from evaluation.spread_utils import format_team_spread, normalize_team_name
 
 
 FEATURE_COLS = [
@@ -62,58 +68,16 @@ FEATURE_COLS = [
     "home_games_played",
     "away_games_played",
     "market_spread",
+    "line_move",
 ]
 
 
-def normalize(name: str) -> str:
-    return " ".join("".join(ch for ch in (name or "") if ch.isalnum() or ch.isspace()).lower().split())
-
-
-TEAM_ABBR = {
-    "Atlanta Hawks": "ATL",
-    "Boston Celtics": "BOS",
-    "Brooklyn Nets": "BKN",
-    "Charlotte Hornets": "CHA",
-    "Chicago Bulls": "CHI",
-    "Cleveland Cavaliers": "CLE",
-    "Dallas Mavericks": "DAL",
-    "Denver Nuggets": "DEN",
-    "Detroit Pistons": "DET",
-    "Golden State Warriors": "GSW",
-    "Houston Rockets": "HOU",
-    "Indiana Pacers": "IND",
-    "LA Clippers": "LAC",
-    "Los Angeles Clippers": "LAC",
-    "Los Angeles Lakers": "LAL",
-    "Memphis Grizzlies": "MEM",
-    "Miami Heat": "MIA",
-    "Milwaukee Bucks": "MIL",
-    "Minnesota Timberwolves": "MIN",
-    "New Orleans Pelicans": "NOP",
-    "New York Knicks": "NYK",
-    "Oklahoma City Thunder": "OKC",
-    "Orlando Magic": "ORL",
-    "Philadelphia 76ers": "PHI",
-    "Phoenix Suns": "PHX",
-    "Portland Trail Blazers": "POR",
-    "Sacramento Kings": "SAC",
-    "San Antonio Spurs": "SAS",
-    "Toronto Raptors": "TOR",
-    "Utah Jazz": "UTA",
-    "Washington Wizards": "WAS",
-}
-
-
-def abbr(team_name: str) -> str:
-    return TEAM_ABBR.get(team_name, team_name)
-
-
 def build_name_index(names: Dict[str, str]) -> Dict[str, str]:
-    return {normalize(display): team_id for team_id, display in names.items()}
+    return {normalize_team_name(display): team_id for team_id, display in names.items()}
 
 
 def find_team_id(team_name: str, name_index: Dict[str, str]) -> Optional[str]:
-    norm = normalize(team_name)
+    norm = normalize_team_name(team_name)
     if norm in name_index:
         return name_index[norm]
     # fallback partial match
@@ -146,6 +110,9 @@ def main() -> None:
     thresholds = [float(t.strip()) for t in args.thresholds.split(",") if t.strip()]
 
     model = joblib.load(args.model)
+    feature_cols = FEATURE_COLS
+    if hasattr(model, "feature_names_in_"):
+        feature_cols = list(model.feature_names_in_)
 
     history, names = build_team_history(DATA_DIR)
     narrative_history = build_team_narrative_history(DATA_DIR)
@@ -157,6 +124,8 @@ def main() -> None:
         return
 
     odds_data = get_nba_odds(markets="spreads")
+    cache_odds_snapshot(odds_data, target_date.isoformat())
+    opening_spreads = get_opening_spreads_for_date(target_date.isoformat())
     odds_by_matchup = {}
     for game_odds in odds_data:
         parsed = parse_odds_for_game(game_odds)
@@ -187,22 +156,31 @@ def main() -> None:
         if market_spread is None:
             continue
 
+        opening_spread = None
+        open_key = f"{normalize_team_name(away_team)}@{normalize_team_name(home_team)}"
+        if opening_spreads:
+            opening_spread = opening_spreads.get(open_key)
+
         fake_game = build_fake_game(target_date, home_id, names[home_id], away_id, names[away_id])
         features = build_features_for_game(
             fake_game,
             history,
             half_life=10.0,
             market_spread=float(market_spread),
+            opening_spread=opening_spread,
             narrative_history=narrative_history,
         )
         if not features:
             continue
 
-        X = pd.DataFrame([features])[FEATURE_COLS]
+        X = pd.DataFrame([features])[feature_cols]
         pred_home_margin = float(model.predict(X)[0])
         pred_away_margin = -pred_home_margin
         pred_away_adj = apply_injury_adjustment(away_team, home_team, pred_away_margin, injury_adjustments)
         edge = pred_away_adj + float(market_spread)
+
+        pred_away_spread = -pred_away_margin
+        pred_away_spread_adj = -pred_away_adj
 
         picks = []
         for t in thresholds:
@@ -214,14 +192,13 @@ def main() -> None:
                 picks.append("PASS")
 
         game_label = f"{away_team} @ {home_team}"
-        pred_line = -pred_away_margin
-        adj_line = -pred_away_adj
-        away_abbr = abbr(away_team)
+        pred_line = pred_away_spread
+        adj_line = pred_away_spread_adj
         print(
             game_label.ljust(40),
-            f"{away_abbr} {market_spread:+.1f}".rjust(10),
-            f"{away_abbr} {pred_line:+.1f}".rjust(12),
-            f"{away_abbr} {adj_line:+.1f}".rjust(12),
+            format_team_spread(away_team, market_spread).rjust(10),
+            format_team_spread(away_team, pred_line).rjust(12),
+            format_team_spread(away_team, adj_line).rjust(12),
             f"{edge:+.1f}".rjust(8),
             "/".join(picks),
         )

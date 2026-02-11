@@ -24,6 +24,7 @@ from models.matchup_model import (
     DATA_DIR,
 )
 from models.improved_matchup_model import compute_enhanced_stats, predict_game_enhanced
+from evaluation.spread_utils import format_team_spread
 from evaluation.tracking import TRACKING_DIR
 
 
@@ -156,8 +157,9 @@ def run_daily_tracking(target_date: date = None, save_espn_spreads: bool = True)
                 'prediction': prediction,
             })
             
-            spread_str = f"{market_spread:+.1f}" if market_spread else "N/A"
-            print(f"Prediction: {pred_margin:+6.1f} | Market: {spread_str}")
+            pred_str = format_team_spread(away_team, float(pred_margin))
+            market_str = format_team_spread(away_team, float(market_spread)) if market_spread is not None else "N/A"
+            print(f"Prediction: {pred_str} | Market: {market_str}")
         
         except Exception as e:
             print(f"Error: {e}")

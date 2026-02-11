@@ -65,7 +65,7 @@ def main() -> None:
         return
 
     rows, _ = generate_rows(target_date, args.model)
-    text, _ = format_summary(target_date, rows)
+    text, _ = format_summary(target_date, rows, model_path=args.model)
     print("\n" + text)
 
 

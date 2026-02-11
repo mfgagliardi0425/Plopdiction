@@ -1,0 +1,103 @@
+{
+  "date": "2026-02-04",
+  "summary": {
+    "total_games": 4,
+    "graded_games": 4,
+    "wins": 3,
+    "losses": 1,
+    "pushes": 0,
+    "ats_accuracy": 0.75,
+    "edge_opportunities": 3,
+    "edge_bets": 3,
+    "edge_wins": 2,
+    "edge_hit_rate": 0.6666666666666666,
+    "model_mae": 12.15585417192828,
+    "market_mae": 13.5
+  },
+  "games": [
+    {
+      "game": "Memphis Grizzlies @ Sacramento Kings",
+      "line_away": 2.5,
+      "pred_line_away": -4.676942306900474,
+      "actual_line_away": -4,
+      "metrics": {
+        "away_margin": 4,
+        "pred_away_margin": 4.676942306900474,
+        "line": 2.5,
+        "actual_diff": 6.5,
+        "pred_diff": 7.176942306900474,
+        "result": "W",
+        "edge": 7.176942306900474,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 0.6769423069004743,
+        "market_error": 1.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Cleveland Cavaliers @ LA Clippers",
+      "line_away": -2.5,
+      "pred_line_away": -4.190065032630338,
+      "actual_line_away": -33,
+      "metrics": {
+        "away_margin": 33,
+        "pred_away_margin": 4.190065032630338,
+        "line": -2.5,
+        "actual_diff": 30.5,
+        "pred_diff": 1.6900650326303381,
+        "result": "W",
+        "edge": 1.6900650326303381,
+        "edge_opportunity": false,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 28.809934967369664,
+        "market_error": 35.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Boston Celtics @ Houston Rockets",
+      "line_away": 8.5,
+      "pred_line_away": -6.673599153448033,
+      "actual_line_away": -21,
+      "metrics": {
+        "away_margin": 21,
+        "pred_away_margin": 6.673599153448033,
+        "line": 8.5,
+        "actual_diff": 29.5,
+        "pred_diff": 15.173599153448034,
+        "result": "W",
+        "edge": 15.173599153448034,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 14.326400846551966,
+        "market_error": 12.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Minnesota Timberwolves @ Toronto Raptors",
+      "line_away": -2.5,
+      "pred_line_away": -6.810138566891014,
+      "actual_line_away": -2,
+      "metrics": {
+        "away_margin": 2,
+        "pred_away_margin": 6.810138566891014,
+        "line": -2.5,
+        "actual_diff": -0.5,
+        "pred_diff": 4.310138566891014,
+        "result": "L",
+        "edge": 4.310138566891014,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": false,
+        "model_error": 4.810138566891014,
+        "market_error": 4.5
+      },
+      "result": "L"
+    }
+  ]
+}

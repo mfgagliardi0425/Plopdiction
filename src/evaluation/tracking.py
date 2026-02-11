@@ -19,9 +19,10 @@ from models.matchup_model import (
     DATA_DIR,
 )
 from models.improved_matchup_model import compute_enhanced_stats, predict_game_enhanced
+from evaluation.spread_utils import format_team_spread
 
-TRACKING_DIR = Path("tracking")
-TRACKING_DIR.mkdir(exist_ok=True)
+TRACKING_DIR = Path("tracking/daily")
+TRACKING_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def save_predictions_and_odds(
@@ -168,10 +169,16 @@ def save_predictions_and_odds(
         
         # Print summary
         print(f"{away_name} @ {home_name}")
-        print(f"  Our pick: {our_favorite} -{our_spread:.1f}")
+        print(f"  Our pick: {format_team_spread(away_name, pred_margin)}")
         if market_data and tracked_game["market"]:
             market_info = tracked_game["market"]
-            print(f"  Market: {market_info['favorite']} -{market_info['spread']:.1f} ({market_info['sportsbook']})")
+            market_away_spread = market_info.get("away_spread")
+            if market_away_spread is None and market_info.get("home_spread") is not None:
+                market_away_spread = -float(market_info["home_spread"])
+            print(
+                f"  Market: {format_team_spread(away_name, market_away_spread)} "
+                f"({market_info['sportsbook']})"
+            )
             if tracked_game.get("edge_opportunity"):
                 print(f"  🎯 EDGE: {tracked_game['spread_difference']:.1f} pt difference")
         else:

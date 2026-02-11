@@ -1,0 +1,124 @@
+{
+  "date": "2026-02-06",
+  "summary": {
+    "total_games": 5,
+    "graded_games": 5,
+    "wins": 3,
+    "losses": 2,
+    "pushes": 0,
+    "ats_accuracy": 0.6,
+    "edge_opportunities": 3,
+    "edge_bets": 3,
+    "edge_wins": 2,
+    "edge_hit_rate": 0.6666666666666666,
+    "model_mae": 13.127708498992593,
+    "market_mae": 17.9
+  },
+  "games": [
+    {
+      "game": "Miami Heat @ Boston Celtics",
+      "line_away": 5.5,
+      "pred_line_away": 1.2034195509262533,
+      "actual_line_away": 2,
+      "metrics": {
+        "away_margin": -2,
+        "pred_away_margin": -1.2034195509262533,
+        "line": 5.5,
+        "actual_diff": 3.5,
+        "pred_diff": 4.296580449073747,
+        "result": "W",
+        "edge": 4.296580449073747,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 0.7965804490737467,
+        "market_error": 7.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "New York Knicks @ Detroit Pistons",
+      "line_away": 5.5,
+      "pred_line_away": -3.9407557235220696,
+      "actual_line_away": 38,
+      "metrics": {
+        "away_margin": -38,
+        "pred_away_margin": 3.9407557235220696,
+        "line": 5.5,
+        "actual_diff": -32.5,
+        "pred_diff": 9.44075572352207,
+        "result": "L",
+        "edge": 9.44075572352207,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": false,
+        "model_error": 41.94075572352207,
+        "market_error": 43.5
+      },
+      "result": "L"
+    },
+    {
+      "game": "Indiana Pacers @ Milwaukee Bucks",
+      "line_away": -1.5,
+      "pred_line_away": -4.222993790484679,
+      "actual_line_away": 6,
+      "metrics": {
+        "away_margin": -6,
+        "pred_away_margin": 4.222993790484679,
+        "line": -1.5,
+        "actual_diff": -7.5,
+        "pred_diff": 2.7229937904846793,
+        "result": "L",
+        "edge": 2.7229937904846793,
+        "edge_opportunity": false,
+        "edge_pick": "AWAY",
+        "edge_hit": false,
+        "model_error": 10.22299379048468,
+        "market_error": 4.5
+      },
+      "result": "L"
+    },
+    {
+      "game": "New Orleans Pelicans @ Minnesota Timberwolves",
+      "line_away": 8.5,
+      "pred_line_away": -8.432039405691306,
+      "actual_line_away": -4,
+      "metrics": {
+        "away_margin": 4,
+        "pred_away_margin": 8.432039405691306,
+        "line": 8.5,
+        "actual_diff": 12.5,
+        "pred_diff": 16.932039405691306,
+        "result": "W",
+        "edge": 16.932039405691306,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 4.432039405691306,
+        "market_error": 4.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Memphis Grizzlies @ Portland Trail Blazers",
+      "line_away": 9.5,
+      "pred_line_away": 11.75382687380884,
+      "actual_line_away": 20,
+      "metrics": {
+        "away_margin": -20,
+        "pred_away_margin": -11.75382687380884,
+        "line": 9.5,
+        "actual_diff": -10.5,
+        "pred_diff": -2.2538268738088405,
+        "result": "W",
+        "edge": -2.2538268738088405,
+        "edge_opportunity": false,
+        "edge_pick": "HOME",
+        "edge_hit": true,
+        "model_error": 8.24617312619116,
+        "market_error": 29.5
+      },
+      "result": "W"
+    }
+  ]
+}

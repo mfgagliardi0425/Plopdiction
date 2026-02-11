@@ -1,0 +1,229 @@
+{
+  "date": "2026-02-07",
+  "summary": {
+    "total_games": 10,
+    "graded_games": 10,
+    "wins": 6,
+    "losses": 4,
+    "pushes": 0,
+    "ats_accuracy": 0.6,
+    "edge_opportunities": 8,
+    "edge_bets": 8,
+    "edge_wins": 5,
+    "edge_hit_rate": 0.625,
+    "model_mae": 8.380198779012016,
+    "market_mae": 14.0
+  },
+  "games": [
+    {
+      "game": "Charlotte Hornets @ Atlanta Hawks",
+      "line_away": -1.5,
+      "pred_line_away": -4.98908718169589,
+      "actual_line_away": -7,
+      "metrics": {
+        "away_margin": 7,
+        "pred_away_margin": 4.98908718169589,
+        "line": -1.5,
+        "actual_diff": 5.5,
+        "pred_diff": 3.48908718169589,
+        "result": "W",
+        "edge": 3.48908718169589,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 2.01091281830411,
+        "market_error": 8.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Golden State Warriors @ Los Angeles Lakers",
+      "line_away": 1.5,
+      "pred_line_away": -6.897884025291166,
+      "actual_line_away": 6,
+      "metrics": {
+        "away_margin": -6,
+        "pred_away_margin": 6.897884025291166,
+        "line": 1.5,
+        "actual_diff": -4.5,
+        "pred_diff": 8.397884025291166,
+        "result": "L",
+        "edge": 8.397884025291166,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": false,
+        "model_error": 12.897884025291166,
+        "market_error": 7.5
+      },
+      "result": "L"
+    },
+    {
+      "game": "Philadelphia 76ers @ Phoenix Suns",
+      "line_away": 2.5,
+      "pred_line_away": -0.9183368272546353,
+      "actual_line_away": -6,
+      "metrics": {
+        "away_margin": 6,
+        "pred_away_margin": 0.9183368272546353,
+        "line": 2.5,
+        "actual_diff": 8.5,
+        "pred_diff": 3.4183368272546355,
+        "result": "W",
+        "edge": 3.4183368272546355,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 5.0816631727453645,
+        "market_error": 3.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Cleveland Cavaliers @ Sacramento Kings",
+      "line_away": -12.5,
+      "pred_line_away": -10.33707961438057,
+      "actual_line_away": -6,
+      "metrics": {
+        "away_margin": 6,
+        "pred_away_margin": 10.33707961438057,
+        "line": -12.5,
+        "actual_diff": -6.5,
+        "pred_diff": -2.1629203856194295,
+        "result": "W",
+        "edge": -2.1629203856194295,
+        "edge_opportunity": false,
+        "edge_pick": "HOME",
+        "edge_hit": true,
+        "model_error": 4.3370796143805705,
+        "market_error": 18.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Houston Rockets @ Oklahoma City Thunder",
+      "line_away": 3.5,
+      "pred_line_away": -4.293043197272054,
+      "actual_line_away": -6,
+      "metrics": {
+        "away_margin": 6,
+        "pred_away_margin": 4.293043197272054,
+        "line": 3.5,
+        "actual_diff": 9.5,
+        "pred_diff": 7.793043197272054,
+        "result": "W",
+        "edge": 7.793043197272054,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 1.7069568027279463,
+        "market_error": 2.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Washington Wizards @ Brooklyn Nets",
+      "line_away": 8.5,
+      "pred_line_away": -3.445658475071096,
+      "actual_line_away": 14,
+      "metrics": {
+        "away_margin": -14,
+        "pred_away_margin": 3.445658475071096,
+        "line": 8.5,
+        "actual_diff": -5.5,
+        "pred_diff": 11.945658475071095,
+        "result": "L",
+        "edge": 11.945658475071095,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": false,
+        "model_error": 17.445658475071095,
+        "market_error": 22.5
+      },
+      "result": "L"
+    },
+    {
+      "game": "Dallas Mavericks @ San Antonio Spurs",
+      "line_away": 11.5,
+      "pred_line_away": -5.173482822121009,
+      "actual_line_away": 13,
+      "metrics": {
+        "away_margin": -13,
+        "pred_away_margin": 5.173482822121009,
+        "line": 11.5,
+        "actual_diff": -1.5,
+        "pred_diff": 16.67348282212101,
+        "result": "L",
+        "edge": 16.67348282212101,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": false,
+        "model_error": 18.17348282212101,
+        "market_error": 24.5
+      },
+      "result": "L"
+    },
+    {
+      "game": "Memphis Grizzlies @ Portland Trail Blazers",
+      "line_away": 9.5,
+      "pred_line_away": -1.0062999080822281,
+      "actual_line_away": 7,
+      "metrics": {
+        "away_margin": -7,
+        "pred_away_margin": 1.0062999080822281,
+        "line": 9.5,
+        "actual_diff": 2.5,
+        "pred_diff": 10.506299908082228,
+        "result": "W",
+        "edge": 10.506299908082228,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 8.006299908082228,
+        "market_error": 16.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Utah Jazz @ Orlando Magic",
+      "line_away": 7.5,
+      "pred_line_away": -4.545084932254788,
+      "actual_line_away": 3,
+      "metrics": {
+        "away_margin": -3,
+        "pred_away_margin": 4.545084932254788,
+        "line": 7.5,
+        "actual_diff": 4.5,
+        "pred_diff": 12.045084932254788,
+        "result": "W",
+        "edge": 12.045084932254788,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 7.545084932254788,
+        "market_error": 10.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Denver Nuggets @ Chicago Bulls",
+      "line_away": -9.5,
+      "pred_line_away": -9.403034780858107,
+      "actual_line_away": -16,
+      "metrics": {
+        "away_margin": 16,
+        "pred_away_margin": 9.403034780858107,
+        "line": -9.5,
+        "actual_diff": 6.5,
+        "pred_diff": -0.09696521914189304,
+        "result": "L",
+        "edge": -0.09696521914189304,
+        "edge_opportunity": false,
+        "edge_pick": "HOME",
+        "edge_hit": false,
+        "model_error": 6.596965219141893,
+        "market_error": 25.5
+      },
+      "result": "L"
+    }
+  ]
+}

@@ -13,6 +13,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from data_fetching.odds_api import get_odds_for_date, match_odds_to_sportradar_game
 from models.matchup_model import build_team_history, parse_team_display, extract_points, DATA_DIR
 from models.improved_matchup_model import compute_enhanced_stats, predict_game_enhanced
+from evaluation.spread_utils import format_team_spread
 
 
 def evaluate_against_market(
@@ -223,8 +224,15 @@ def print_market_evaluation(target_date: date, **kwargs):
             market_fav = "HOME" if r['market_spread'] < 0 else "AWAY"
             model_fav = "HOME" if r['pred_margin'] > 0 else "AWAY"
             
-            print(f"  Market spread: {r['market_spread']:+.1f} ({r['market_favorite']} favored)")
-            print(f"  Our prediction: {r['pred_margin']:+.1f} ({r['model_favorite']} favored)")
+            market_away_spread = -float(r["market_spread"])
+            print(
+                f"  Market spread: {format_team_spread(r['away_team'], market_away_spread)} "
+                f"({r['market_favorite']} favored)"
+            )
+            print(
+                f"  Our prediction: {format_team_spread(r['away_team'], float(r['pred_margin']))} "
+                f"({r['model_favorite']} favored)"
+            )
             print(f"  Spread difference: {r['spread_diff']:.1f} pts")
             
             market_mark = "✓" if r['market_covered'] else "✗"
@@ -237,7 +245,7 @@ def print_market_evaluation(target_date: date, **kwargs):
                 edge_mark = "✓ WIN" if r['edge_hit'] else "✗ LOSS"
                 print(f"  🎯 EDGE BET: {r['edge_bet']} - {edge_mark}")
         else:
-            print(f"  Our prediction: {r['pred_margin']:+.1f}")
+            print(f"  Our prediction: {format_team_spread(r['away_team'], float(r['pred_margin']))}")
             print(f"  Error: {r['model_error']:.1f} pts")
             print(f"  (No market odds available)")
     

@@ -36,6 +36,7 @@ def get_espn_games_for_date(game_date: date) -> List[Dict]:
                 'home_id': None,
                 'away_id': None,
                 'status': event.get('status', {}).get('type'),
+                'start_time_utc': event.get('date'),
             }
             
             # Extract team info

@@ -63,6 +63,7 @@ FEATURE_COLS = [
     "home_games_played",
     "away_games_played",
     "market_spread",
+    "line_move",
 ]
 
 

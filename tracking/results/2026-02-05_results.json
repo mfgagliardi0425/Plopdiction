@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-05",
+  "summary": {
+    "total_games": 7,
+    "graded_games": 7,
+    "wins": 5,
+    "losses": 2,
+    "pushes": 0,
+    "ats_accuracy": 0.7142857142857143,
+    "edge_opportunities": 7,
+    "edge_bets": 7,
+    "edge_wins": 5,
+    "edge_hit_rate": 0.7142857142857143,
+    "model_mae": 7.509520885279904,
+    "market_mae": 10.785714285714286
+  },
+  "games": [
+    {
+      "game": "Washington Wizards @ Detroit Pistons",
+      "line_away": 16.5,
+      "pred_line_away": 7.956164163642451,
+      "actual_line_away": -9,
+      "metrics": {
+        "away_margin": 9,
+        "pred_away_margin": -7.956164163642451,
+        "line": 16.5,
+        "actual_diff": 25.5,
+        "pred_diff": 8.543835836357548,
+        "result": "W",
+        "edge": 8.543835836357548,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 16.956164163642452,
+        "market_error": 7.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Utah Jazz @ Atlanta Hawks",
+      "line_away": 8.5,
+      "pred_line_away": 3.7560144909413147,
+      "actual_line_away": 2,
+      "metrics": {
+        "away_margin": -2,
+        "pred_away_margin": -3.7560144909413147,
+        "line": 8.5,
+        "actual_diff": 6.5,
+        "pred_diff": 4.743985509058685,
+        "result": "W",
+        "edge": 4.743985509058685,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 1.7560144909413147,
+        "market_error": 10.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Chicago Bulls @ Toronto Raptors",
+      "line_away": 7.5,
+      "pred_line_away": 1.3231374383494252,
+      "actual_line_away": 16,
+      "metrics": {
+        "away_margin": -16,
+        "pred_away_margin": -1.3231374383494252,
+        "line": 7.5,
+        "actual_diff": -8.5,
+        "pred_diff": 6.176862561650575,
+        "result": "L",
+        "edge": 6.176862561650575,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": false,
+        "model_error": 14.676862561650575,
+        "market_error": 23.5
+      },
+      "result": "L"
+    },
+    {
+      "game": "Charlotte Hornets @ Houston Rockets",
+      "line_away": 4.5,
+      "pred_line_away": -4.425325844521543,
+      "actual_line_away": -10,
+      "metrics": {
+        "away_margin": 10,
+        "pred_away_margin": 4.425325844521543,
+        "line": 4.5,
+        "actual_diff": 14.5,
+        "pred_diff": 8.925325844521543,
+        "result": "W",
+        "edge": 8.925325844521543,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 5.574674155478457,
+        "market_error": 5.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "San Antonio Spurs @ Dallas Mavericks",
+      "line_away": -7.5,
+      "pred_line_away": -12.874552474286418,
+      "actual_line_away": -12,
+      "metrics": {
+        "away_margin": 12,
+        "pred_away_margin": 12.874552474286418,
+        "line": -7.5,
+        "actual_diff": 4.5,
+        "pred_diff": 5.374552474286418,
+        "result": "W",
+        "edge": 5.374552474286418,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 0.8745524742864177,
+        "market_error": 19.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Golden State Warriors @ Phoenix Suns",
+      "line_away": 5.5,
+      "pred_line_away": -1.2587344076681752,
+      "actual_line_away": -4,
+      "metrics": {
+        "away_margin": 4,
+        "pred_away_margin": 1.2587344076681752,
+        "line": 5.5,
+        "actual_diff": 9.5,
+        "pred_diff": 6.758734407668175,
+        "result": "W",
+        "edge": 6.758734407668175,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": true,
+        "model_error": 2.7412655923318248,
+        "market_error": 1.5
+      },
+      "result": "W"
+    },
+    {
+      "game": "Philadelphia 76ers @ Los Angeles Lakers",
+      "line_away": 3.5,
+      "pred_line_away": -5.987112758628286,
+      "actual_line_away": 4,
+      "metrics": {
+        "away_margin": -4,
+        "pred_away_margin": 5.987112758628286,
+        "line": 3.5,
+        "actual_diff": -0.5,
+        "pred_diff": 9.487112758628285,
+        "result": "L",
+        "edge": 9.487112758628285,
+        "edge_opportunity": true,
+        "edge_pick": "AWAY",
+        "edge_hit": false,
+        "model_error": 9.987112758628285,
+        "market_error": 7.5
+      },
+      "result": "L"
+    }
+  ]
+}

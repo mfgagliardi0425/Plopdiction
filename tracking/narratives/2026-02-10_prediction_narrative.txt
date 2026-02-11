@@ -1,0 +1,19 @@
+Prediction narratives for 2026-02-10
+
+Edge formula: edge = pred_away_adj + market_spread
+
+Pick: IND +11.5 (threshold 10)
+  Quant: edge +13.9 = pred_adj +2.4 + market +11.5; injury adj -2.7
+  Qual: recent margin favors home (+6.8 vs -6.4); recent win rate favors home (80% vs 20%); clutch margin favors home (+2.2 vs +0.1); away blown-lead risk higher (30% vs 0%); injury adjustment -2.7 to away margin
+
+Pick: LAC +8.5 (threshold 10)
+  Quant: edge +12.6 = pred_adj +4.1 + market +8.5; injury adj -3.9
+  Qual: rest edge home by 1 day(s); recent margin favors away (-0.4 vs -3.4); injury adjustment -3.9 to away margin
+
+Pick: DAL +8.5 (threshold 10)
+  Quant: edge +16.3 = pred_adj +7.8 + market +8.5; injury adj +4.0
+  Qual: rest edge away by 1 day(s); recent margin favors home (-3.2 vs -8.2); recent win rate favors home (40% vs 0%); injury adjustment +4.0 to away margin
+
+Pick: SAS -12.5 (threshold 10)
+  Quant: edge +19.6 = pred_adj +32.1 + market -12.5; injury adj +21.5
+  Qual: rest edge away by 1 day(s); injury adjustment +21.5 to away margin

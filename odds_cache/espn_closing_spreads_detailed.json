@@ -3718,5 +3718,229 @@
     "closing_spread_away": -2.5,
     "closing_spread_away_str": "-2.5",
     "spread_basis": "away_team"
+  },
+  "2026-02-05_Wizards_@_Pistons": {
+    "date": "2026-02-05",
+    "away_team": "Wizards",
+    "home_team": "Pistons",
+    "closing_spread_away": 16.5,
+    "closing_spread_away_str": "+16.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-05_Magic_@_Nets": {
+    "date": "2026-02-05",
+    "away_team": "Magic",
+    "home_team": "Nets",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-05_Hawks_@_Jazz": {
+    "date": "2026-02-05",
+    "away_team": "Hawks",
+    "home_team": "Jazz",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-05_Raptors_@_Bulls": {
+    "date": "2026-02-05",
+    "away_team": "Raptors",
+    "home_team": "Bulls",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-05_Hornets_@_Rockets": {
+    "date": "2026-02-05",
+    "away_team": "Hornets",
+    "home_team": "Rockets",
+    "closing_spread_away": 4.5,
+    "closing_spread_away_str": "+4.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-05_Spurs_@_Mavericks": {
+    "date": "2026-02-05",
+    "away_team": "Spurs",
+    "home_team": "Mavericks",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-05_Warriors_@_Suns": {
+    "date": "2026-02-05",
+    "away_team": "Warriors",
+    "home_team": "Suns",
+    "closing_spread_away": 5.5,
+    "closing_spread_away_str": "+5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-05_Lakers_@_76ers": {
+    "date": "2026-02-05",
+    "away_team": "Lakers",
+    "home_team": "76ers",
+    "closing_spread_away": -2.5,
+    "closing_spread_away_str": "-2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-06_Celtics_@_Heat": {
+    "date": "2026-02-06",
+    "away_team": "Celtics",
+    "home_team": "Heat",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-06_Pistons_@_Knicks": {
+    "date": "2026-02-06",
+    "away_team": "Pistons",
+    "home_team": "Knicks",
+    "closing_spread_away": -5.5,
+    "closing_spread_away_str": "-5.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-06_Bucks_@_Pacers": {
+    "date": "2026-02-06",
+    "away_team": "Bucks",
+    "home_team": "Pacers",
+    "closing_spread_away": 1.5,
+    "closing_spread_away_str": "+1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-06_Pelicans_@_Timberwolves": {
+    "date": "2026-02-06",
+    "away_team": "Pelicans",
+    "home_team": "Timberwolves",
+    "closing_spread_away": 8.5,
+    "closing_spread_away_str": "+8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-06_Trail Blazers_@_Grizzlies": {
+    "date": "2026-02-06",
+    "away_team": "Trail Blazers",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-06_Clippers_@_Kings": {
+    "date": "2026-02-06",
+    "away_team": "Clippers",
+    "home_team": "Kings",
+    "closing_spread_away": -3.5,
+    "closing_spread_away_str": "-3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-07_Nets_@_Wizards": {
+    "date": "2026-02-07",
+    "away_team": "Nets",
+    "home_team": "Wizards",
+    "closing_spread_away": -8.5,
+    "closing_spread_away_str": "-8.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-07_Rockets_@_Thunder": {
+    "date": "2026-02-07",
+    "away_team": "Rockets",
+    "home_team": "Thunder",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-07_Spurs_@_Mavericks": {
+    "date": "2026-02-07",
+    "away_team": "Spurs",
+    "home_team": "Mavericks",
+    "closing_spread_away": -11.5,
+    "closing_spread_away_str": "-11.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-07_Magic_@_Jazz": {
+    "date": "2026-02-07",
+    "away_team": "Magic",
+    "home_team": "Jazz",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-07_Hornets_@_Hawks": {
+    "date": "2026-02-07",
+    "away_team": "Hornets",
+    "home_team": "Hawks",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-07_Nuggets_@_Bulls": {
+    "date": "2026-02-07",
+    "away_team": "Nuggets",
+    "home_team": "Bulls",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-07_Lakers_@_Warriors": {
+    "date": "2026-02-07",
+    "away_team": "Lakers",
+    "home_team": "Warriors",
+    "closing_spread_away": -1.5,
+    "closing_spread_away_str": "-1.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-07_76ers_@_Suns": {
+    "date": "2026-02-07",
+    "away_team": "76ers",
+    "home_team": "Suns",
+    "closing_spread_away": 2.5,
+    "closing_spread_away_str": "+2.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-07_Trail Blazers_@_Grizzlies": {
+    "date": "2026-02-07",
+    "away_team": "Trail Blazers",
+    "home_team": "Grizzlies",
+    "closing_spread_away": -9.5,
+    "closing_spread_away_str": "-9.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-07_Cavaliers_@_Kings": {
+    "date": "2026-02-07",
+    "away_team": "Cavaliers",
+    "home_team": "Kings",
+    "closing_spread_away": -12.5,
+    "closing_spread_away_str": "-12.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-08_Knicks_@_Celtics": {
+    "date": "2026-02-08",
+    "away_team": "Knicks",
+    "home_team": "Celtics",
+    "closing_spread_away": 3.5,
+    "closing_spread_away_str": "+3.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-08_Heat_@_Wizards": {
+    "date": "2026-02-08",
+    "away_team": "Heat",
+    "home_team": "Wizards",
+    "closing_spread_away": -13.5,
+    "closing_spread_away_str": "-13.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-08_Raptors_@_Pacers": {
+    "date": "2026-02-08",
+    "away_team": "Raptors",
+    "home_team": "Pacers",
+    "closing_spread_away": -7.5,
+    "closing_spread_away_str": "-7.5",
+    "spread_basis": "away_team"
+  },
+  "2026-02-08_Clippers_@_Timberwolves": {
+    "date": "2026-02-08",
+    "away_team": "Clippers",
+    "home_team": "Timberwolves",
+    "closing_spread_away": 8.5,
+    "closing_spread_away_str": "+8.5",
+    "spread_basis": "away_team"
   }
 }

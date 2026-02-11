@@ -1,0 +1,43 @@
+Prediction narratives for 2026-02-09
+
+Edge formula: edge = pred_away_adj + market_spread
+
+Pick: DET -2.5 (threshold 5)
+  Quant: edge +6.7 = pred_adj +9.2 + market -2.5; injury adj +2.2
+  Qual: rest edge away by 1 day(s); recent margin favors away (+18.4 vs +6.2); injury adjustment +2.2 to away margin
+
+Pick: CHI -2.5 (threshold 0)
+  Quant: edge +0.5 = pred_adj +3.0 + market -2.5; injury adj -0.4
+  Qual: rest edge home by 1 day(s); recent margin favors home (-9.8 vs -16.8); recent win rate favors home (40% vs 20%)
+
+Pick: UTA +5.5 (threshold 10)
+  Quant: edge +11.2 = pred_adj +5.7 + market +5.5; injury adj +2.6
+  Qual: recent margin favors home (+10.6 vs -2.6); recent win rate favors home (40% vs 20%); injury adjustment +2.6 to away margin
+
+Pick: ORL -9.5 (threshold 0)
+  Quant: edge -0.0 = pred_adj -9.5 + market +9.5; injury adj -8.5
+  Qual: rest edge away by 1 day(s); injury adjustment -8.5 to away margin
+
+Pick: ATL +9.5 (threshold 5)
+  Quant: edge +9.3 = pred_adj -0.2 + market +9.5; injury adj -1.4
+  Qual: home blown-lead risk higher (20% vs 0%); injury adjustment -1.4 to away margin
+
+Pick: NOP -9.5 (threshold 0)
+  Quant: edge -1.1 = pred_adj -10.6 + market +9.5; injury adj -13.8
+  Qual: rest edge home by 1 day(s); recent margin favors home (-1.8 vs -7.2); recent win rate favors home (40% vs 0%); clutch margin favors home (+2.1 vs -2.5); away blown-lead risk higher (40% vs 10%); injury adjustment -13.8 to away margin
+
+Pick: CLE -1.5 (threshold 5)
+  Quant: edge +5.2 = pred_adj +6.7 + market -1.5; injury adj +3.4
+  Qual: recent margin favors away (+15.0 vs +1.8); recent win rate favors away (80% vs 40%); injury adjustment +3.4 to away margin
+
+Pick: MEM +9.5 (threshold 10)
+  Quant: edge +22.2 = pred_adj +12.7 + market +9.5; injury adj +7.4
+  Qual: recent margin favors home (-2.4 vs -6.2); away blown-lead risk higher (60% vs 0%); injury adjustment +7.4 to away margin
+
+Pick: OKC -7.5 (threshold 0)
+  Quant: edge +0.5 = pred_adj +8.0 + market -7.5; injury adj -2.0
+  Qual: rest edge away by 1 day(s); recent margin favors home (+9.0 vs +3.6); recent win rate favors home (80% vs 40%); injury adjustment -2.0 to away margin
+
+Pick: PHI -2.5 (threshold 10)
+  Quant: edge +18.8 = pred_adj +21.3 + market -2.5; injury adj +13.3
+  Qual: recent margin favors away (+9.2 vs -5.4); recent win rate favors away (80% vs 40%); clutch margin favors away (+4.2 vs -0.5); injury adjustment +13.3 to away margin

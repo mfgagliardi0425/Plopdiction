@@ -24,6 +24,8 @@ from models.matchup_model import (
 )
 from evaluation.game_narratives import compute_narrative_stats
 from data_fetching.espn_api import get_espn_games_for_date, scrape_espn_gamecast_spreads
+from data_fetching.odds_api import get_opening_spreads_for_date
+from evaluation.spread_utils import normalize_team_name
 
 
 OUTPUT_DIR = Path("ml_data")
@@ -147,6 +149,7 @@ def build_features_for_game(
     history: dict,
     half_life: float,
     market_spread: float = 0.0,
+    opening_spread: float | None = None,
     narrative_history: dict | None = None,
 ) -> dict:
     """Build feature vector for a game."""
@@ -259,6 +262,7 @@ def build_features_for_game(
         "home_games_played": float(len(home_games)),
         "away_games_played": float(len(away_games)),
         "market_spread": market_spread,
+        "line_move": float(market_spread - opening_spread) if opening_spread is not None else 0.0,
     }
     return features
 
@@ -379,9 +383,11 @@ def build_dataset(start_date: date, end_date: date, half_life: float, output_pat
         "home_games_played",
         "away_games_played",
         "market_spread",
+        "line_move",
     ]
 
     rows = []
+    opening_spreads_by_date: dict[date, dict] = {}
     for file_path in iter_game_files(start_date, end_date):
         try:
             with open(file_path, "r", encoding="utf-8") as f:
@@ -404,10 +410,29 @@ def build_dataset(start_date: date, end_date: date, half_life: float, output_pat
         if not game_date:
             continue
 
-        # Get ESPN spread if available
+        # Get ESPN closing spread if available
         market_spread = get_espn_spread_for_game(game, espn_spreads, espn_detailed)
+
+        opening_spreads = opening_spreads_by_date.get(game_date)
+        if opening_spreads is None:
+            opening_spreads = get_opening_spreads_for_date(game_date.isoformat())
+            opening_spreads_by_date[game_date] = opening_spreads
         
-        features = build_features_for_game(game, history, half_life, market_spread=market_spread, narrative_history=narrative_history)
+        opening_spread = None
+        if opening_spreads:
+            home_name = f"{home.get('market','')} {home.get('name','')}".strip()
+            away_name = f"{away.get('market','')} {away.get('name','')}".strip()
+            open_key = f"{normalize_team_name(away_name)}@{normalize_team_name(home_name)}"
+            opening_spread = opening_spreads.get(open_key)
+
+        features = build_features_for_game(
+            game,
+            history,
+            half_life,
+            market_spread=market_spread,
+            opening_spread=opening_spread,
+            narrative_history=narrative_history,
+        )
         if not features:
             continue
 

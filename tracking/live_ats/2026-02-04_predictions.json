@@ -1,4 +1,45 @@
 {
   "date": "2026-02-04",
-  "games": []
+  "games": [
+    {
+      "game": "Memphis Grizzlies @ Sacramento Kings",
+      "away_team": "Memphis Grizzlies",
+      "home_team": "Sacramento Kings",
+      "market_spread": 2.5,
+      "pred_away_margin": 4.676942306900474,
+      "pred_away_adj": 4.676942306900474,
+      "pred_away_spread": -4.676942306900474,
+      "pred_away_spread_adj": -4.676942306900474
+    },
+    {
+      "game": "Cleveland Cavaliers @ LA Clippers",
+      "away_team": "Cleveland Cavaliers",
+      "home_team": "LA Clippers",
+      "market_spread": -2.5,
+      "pred_away_margin": 4.190065032630338,
+      "pred_away_adj": 4.190065032630338,
+      "pred_away_spread": -4.190065032630338,
+      "pred_away_spread_adj": -4.190065032630338
+    },
+    {
+      "game": "Boston Celtics @ Houston Rockets",
+      "away_team": "Boston Celtics",
+      "home_team": "Houston Rockets",
+      "market_spread": 8.5,
+      "pred_away_margin": 6.673599153448033,
+      "pred_away_adj": 6.673599153448033,
+      "pred_away_spread": -6.673599153448033,
+      "pred_away_spread_adj": -6.673599153448033
+    },
+    {
+      "game": "Minnesota Timberwolves @ Toronto Raptors",
+      "away_team": "Minnesota Timberwolves",
+      "home_team": "Toronto Raptors",
+      "market_spread": -2.5,
+      "pred_away_margin": 6.810138566891014,
+      "pred_away_adj": 6.810138566891014,
+      "pred_away_spread": -6.810138566891014,
+      "pred_away_spread_adj": -6.810138566891014
+    }
+  ]
 }

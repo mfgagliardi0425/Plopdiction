@@ -10,6 +10,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from data_fetching.odds_api import get_nba_odds, parse_odds_for_game
 from models.matchup_model import build_team_history, get_upcoming_games, DATA_DIR
 from models.improved_matchup_model import compute_enhanced_stats, predict_game_enhanced
+from evaluation.spread_utils import format_team_spread
 
 
 def compare_predictions_to_market(
@@ -72,16 +73,11 @@ def compare_predictions_to_market(
         # Format output
         matchup = f"{away_name} @ {home_name}"
         
-        if pred_margin > 0:
-            our_pick = f"{home_name[:15]} -{abs(pred_margin):.1f}"
-        else:
-            our_pick = f"{away_name[:15]} -{abs(pred_margin):.1f}"
+        our_pick = format_team_spread(away_name, pred_margin)
         
         if market_spread is not None:
-            if market_spread < 0:
-                market_str = f"{home_name[:15]} -{abs(market_spread):.1f}"
-            else:
-                market_str = f"{away_name[:15]} -{abs(market_spread):.1f}"
+            market_away_spread = -float(market_spread)
+            market_str = format_team_spread(away_name, market_away_spread)
             
             diff = abs(pred_margin - market_spread)
             
@@ -92,6 +88,7 @@ def compare_predictions_to_market(
                     'market_spread': market_spread,
                     'our_prediction': pred_margin,
                     'difference': diff,
+                    'away_team': away_name,
                 })
                 print(f"{matchup:<45} {market_str:<20} {our_pick:<20} {diff:>9.1f} 🎯")
             else:
@@ -106,8 +103,9 @@ def compare_predictions_to_market(
         print("="*110)
         for edge in edge_opportunities:
             print(f"\n{edge['matchup']}")
-            print(f"  Market spread: {edge['market_spread']:+.1f}")
-            print(f"  Our prediction: {edge['our_prediction']:+.1f}")
+            away_team = edge.get("away_team") or ""
+            print(f"  Market spread: {format_team_spread(away_team, -float(edge['market_spread']))}")
+            print(f"  Our prediction: {format_team_spread(away_team, float(edge['our_prediction']))}")
             print(f"  Difference: {edge['difference']:.1f} points")
             
             # Recommend which side to take

@@ -7,6 +7,7 @@ sys.path.append("src")
 
 from evaluation.live_ats_tracking import _load_game_results
 from evaluation.send_results_to_discord import TRACK_DIR
+from evaluation.spread_utils import format_team_spread, away_margin_to_spread
 
 
 def main() -> None:
@@ -31,10 +32,12 @@ def main() -> None:
         if line == 0:
             continue
         away_margin = results[key]["away_margin"]
-        pred_adj = float(game.get("pred_away_adj", 0.0))
+        pred_away_spread_adj = game.get("pred_away_spread_adj")
+        if pred_away_spread_adj is None:
+            pred_away_spread_adj = -float(game.get("pred_away_adj", 0.0))
 
         actual_diff = away_margin + line
-        pred_diff = pred_adj + line
+        pred_diff = -float(pred_away_spread_adj) + line
         if actual_diff == 0:
             continue
 
@@ -43,8 +46,13 @@ def main() -> None:
         if win:
             correct += 1
         label = "W" if win else "L"
+        pred_line = float(pred_away_spread_adj)
+        actual_line = away_margin_to_spread(away_margin)
+        away_team = key.split(" @ ")[0] if isinstance(key, str) else ""
         lines.append(
-            f"{key}: {label} (Line {line:+.1f}, PredAdj {pred_adj:+.1f}, Actual {away_margin:+.1f})"
+            f"{key}: {label} (Line(A) {format_team_spread(away_team, line)}, "
+            f"PredLn(A) {format_team_spread(away_team, pred_line)}, "
+            f"ActualLn(A) {format_team_spread(away_team, actual_line)})"
         )
 
     print(f"Total: {total} | Wins: {correct} | Losses: {total - correct}")

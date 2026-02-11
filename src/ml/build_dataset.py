@@ -141,6 +141,7 @@ def build_features_for_game(
     history: Dict[str, list],
     half_life: float,
     market_spread: Optional[float] = None,
+    opening_spread: Optional[float] = None,
     narrative_history: Optional[Dict[str, list]] = None,
 ) -> Dict[str, float]:
     game_date = parse_game_date(game)
@@ -246,6 +247,7 @@ def build_features_for_game(
         "home_games_played": float(len(home_games)),
         "away_games_played": float(len(away_games)),
         "market_spread": market_spread if market_spread is not None else 0.0,
+        "line_move": float(market_spread - opening_spread) if opening_spread is not None else 0.0,
         "home_blown_rate_10": recent_blown_rate(home_narr, 10),
         "away_blown_rate_10": recent_blown_rate(away_narr, 10),
         "home_clutch_margin_10": recent_narrative_avg(home_narr, 10, "clutch_margin"),
@@ -307,6 +309,7 @@ def build_dataset(start_date: date, end_date: date, half_life: float, output_pat
         "home_games_played",
         "away_games_played",
         "market_spread",
+        "line_move",
     ]
 
     rows = []

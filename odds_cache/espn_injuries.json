@@ -1,125 +1,33 @@
 {
-  "date": "2026-02-04",
+  "date": "2026-02-10",
   "teams": {
-    "Boston Celtics": [
+    "Dallas Mavericks": [
       {
-        "player": "Nikola Vucevic",
-        "athlete_id": 6478,
-        "team_id": "2",
-        "position": "C",
-        "status": "Day-To-Day",
-        "comment": "Vucevic was dealt from Chicago to Boston on Tuesday, but he's not quite ready to make his Celtics' debut. Once he's settled in with his new team, the veteran center is likely to supplant Neemias Queta in the starting lineup. Vucevic's next chance to play will come Friday against Miami."
-      },
-      {
-        "player": "Sam Hauser",
-        "athlete_id": 4065804,
-        "team_id": "2",
-        "position": "F",
-        "status": "Day-To-Day",
-        "comment": "With Hauser out and Jaylen Brown (hamstring/knee) doubtful, the Celtics are expected to be shorthanded in the second leg of this back-to-back set. Hugo Gonzalez and Jordan Walsh will likely see a significant bump in minutes, while Josh Minott may enter the rotation. Hauser's next opportunity to play will come Friday against Miami."
-      },
-      {
-        "player": "Jaylen Brown",
-        "athlete_id": 3917376,
-        "team_id": "2",
+        "player": "Klay Thompson",
+        "athlete_id": 6475,
+        "team_id": "6",
         "position": "G",
         "status": "Day-To-Day",
-        "comment": "Brown will hit the sidelines for the second leg of a back-to-back due to a sore right knee and tightness in his left hamstring, and for now, he should be considered questionable for Friday's game against the Heat. Jordan Walsh and Hugo Gonzalez should see a bump in minutes with Brown unavailable, while Derrick White and Payton Pritchard will be tasked with the heavy lifting on offense."
+        "comment": "Thompson isn't listed with an injury, but Dallas may opt to rest the veteran wing Tuesday. Over his past 10 games, the 36-year-old is averaging 12.8 points, 2.2 rebounds and 1.7 assists on 42.3 percent shooting from the field and 41.3 percent from beyond the arc in 21.5 minutes per contest. If Thompson sits, additional minutes could open up for recently acquired Khris Middleton, who's in line to make his team debut."
       },
       {
-        "player": "Chris Boucher",
-        "athlete_id": 3948153,
-        "team_id": "2",
-        "position": "F",
-        "status": "Day-To-Day",
-        "comment": "It's widely believed that Boucher could be moved at the trade deadline, so this could certainly be related to that. Boucher is not part of Boston's rotation anyways."
-      },
-      {
-        "player": "Jayson Tatum",
-        "athlete_id": 4065648,
-        "team_id": "2",
-        "position": "F",
-        "status": "Out",
-        "comment": "Charania adds that the Celtics are \"cautiously optimistic\" about Tatum returning later in the season. Tatum himself is on record saying he isn't ruling out a return, and by all accounts, his rehab is going swimmingly. \"Clearly Jayson Tatum has a goal in his mind that he wants to play,\" Charania said. \"Whether he can get there by the time we're in February, March or April, we'll see.\" How Boston performs this season is likely to factor into Tatum's decision as well, making this is an intriguing storyline to watch."
-      }
-    ],
-    "Cleveland Cavaliers": [
-      {
-        "player": "James Harden",
-        "athlete_id": 3992,
-        "team_id": "5",
+        "player": "Kyrie Irving",
+        "athlete_id": 6442,
+        "team_id": "6",
         "position": "G",
         "status": "Out",
-        "comment": "Harden was acquired by the Cavaliers from the Clippers on Tuesday in exchange for Darius Garland (toe) and a second-round pick. The Cavaliers and Clippers face off Wednesday in Los Angeles, but Harden won't have to go through facing his former team just one day after being dealt. Assuming he's cleared to play Saturday, Harden would join Donovan Mitchell to form a starting backcourt that has accumulated 18 All-Star selections between the superstar guards."
+        "comment": "Irving is still working his way through the rehab process for a torn ACL in his left knee, which he had surgically repaired March 26. While he said that Irving had \"no timeline\" for a return, Kidd didn't provide many details regarding where the veteran point guard stands in his recovery beyond relaying that he's \"in good spirits\" and \"feels great.\" Kidd also added that the 19-30 Mavericks' position in the standings won't dictate Irving's timeline for a return, instead noting that Irving will be back in action once he's physically and mentally ready. If Irving is able to make a late-season return, he'll likely be subject to heavy restrictions with his minutes, and his presence would presumably result in star rookie Cooper Flagg seeing more time off the ball."
       },
       {
-        "player": "Evan Mobley",
-        "athlete_id": 4432158,
-        "team_id": "5",
+        "player": "Dereck Lively II",
+        "athlete_id": 4683688,
+        "team_id": "6",
         "position": "C",
         "status": "Out",
-        "comment": "Mobley has been diagnosed with a strained left calf, and the star big man could be sidelined for as many as three weeks. With the All-Star break looming in the middle of February, it's possible that the Cavaliers will exercise caution with Mobley. In the meantime, Nae'Qwan Tomlin, Jaylon Tyson and Dean Wade will all be asked to step up in the frontcourt."
-      },
-      {
-        "player": "Max Strus",
-        "athlete_id": 4065778,
-        "team_id": "5",
-        "position": "G",
-        "status": "Out",
-        "comment": "Strus hasn't yet made his season debut, and he needs even more time on the shelf to recover from offseason left foot surgery. It's unlikely the swingman will be ready to play until sometime in February at this point. In the meantime, Sam Merrill and Jaylon Tyson should continue helping fill out the minutes on the wing."
-      }
-    ],
-    "Denver Nuggets": [
-      {
-        "player": "Spencer Jones",
-        "athlete_id": 4592427,
-        "team_id": "7",
-        "position": "F",
-        "status": "Day-To-Day",
-        "comment": "Jones butted heads with Karl-Anthony Towns late in the first quarter, and the collision resulted in a head contusion for Jones. The injury prevented him from returning to the contest. Before exiting, Jones was held scoreless (0-3 FG, 0-2 3Pt) with three rebounds, a steal and a block across 12 minutes. His next chance to play will come Saturday against the Bulls."
-      },
-      {
-        "player": "Peyton Watson",
-        "athlete_id": 4576087,
-        "team_id": "7",
-        "position": "G",
-        "status": "Day-To-Day",
-        "comment": "Watson suffered a right hamstring injury late in Wednesday's game and limped back to the locker room. The forward didn't return to the game, and he ended the night with 10 points (4-13 FG, 1-6 3Pt, 1-2 FT), five rebounds, two assists, one steal and one block across 33 minutes. Watson's next chance to play will come Saturday against the Bulls."
-      },
-      {
-        "player": "Cameron Johnson",
-        "athlete_id": 3138196,
-        "team_id": "7",
-        "position": "F",
-        "status": "Out",
-        "comment": "Johnson hasn't played since Dec. 23 due to a right knee bone bruise and is without a clear timetable for a return. He should be considered doubtful for Saturday's game against the Bulls until Denver offers an update."
-      },
-      {
-        "player": "Aaron Gordon",
-        "athlete_id": 3064290,
-        "team_id": "7",
-        "position": "F",
-        "status": "Out",
-        "comment": "This is a brutal blow for Denver and for Gordon's fantasy managers. If he's re-evaluated at the front end of this timetable, a return against the Thunder on Feb. 27 would be the best-case scenario. In Gordon's absence, Peyton Watson will likely take on a larger role, and Spencer Jones and Bruce Brown could see more run as well."
-      },
-      {
-        "player": "Tamar Bates",
-        "athlete_id": 4683933,
-        "team_id": "7",
-        "position": "G",
-        "status": "Out",
-        "comment": "Bates underwent surgery Monday to repair a fractured left foot, and he's expected to miss about three months. Through 13 G League appearances, the two-way player has averaged 19.5 points, 4.2 rebounds, 2.2 assists and 1.6 steals in 33.2 minutes per game."
+        "comment": "Lively sought out multiple opinions on his right foot, but it was ultimately determined that season-ending surgery was the best course of action for the third-year center, and he's expected to make a full recovery ahead of the 2026-27 season. Daniel Gafford and Dwight Powell will continue to serve as the main big men for Dallas behind Anthony Davis in Lively's absence."
       }
     ],
     "Houston Rockets": [
-      {
-        "player": "Dorian Finney-Smith",
-        "athlete_id": 2578185,
-        "team_id": "10",
-        "position": "F",
-        "status": "Day-To-Day",
-        "comment": "The expectation is that the veteran forward will be ready to go for Thursday's tilt against the Hornets. Josh Okogie and Clint Capela should help fill out the frontcourt minutes Wednesday."
-      },
       {
         "player": "Steven Adams",
         "athlete_id": 2991235,
@@ -137,30 +45,88 @@
         "comment": "VanVleet struggled with efficiency during his second season in Houston, but the Rockets' win-loss record with him on the court (41-19) spoke volumes about his overall impact on the team. With VanVleet sidelined, the runway is clear for Reed Sheppard, who barely had a role as a rookie. Amen Thompson could also handle a ton of ball-handling responsibilities, while Aaron Holiday is the only other true point guard on the roster currently."
       }
     ],
-    "LA Clippers": [
+    "Indiana Pacers": [
+      {
+        "player": "Jarace Walker",
+        "athlete_id": 5106060,
+        "team_id": "11",
+        "position": "F",
+        "status": "Day-To-Day",
+        "comment": "Walker is dealing with an illness and was an extremely late addition to the injury report. If he's unable to go Tuesday, Ben Sheppard, Kam Jones and Kobe Brown would be candidates for increased playing time. Walker has averaged 15.0 points, 7.0 rebounds and 2.4 assists in 27.8 minutes per contest over his last five games (two starts)."
+      },
       {
         "player": "Ivica Zubac",
         "athlete_id": 4017837,
-        "team_id": "12",
+        "team_id": "11",
+        "position": "C",
+        "status": "Out",
+        "comment": "After being acquired from the Clippers on Thursday, Zubac's debut continues to be put on hold due to a left ankle sprain. For now, it remains to be seen if Zubac will be able to return right after the All-Star break on Feb. 19 against the Wizards."
+      },
+      {
+        "player": "Aaron Nesmith",
+        "athlete_id": 4396909,
+        "team_id": "11",
+        "position": "G",
+        "status": "Day-To-Day",
+        "comment": "The Pacers have a back-to-back in New York first and then Brooklyn on Wednesday, prompting the team to consider giving Nesmith some load management. Ben Sheppard and Jarace Walker could have even more responsibilities on their plates if Nesmith doesn't go Tuesday."
+      },
+      {
+        "player": "Micah Potter",
+        "athlete_id": 4066399,
+        "team_id": "11",
         "position": "C",
         "status": "Day-To-Day",
-        "comment": "This may raise some eyebrows with the trade deadline 24 hours away, but Azarly reports that this absence is not related to that. With Zubac out of the mix, the Clippers will likely lean more on Brook Lopez, John Collins and Derrick Jones."
+        "comment": "Potter managed to battle through the same issue during Sunday's game in Toronto, so he'll seemingly have a good chance to suit up barring any last-minute setbacks. The Pacers could have another update after watching him go through morning shootaround."
       },
+      {
+        "player": "T.J. McConnell",
+        "athlete_id": 2530530,
+        "team_id": "11",
+        "position": "G",
+        "status": "Day-To-Day",
+        "comment": "McConnell didn't show any signs of a hamstring injury his last time on the court, but he's now in jeopardy of missing Tuesday's clash. The team should have a better idea of his status closer to tipoff."
+      },
+      {
+        "player": "Johnny Furphy",
+        "athlete_id": 5157066,
+        "team_id": "11",
+        "position": "G",
+        "status": "Out",
+        "comment": "Furphy started in 21 of 35 regular-season appearances for the Pacers, posting averages of 5.1 points, 4.4 rebounds, 1.2 assists and 0.7 three-pointers in 18.4 minutes per contest. While no timetable has been announced, Furphy's absence could extend through the beginning of the 2026-27 season. With this news, the Pacers will likely lean more on Ben Sheppard, Kam Jones and Quenton Jackson moving forward."
+      },
+      {
+        "player": "Ethan Thompson",
+        "athlete_id": 4278516,
+        "team_id": "11",
+        "position": "G",
+        "status": "Day-To-Day",
+        "comment": "Thompson barely touched the floor Monday, continuing the recent decline in playing time. It would appear as though Indiana will have very little to play for later in the season, other than lottery balls. Head coach Rick Carlisle has already shown his hand when it comes to experimenting with different lineups, something that could very well continue for the remainder of the season. Thompson can be dropped in most formats, although managers will want to keep an eye on things, just in case things change at some point."
+      },
+      {
+        "player": "Obi Toppin",
+        "athlete_id": 4278355,
+        "team_id": "11",
+        "position": "F",
+        "status": "Out",
+        "comment": "With the way the season has gone for Indiana, the team is in no position to rush Toppin back to the court. Fantasy managers should operate under the assumption that Toppin will be sidelined through the All-Star break."
+      },
+      {
+        "player": "Tyrese Haliburton",
+        "athlete_id": 4396993,
+        "team_id": "11",
+        "position": "G",
+        "status": "Out",
+        "comment": "Back in July, the Pacers ruled Haliburton out for the 2025-26 season shortly after the star point guard underwent surgery to address the Achilles tendon he tore in Indiana's loss to Oklahoma City in Game 7 of the NBA Finals. While the Pacers' stance with Haliburton doesn't appear to have changed amid a non-contending season, the 25-year-old is seemingly coming along even faster than anticipated during his rehab process. If Haliburton is able to advance to 5-on-5 work by the spring, he'll likely be in line for a relatively normal offseason and should be free of restrictions for the start of training camp next fall."
+      }
+    ],
+    "LA Clippers": [
       {
         "player": "Darius Garland",
         "athlete_id": 4396907,
         "team_id": "12",
         "position": "G",
         "status": "Out",
-        "comment": "After spending the first seven-plus years of his career in Cleveland, Garland is set to join the Clippers. The 26-year-old point guard hasn't played since Jan. 14 due to a right great toe sprain, so it's unclear when he'll be available to make his Clippers debut. Over 26 regular-season appearances with the Cavaliers this season, he averaged 18.0 points, 6.9 assists and 2.4 rebounds while shooting 45.1 percent from the field in 30.5 minutes per contest."
-      },
-      {
-        "player": "TyTy Washington Jr.",
-        "athlete_id": 4683749,
-        "team_id": "12",
-        "position": "G",
-        "status": "Out",
-        "comment": "Washington was a late addition to the injury report due to right hamstring soreness and won't be available Sunday. His next opportunity to suit up will come Tuesday against the Jazz."
+        "comment": "Garland's sprained right toe is healed, but he's still recovering from offseason left toe surgery. It's sounds like the Clippers are erring on the side of caution ahead of the All-Star break, so it appears safe to rule out the star guard for Tuesday's game against the Rockets and Wednesday's rematch versus Houston, barring any changes to his status. Kris Dunn, Bennedict Mathurin and Jordan Miller should help pick up the slack in the backcourt."
       },
       {
         "player": "Bradley Beal",
@@ -171,166 +137,64 @@
         "comment": "This is a devastating blow for Beal and the Clippers. The official diagnosis is a fractured left hip, and an exact timetable has yet to be announced. Beal signed a two-year, $11 million deal with the Clippers prior to the season, and the second year of his deal includes a player option which he may be likely to pick up with this news. With Beal out for the season, the Clippers could lean pretty heavily on Kris Dunn. Guys like Bogdan Bogdanovic and Chris Paul could reemerge too, but they've been afterthoughts in the rotation for the most part."
       }
     ],
-    "Memphis Grizzlies": [
+    "Los Angeles Lakers": [
       {
-        "player": "Walter Clayton Jr.",
-        "athlete_id": 4896372,
-        "team_id": "29",
-        "position": "G",
-        "status": "Day-To-Day",
-        "comment": "Clayton was involved in the trade that sent Jaren Jackson to the Jazz on Tuesday, and the former will have to wait to make his Grizzlies debut. Clayton's next opportunity to suit up for Memphis will come Friday against the Trail Blazers. The rookie first-rounder averaged 6.8 points, 3.2 assists and 2.0 rebounds across 18.0 minutes per game in 45 regular-season appearances with Utah. He could be in line for an increased workload in Memphis, especially if the club ends up trading Ja Morant (elbow)."
-      },
-      {
-        "player": "Taylor Hendricks",
-        "athlete_id": 4684806,
-        "team_id": "29",
-        "position": "F",
-        "status": "Day-To-Day",
-        "comment": "Hendricks was dealt from the Jazz to the Grizzlies on Tuesday, so he won't join his new team in time to suit up for Wednesday's game. However, there's a reasonable chance that he'll be ready for his team debut Friday in Portland."
-      },
-      {
-        "player": "Kyle Anderson",
-        "athlete_id": 2993874,
-        "team_id": "29",
-        "position": "F",
-        "status": "Day-To-Day",
-        "comment": "Anderson was traded by the Jazz on Tuesday to the Grizzlies for a return that centered around Jaren Jackson. Anderson spent four years of his NBA career in Memphis, and assuming he isn't shipped again ahead of Thursday's deadline, his next chance to play for the Grizzlies would be Friday against the Trail Blazers."
-      },
-      {
-        "player": "Scotty Pippen Jr.",
-        "athlete_id": 4431785,
-        "team_id": "29",
-        "position": "G",
-        "status": "Out",
-        "comment": "Pippen has yet to make his 2025-26 regular-season debut while recovering from left big toe surgery that he underwent in October. The good news for the fourth-year pro was that he was initially listed as doubtful for Wednesday's game, rather than being outright ruled out, indicating that he is getting closer to a return. Pippen's next chance to play is Friday against the Trail Blazers."
-      },
-      {
-        "player": "Georges Niang",
-        "athlete_id": 2990969,
-        "team_id": "29",
-        "position": "F",
-        "status": "Out",
-        "comment": "Niang continues to recover from offseason foot surgery, which prevented him from making his season debut with Utah. The forward remains without a clear timeline for a return, so it's difficult to envision how Niang's presence might affect the Memphis rotation until he finally takes the floor in 2025-26."
-      },
-      {
-        "player": "Ja Morant",
-        "athlete_id": 4279888,
-        "team_id": "29",
-        "position": "G",
-        "status": "Out",
-        "comment": "Morant sustained a UCL sprain in his left elbow in the Jan. 21 game against the Hawks, and while he's expected to make a full recovery, he'll be re-evaluated in approximately three weeks. This means Morant won't return to action until probably after the All-Star break, impacting his potential trade value ahead of the Feb. 5 deadline. With Morant on the sidelines, the Grizzlies should turn to Cam Spencer and Vince Williams, although Ty Jerome (calf) should also see minutes at the point once he's fully healthy and ready to play."
-      },
-      {
-        "player": "Zach Edey",
-        "athlete_id": 4600663,
-        "team_id": "29",
-        "position": "C",
-        "status": "Out",
-        "comment": "After Edey initially sustained the injury Dec. 11, the Grizzlies relayed that the second-year center would be shut down for at least four weeks before being re-evaluated. Despite having spent the past month rehabbing the injury, Edey seemingly hasn't taken any major steps forward in his recovery and will now need another six weeks to let his ankle heal up. As a result of this latest update, Edey appears unlikely to be ready to return to game action until at least early March, making it tough to justify rostering him in most redraft formats. With Brandon Clarke (calf) also facing a long-term absence, Jock Landale should continue to hold down the fort as the Grizzlies' starting center."
-      },
-      {
-        "player": "Brandon Clarke",
-        "athlete_id": 3906665,
-        "team_id": "29",
-        "position": "F",
-        "status": "Out",
-        "comment": "Based on this timetable, a return right after the All-Star break could potentially be on the table for Clarke. The forward has appeared in just two games this season, as he was dealing with a knee issue prior to his latest calf injury."
-      }
-    ],
-    "Milwaukee Bucks": [
-      {
-        "player": "Bobby Portis",
-        "athlete_id": 3064482,
-        "team_id": "15",
-        "position": "F",
-        "status": "Day-To-Day",
-        "comment": "Portis will be sidelined for his second straight game with his next chance to return coming Friday against the Pacers. Portis' name has surfaced in the rumor mill, but it's unclear if the Bucks are simply being cautious with this injury."
-      },
-      {
-        "player": "Gary Harris",
-        "athlete_id": 2999547,
-        "team_id": "15",
-        "position": "G",
-        "status": "Out",
-        "comment": "Harris will miss a fourth consecutive contest due to a left hamstring strain and is without a timetable for a return. The veteran swingman's next opportunity to play will come Friday against Indiana. In the meantime, Gary Trent and Cole Anthony (ankle) are candidates for increased playing time."
-      },
-      {
-        "player": "Giannis Antetokounmpo",
-        "athlete_id": 3032977,
-        "team_id": "15",
-        "position": "F",
-        "status": "Out",
-        "comment": "The writing has been on the wall for some time. Antetokounmpo has always said that he was willing to stick around in Milwaukee as long as the team was a title contender. But the Bucks are 18-27 on the season and sitting in 12th place in the Eastern Conference. To make things trickier for the franchise, Antetokounmpo is expected to miss several weeks with his latest calf injury."
-      },
-      {
-        "player": "Taurean Prince",
-        "athlete_id": 2990962,
-        "team_id": "15",
-        "position": "F",
-        "status": "Out",
-        "comment": "Milwaukee labeled Prince as out indefinitely after he underwent surgery Nov. 13 to address a herniated disc in his neck. Approximately six weeks later, the Bucks haven't yet offered a more official timeline for Prince's return, but the team's decision to apply for a DPE implies that he's effectively being viewed as out for the season. Ultimately, an NBA-designated physician would need to concur with the Bucks' assessment that Prince is unlikely to return before June 15 in order for Milwaukee to be granted a DPE, which would enable to the team to sign a player to a one-year deal worth about $1.7 million -- half of Prince's salary -- or less. Before being shut down after undergoing surgery, Prince had appeared in the Bucks' first eight games of the season and averaged 6.1 points, 1.6 rebounds, 1.5 three-pointers, 1.0 assists and 0.8 steals in 21.0 minutes per contest."
-      }
-    ],
-    "Minnesota Timberwolves": [
-      {
-        "player": "Julian Phillips",
-        "athlete_id": 5105553,
-        "team_id": "16",
-        "position": "F",
-        "status": "Day-To-Day",
-        "comment": "Phillips spent the past three seasons in Chicago, but he was never able to carve out a consistent role. Across 154 career regular-season appearances, he averaged just 11.6 minutes per contest. Minutes won't be easy to come by in Minnesota, so his fantasy outlook remains bleak. He can be considered questionable to debut Friday against the Pelicans."
-      },
-      {
-        "player": "Ayo Dosunmu",
-        "athlete_id": 4397002,
-        "team_id": "16",
-        "position": "G",
-        "status": "Day-To-Day",
-        "comment": "The full trade hasn't been disclosed yet. The Timberwolves have been trying to upgrade their guard position after losing Nickeil Alexander-Walker in free agency last offseason, and the Bulls had a surplus of guard talent after acquiring Anfernee Simons, Jaden Ivey and Collin Sexton over the past couple of days. Dosunmu can be considered questionable to debut Friday against the Pelicans."
-      },
-      {
-        "player": "Terrence Shannon Jr.",
-        "athlete_id": 4432847,
-        "team_id": "16",
-        "position": "G",
-        "status": "Out",
-        "comment": "Shannon is still on the mend after suffer a left foot strain at the end of December. His next chance to suit up will arrive Friday against New Orleans."
-      }
-    ],
-    "New Orleans Pelicans": [
-      {
-        "player": "Hunter Dickinson",
-        "athlete_id": 4432180,
-        "team_id": "3",
+        "player": "Deandre Ayton",
+        "athlete_id": 4278129,
+        "team_id": "13",
         "position": "C",
         "status": "Day-To-Day",
-        "comment": "Kevon Looney is expected to miss two to three weeks due to a proximal tibiofibular ligament, potentially opening some minutes up in the frontcourt. Derik Queen is still rehabbing from wrist surgery, so Dickinson has a chance to enter the rotation behind Yves Missi. He would likely need to outplay Karlo Matkovic for that to happen, however."
+        "comment": "Ayton started and played 29 minutes in the opening leg of the Lakers' back-to-back set Monday. He's at risk of missing the closing end of the two-game set due to a lingering knee injury. If he doesn't play Tuesday, Jaxson Hayes, Maxi Kleber and Drew Timme would see an increase in playing time."
       },
       {
-        "player": "Dejounte Murray",
-        "athlete_id": 3907497,
-        "team_id": "3",
+        "player": "Austin Reaves",
+        "athlete_id": 4066457,
+        "team_id": "13",
         "position": "G",
         "status": "Out",
-        "comment": "For his part, Murray -- who underwent surgery Feb. 5, 2025 to address his torn right Achilles tendon -- hasn't provided an update since the Pelicans' media availability day back in September regarding where he stands in his rehab program. The 29-year-old hasn't necessarily hit any snags in his recovery, but Borrego noted that he couldn't \"say for sure\" that Murray will play any point in 2025-26 until the Pelicans get a chance to evaluate him live on the court during practices or scrimmages. At the very least, Borrego's comment about the Pelicans hoping to have more clarity on Murray's status in the next month would seem to indicate that New Orleans isn't counting on Murray making it back before the All-Star break in mid-February. In the meantime, rookie first-round pick Jeremiah Fears will continue to serve as the Pelicans' starting point guard amid Murray's absence."
+        "comment": "Reaves will miss the tail end of a back-to-back set for rest purposes. In addition to Reaves, Luka Doncic (hamstring), LeBron James (foot) and Marcus Smart (ankle) are out Tuesday, meaning Luke Kennard, Kobe Bufkin, Nick Smith and Dalton Knecht should see plenty of action. Reaves should be back in action Thursday against Dallas."
+      },
+      {
+        "player": "Marcus Smart",
+        "athlete_id": 2990992,
+        "team_id": "13",
+        "position": "G",
+        "status": "Out",
+        "comment": "This has the look of a maintenance day for the second leg of this back-to-back set -- Smart is one of a number of key players being held out. Luke Kennard, Nick Smith and Kobe Bufkin could see expanded roles with this news."
+      },
+      {
+        "player": "LeBron James",
+        "athlete_id": 1966,
+        "team_id": "13",
+        "position": "F",
+        "status": "Out",
+        "comment": "James is going to sit out for the second leg of this back-to-back set for injury maintenance. Austin Reaves (calf), Marcus Smart (ankle) and Luka Doncic (hamstring) are all sidelined, so the Lakers will be extremely shorthanded for this contest."
+      },
+      {
+        "player": "Luka Doncic",
+        "athlete_id": 3945274,
+        "team_id": "13",
+        "position": "G",
+        "status": "Out",
+        "comment": "This is an expected update from the Lakers. Doncic will miss his third straight game, and it remains to be seen if he'll be available to return Feb. 20 against the Clippers following the All-Star break. The Lakers are sitting a handful of key players Wednesday, so guys like Luke Kennard, Nick Smith and Kobe Bufkin could see expanded roles."
       }
     ],
     "New York Knicks": [
       {
-        "player": "Josh Hart",
-        "athlete_id": 3062679,
-        "team_id": "18",
-        "position": "G",
-        "status": "Day-To-Day",
-        "comment": "Hart was previously considered questionable due to a sprained left ankle, and he'll be unavailable for Thursday's game because of the issue. Hart sustained the injury during Tuesday's win over the Wizards. His next chance to play will come Friday at Detroit. In the meantime, look for Landry Shamet and Jordan Clarkson to absorb Hart's vacated minutes."
-      },
-      {
-        "player": "Dalen Terry",
-        "athlete_id": 4433159,
+        "player": "OG Anunoby",
+        "athlete_id": 3934719,
         "team_id": "18",
         "position": "F",
         "status": "Day-To-Day",
-        "comment": "Terry's stint in Chicago will end after three-plus seasons. The versatile 23-year-old wing will get a fresh start with the Knicks after appearing in 34 games and averaging 3.5 points, 1.9 rebounds and 1.3 assists across 11.1 minutes with the Bulls this season. He'll likely be competing with Landry Shamet, Jordan Clarkson and Mohamed Diawara for minutes off the bench."
+        "comment": "Anunoby is in danger of missing his third straight game while managing right toe soreness. In the five contests prior to being sidelined, the wing averaged 22.8 points, 5.8 rebounds, 3.4 assists and 2.0 steals while shooting 55.8 percent from the field and 45.9 percent from beyond the arc. If Anunoby remains out Tuesday, rookie Mohamed Diawara is likely to see an uptick in playing time."
+      },
+      {
+        "player": "Mitchell Robinson",
+        "athlete_id": 4351852,
+        "team_id": "18",
+        "position": "C",
+        "status": "Out",
+        "comment": "Robinson will take a seat for the first half of New York's back-to-back in an effort to keep him fresh for Wednesday. Ariel Hukporti could be in line for an uptick in minutes in Robinson's absence."
       },
       {
         "player": "Miles McBride",
@@ -338,99 +202,33 @@
         "team_id": "18",
         "position": "G",
         "status": "Out",
-        "comment": "McBride will be sidelined for a fifth straight game Wednesday, and he remains without a target date to return. He can be considered highly questionable for Friday's game versus Detroit."
+        "comment": "After missing New York's last five games due to what the team called left ankle injury management, it has been revealed that McBride is dealing with a sports hernia. The 25-year-old guard is without a clear timetable for a return, but he shouldn't be expected to return until early April at the very earliest. With McBride sidelined, Tyler Kolek, Jose Alvarado (recently traded) and Jordan Clarkson are candidates for increased playing time."
       }
     ],
-    "Oklahoma City Thunder": [
+    "Phoenix Suns": [
       {
-        "player": "Jared McCain",
-        "athlete_id": 4683778,
-        "team_id": "25",
-        "position": "G",
-        "status": "Day-To-Day",
-        "comment": "McCain will get a fresh start following an injury-riddled start to his young career. The 21-year-old guard got off to a hot start to his rookie season before undergoing surgery to repair a torn meniscus in his left knee in December 2024. The Duke product later underwent thumb surgery in September 2025 and missed time to begin the 2025-26 campaign. Once healthy, he struggled to carve out a consistent role behind Tyrese Maxey and VJ Edgecombe. Now, McCain will provide backcourt depth for Oklahoma City, competing for minutes with the likes of Cason Wallace, Ajay Mitchell and Nikola Topic (groin) once he returns. However, Shai Gilgeous-Alexander (abdomen) is set to be re-evaluated after the All-Star break, so McCain could see increased playing time right away."
-      },
-      {
-        "player": "Chet Holmgren",
-        "athlete_id": 4433255,
-        "team_id": "25",
-        "position": "C",
-        "status": "Day-To-Day",
-        "comment": "The Thunder are sitting multiple players for the second leg of this back-to-back set, and that also includes Isaiah Hartenstein (eye). With that in mind, Jaylin Williams could be set up for a healthy workload Wednesday, and Branden Carlson could see more run as well."
-      },
-      {
-        "player": "Isaiah Hartenstein",
-        "athlete_id": 4222252,
-        "team_id": "25",
-        "position": "C",
-        "status": "Day-To-Day",
-        "comment": "Hartenstein is dealing with a corneal abrasion and will miss the second leg of this back-to-back set. He's coming off a triple-double against the Magic on Tuesday with 12 points (4-6 FG, 0-1 3Pt, 4-5 FT), 10 rebounds, 10 assists and one block across 23 minutes. With Chet Holmgren (back) also out, the Thunder could rely heavily on Jaylin Williams and Branden Carlson."
-      },
-      {
-        "player": "Luguentz Dort",
-        "athlete_id": 4397020,
-        "team_id": "25",
-        "position": "G",
-        "status": "Day-To-Day",
-        "comment": "Dort is dealing with right knee inflammation and will be held out of the second leg of this back-to-back set. The Thunder will have only eight players available against the Spurs, so Aaron Wiggins, Cason Wallace and Isaiah Joe should see significant workloads. Dort's next opportunity to play will come Saturday against Houston."
-      },
-      {
-        "player": "Alex Caruso",
-        "athlete_id": 2991350,
-        "team_id": "25",
-        "position": "G",
-        "status": "Day-To-Day",
-        "comment": "Caruso will take a maintenance day on the second leg of a back-to-back set, but he should be back in action for Saturday's game against the Rockets. With Caruso, Shai Gilgeous-Alexander (abdominal), Luguentz Dort (patellofemoraljoint) and Ajay Mitchell (abdominal) all unavailable for Wednesday's game, the Thunder's backcourt will be quite thin. Expect big minutes for Aaron Wiggins, Cason Wallace and Isaiah Joe on Wednesday evening."
-      },
-      {
-        "player": "Ajay Mitchell",
-        "athlete_id": 4900671,
-        "team_id": "25",
+        "player": "Cole Anthony",
+        "athlete_id": 4432809,
+        "team_id": "21",
         "position": "G",
         "status": "Out",
-        "comment": "Mitchell will miss his seventh straight outing due to an abdominal strain. While there isn't a concrete timetable for the 23-year-old guard's return to action, his next opportunity to play will come Saturday against Houston."
+        "comment": "Anthony has yet to join the Suns after being dealt from Milwaukee on Thursday, and he'll need to wait at least one more day before making his Phoenix debut. His next chance to take the court will arrive Wednesday against the Thunder."
       },
       {
-        "player": "Shai Gilgeous-Alexander",
-        "athlete_id": 4278073,
-        "team_id": "25",
-        "position": "G",
-        "status": "Out",
-        "comment": "This means that Gilgeous-Alexander will miss at least the next five games for the Thunder, which could elevate the newly acquired Jared McCain to a prominent role as Oklahoma City goes into the break. McCain, Ajay Mitchell, Cason Wallace, Aaron Wiggins and Isaiah Joe will all help fill the void while Gilgeous-Alexander is sidelined and Chet Holmgren should see a sizeable uptick in usage."
-      },
-      {
-        "player": "Jalen Williams",
-        "athlete_id": 4593803,
-        "team_id": "25",
-        "position": "G",
-        "status": "Out",
-        "comment": "The club has yet to provide an update for Williams' return. He can be considered week-to-week until the team has more information to share on a timetable for his return to play."
-      },
-      {
-        "player": "Nikola Topic",
-        "athlete_id": 5159925,
-        "team_id": "25",
-        "position": "G",
-        "status": "Out",
-        "comment": "According to Presti, his doctors are \"extremely positive\" about his long-term outlook, but this is obviously an unfortunate situation for the young guard. There is no timetable for Topic's return, but the Thunder will likely provide more clarity in the near future. Ajay Mitchell has been filling in as Oklahoma City's backup point guard to open the season."
-      },
-      {
-        "player": "Thomas Sorber",
-        "athlete_id": 5061603,
-        "team_id": "25",
-        "position": "C",
-        "status": "Out",
-        "comment": "Sorber was selected No. 15 overall in the 2025 NBA Draft out of Georgetown by the reigning NBA champions. The rookie center was already dealing with a foot injury that cut his season with the Hoyas short and kept him out of the Summer League. Now he'll likely have to wait until the 2026-27 campaign to make his debut on the professional level."
-      }
-    ],
-    "Sacramento Kings": [
-      {
-        "player": "Keegan Murray",
-        "athlete_id": 4594327,
-        "team_id": "23",
+        "player": "Isaiah Livers",
+        "athlete_id": 4277957,
+        "team_id": "21",
         "position": "F",
         "status": "Out",
-        "comment": "Murray has been cleared to resume on-court activities amidst his recovery from a left ankle sprain. However, the timetable for his return now appears likely to put him out of action until sometime after the mid-February All-Star break. Until De'Andre Hunter is ready to make his Kings debut, Malik Monk and Nique Clifford should both continue to occupy a sizable role in the rotation."
+        "comment": "Livers will miss the Suns' final two games before the All-Star break, and depending on how he's feeling afterward, he could miss even more time. The 27-year-old forward suffered a sprained left shoulder Thursday against Golden State. Livers has appeared in 29 games this season, averaging 2.2 points and 1.9 rebounds across 10.1 minutes."
+      },
+      {
+        "player": "Grayson Allen",
+        "athlete_id": 3135045,
+        "team_id": "21",
+        "position": "G",
+        "status": "Out",
+        "comment": "Allen had been playing well of late and was coming off a 21-point, five-rebound, four-assist performance in a loss to the Warriors on Thursday. He has scored at least 20 points in four of his previous five contests, but now he'll be sidelined until after the All-Star break at the earliest. Jordan Goodwin and Royce O'Neale should be in line for more minutes while Allen is sidelined."
       }
     ],
     "San Antonio Spurs": [
@@ -439,24 +237,8 @@
         "athlete_id": 4066317,
         "team_id": "24",
         "position": "F",
-        "status": "Day-To-Day",
-        "comment": "Waters faces a short turnaround if he wants to be available for Thursday's tilt in Dallas. However, the forward has totaled a mere 14 minutes across his last four appearances, so Waters' absence doesn't appear to shake up the San Antonio frontcourt mix."
-      },
-      {
-        "player": "Kelly Olynyk",
-        "athlete_id": 2489663,
-        "team_id": "24",
-        "position": "F",
-        "status": "Day-To-Day",
-        "comment": "Olynyk has been a healthy DNP in each of the Spurs' last four games but will be held out of Wednesday's contest due to left foot soreness. His next chance to play is Thursday against the Mavericks, though Olynyk's return wouldn't impact the Spurs' rotation all that much."
-      },
-      {
-        "player": "Dylan Harper",
-        "athlete_id": 5037871,
-        "team_id": "24",
-        "position": "G",
-        "status": "Day-To-Day",
-        "comment": "Harper was added to the injury report Wednesday morning with a sore right ankle, and the rookie guard will wind up taking a seat for the contest. His absence could mean more playing time for Julian Champagnie, Keldon Johnson and Jordan McLaughlin. Harper's next chance to play will come Thursday at Dallas."
+        "status": "Out",
+        "comment": "Waters is in line for his fourth consecutive absence while tending to a left knee issue. His next opportunity to suit up will arrive Wednesday against Golden State."
       },
       {
         "player": "David Jones Garcia",
@@ -465,40 +247,6 @@
         "position": "F",
         "status": "Out",
         "comment": "Jones Garcia only managed to make 11 appearances for the Spurs in his introductory season, finishing with averages of 2.9 points and 1.6 assists per game. The 24-year-old rookie was on a one-year, two-way deal with the Spurs, so he'll be a free agent this summer."
-      },
-      {
-        "player": "Jeremy Sochan",
-        "athlete_id": 4610139,
-        "team_id": "24",
-        "position": "F",
-        "status": "Out",
-        "comment": "Sochan will miss a fourth consecutive contest due to a left quadriceps strain. The fourth-year forward's absence shouldn't affect the San Antonio rotation, though his next opportunity to suit up will come Thursday against the Mavericks."
-      }
-    ],
-    "Toronto Raptors": [
-      {
-        "player": "Trayce Jackson-Davis",
-        "athlete_id": 4431684,
-        "team_id": "28",
-        "position": "F",
-        "status": "Out",
-        "comment": "Jackson-Davis will depart the Warriors after two-plus seasons with the team. The 25-year-old big man appeared in 36 games for Golden State, averaging 4.2 points and 3.1 rebounds across 11.4 minutes. With Jakob Poeltl (back) out indefinitely, Jackson-Davis will jockey with Collin Murray-Boyles, Sandro Mamukelashvili and Jamison Battle for frontcourt minutes."
-      },
-      {
-        "player": "Jakob Poeltl",
-        "athlete_id": 3134908,
-        "team_id": "28",
-        "position": "C",
-        "status": "Out",
-        "comment": "Poeltl was managing a lingering back injury for the opening portion of the 2025-26 regular season, but he aggravated the issue against the Nets on Dec. 21 and hasn't played since. Rookie first-rounder Collin Murray-Boyles (thumb) and Sandro Mamukelashvili will continue to operate in expanded roles for as long as Poeltl is sidelined."
-      },
-      {
-        "player": "Chucky Hepburn",
-        "athlete_id": 4590360,
-        "team_id": "28",
-        "position": "G",
-        "status": "Out",
-        "comment": "Hepburn is nearly averaging a double-double across 11 appearances with 12.8 points, 9.2 assists and 1.9 rebounds. He's also been sound defensively with 2.4 steals per contest."
       }
     ]
   }

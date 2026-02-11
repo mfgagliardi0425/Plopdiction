@@ -11,6 +11,8 @@ from typing import Dict, List, Optional
 import requests
 from dotenv import load_dotenv
 
+from evaluation.spread_utils import normalize_team_name
+
 load_dotenv()
 
 ODDS_API_KEY = os.getenv('ODDS_API_KEY', 'f67349ded55af918272d9a3ea220510a')
@@ -102,6 +104,75 @@ def cache_odds(odds_data: dict, date_str: Optional[str] = None) -> Path:
     
     print(f"Cached odds to: {cache_file}")
     return cache_file
+
+
+def cache_odds_snapshot(odds_data: list, date_str: Optional[str] = None) -> Path:
+    """
+    Append a timestamped odds snapshot (parsed spreads) for a date.
+
+    This supports opening vs current line tracking.
+    """
+    if not date_str:
+        date_str = date.today().isoformat()
+
+    cache_file = ODDS_CACHE_DIR / f"nba_odds_snapshots_{date_str}.json"
+    payload = {"date": date_str, "snapshots": []}
+    if cache_file.exists():
+        try:
+            with open(cache_file, "r", encoding="utf-8") as f:
+                payload = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            payload = {"date": date_str, "snapshots": []}
+
+    parsed_games = []
+    for game in odds_data:
+        parsed = parse_odds_for_game(game)
+        if parsed:
+            parsed_games.append(parsed)
+
+    payload.setdefault("snapshots", []).append({
+        "fetched_at": datetime.utcnow().isoformat(),
+        "games": parsed_games,
+    })
+
+    with open(cache_file, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2)
+
+    return cache_file
+
+
+def load_odds_snapshots(date_str: str) -> list:
+    """Load odds snapshots for a specific date."""
+    cache_file = ODDS_CACHE_DIR / f"nba_odds_snapshots_{date_str}.json"
+    if not cache_file.exists():
+        return []
+    try:
+        with open(cache_file, "r", encoding="utf-8") as f:
+            payload = json.load(f)
+        return payload.get("snapshots", []) if isinstance(payload, dict) else []
+    except (json.JSONDecodeError, IOError):
+        return []
+
+
+def get_opening_spreads_for_date(date_str: str) -> Dict[str, float]:
+    """Return away-spread map keyed by normalized away@home from earliest snapshot."""
+    snapshots = load_odds_snapshots(date_str)
+    if not snapshots:
+        return {}
+
+    def _sort_key(snap: dict) -> str:
+        return snap.get("fetched_at") or ""
+
+    earliest = sorted(snapshots, key=_sort_key)[0]
+    opening = {}
+    for game in earliest.get("games", []):
+        away = game.get("away_team")
+        home = game.get("home_team")
+        spread = game.get("away_spread")
+        if away and home and spread is not None:
+            key = f"{normalize_team_name(away)}@{normalize_team_name(home)}"
+            opening[key] = float(spread)
+    return opening
 
 
 def load_cached_odds(date_str: str) -> Optional[dict]:

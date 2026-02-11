@@ -1,0 +1,85 @@
+{
+  "date": "2026-02-05",
+  "games": [
+    {
+      "game": "Washington Wizards @ Detroit Pistons",
+      "away_team": "Washington Wizards",
+      "home_team": "Detroit Pistons",
+      "market_spread": 16.5,
+      "pred_away_margin": 3.5190406763575495,
+      "pred_away_adj": -7.956164163642451,
+      "injury_adjustment": -11.47520484,
+      "edge": 8.543835836357548
+    },
+    {
+      "game": "Brooklyn Nets @ Orlando Magic",
+      "away_team": "Brooklyn Nets",
+      "home_team": "Orlando Magic",
+      "market_spread": 9.5,
+      "pred_away_margin": 1.458545724273901,
+      "pred_away_adj": 3.509493129273901,
+      "injury_adjustment": 2.0509474049999996,
+      "edge": 13.009493129273901
+    },
+    {
+      "game": "Utah Jazz @ Atlanta Hawks",
+      "away_team": "Utah Jazz",
+      "home_team": "Atlanta Hawks",
+      "market_spread": 8.5,
+      "pred_away_margin": 3.7941428840586853,
+      "pred_away_adj": -3.7560144909413147,
+      "injury_adjustment": -7.5501573749999995,
+      "edge": 4.743985509058685
+    },
+    {
+      "game": "Chicago Bulls @ Toronto Raptors",
+      "away_team": "Chicago Bulls",
+      "home_team": "Toronto Raptors",
+      "market_spread": 7.5,
+      "pred_away_margin": 3.9685153041505754,
+      "pred_away_adj": -1.3231374383494252,
+      "injury_adjustment": -5.2916527425,
+      "edge": 6.176862561650575
+    },
+    {
+      "game": "Charlotte Hornets @ Houston Rockets",
+      "away_team": "Charlotte Hornets",
+      "home_team": "Houston Rockets",
+      "market_spread": 4.5,
+      "pred_away_margin": 8.020005284521543,
+      "pred_away_adj": 4.425325844521543,
+      "injury_adjustment": -3.59467944,
+      "edge": 8.925325844521543
+    },
+    {
+      "game": "San Antonio Spurs @ Dallas Mavericks",
+      "away_team": "San Antonio Spurs",
+      "home_team": "Dallas Mavericks",
+      "market_spread": -7.5,
+      "pred_away_margin": 9.645796489286418,
+      "pred_away_adj": 12.874552474286418,
+      "injury_adjustment": 3.2287559849999994,
+      "edge": 5.374552474286418
+    },
+    {
+      "game": "Golden State Warriors @ Phoenix Suns",
+      "away_team": "Golden State Warriors",
+      "home_team": "Phoenix Suns",
+      "market_spread": 5.5,
+      "pred_away_margin": 7.559666522668177,
+      "pred_away_adj": 1.2587344076681752,
+      "injury_adjustment": -6.300932115000002,
+      "edge": 6.758734407668175
+    },
+    {
+      "game": "Philadelphia 76ers @ Los Angeles Lakers",
+      "away_team": "Philadelphia 76ers",
+      "home_team": "Los Angeles Lakers",
+      "market_spread": 3.5,
+      "pred_away_margin": 4.600156223628287,
+      "pred_away_adj": 5.987112758628286,
+      "injury_adjustment": 1.3869565349999995,
+      "edge": 9.487112758628285
+    }
+  ]
+}
